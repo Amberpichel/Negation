@@ -1,10 +1,12 @@
 from transformers import AutoTokenizer
 import argparse
 import random
+from random import shuffle
 import glob
 import os
 import time
 import shutil
+from math import floor
 
 def load_sentences(dataset):
     """
@@ -24,6 +26,9 @@ def load_sentences(dataset):
     
     return sentences
 
+def randomize_files(sentences):
+    shuffle(sentences)
+
 def write_dataset(outputset, sentences):
     """
     write the dataset to an outputset 
@@ -35,62 +40,23 @@ def write_dataset(outputset, sentences):
             for element in sentence:
                 f_o.write(element)
 
-# Inspired by: https://stackoverflow.com/questions/23299099/trying-to-split-list-by-percentage/23299295
-def shuffle_split(sentences, train_percent):
+#https://stackoverflow.com/questions/42471570/how-to-split-documents-into-training-set-and-test-set
+def get_train_test_sets(sentences):
     """
-    shuffels and splits the sentences into a training and validation set
+    Splits the sentences into a training and validation set
     param: sentences (list of list of sentences)
     param: train_percent (the percentage of the sentences, e.g.(80) that will be used for the training set (the remainder is for the validationset e.g.(20)))
-    returns a tupel of the trainingset and the validationset
+    returns a tuple of the trainingset and the validationset
     """
-    index = int(round(train_percent*len(sentences)/100))
-    shuffled = sentences[:]
-    random.shuffle(shuffled)
-    return shuffled[:index], shuffled[index:]
+    randomized_sentences = randomize_files(sentences)
+    split = 0.8
+    split_index = floor(len(randomized_sentences) * split)
+    training = file_list[:split_index]
+    testing = file_list[split_index:]
+    
+    return training, testing
 
-def segmentize_file(dataset, outputset, model_name_or_path, max_len):
-    # Inspired by: https://github.com/huggingface/transformers/tree/master/examples/legacy/token-classification
-    """
-    segmentize the file so that the longer sentences are split into shorter segments
-    param: dataset (file name of the input)
-    param: outputset (segmented sentences)
-    param: model_name (name of transformer model that is used for tokenizing)
-    param: max_len (segment length)
-    """
-    subword_len_counter = 0
-    tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
-    max_len -= tokenizer.num_special_tokens_to_add()
-
-    with open(outputset, "w") as f_o: 
-        with open(dataset, "rt") as f_p:
-            for line in f_p:
-                line = line.rstrip()
-
-                if not line:
-                    f_o.write(line + '\n')
-                    subword_len_counter = 0
-                    continue
-
-                token = line.split()[0]
-
-                current_subwords_len = len(tokenizer.tokenize(token))
-
-                # Token contains strange control characters like \x96 or \x95
-                # Just filter out the complete line
-                if current_subwords_len == 0:
-                    continue
-
-                if (subword_len_counter + current_subwords_len) > max_len:
-                    f_o.write("" + '\n')
-                    f_o.write(line + '\n')
-                    subword_len_counter = current_subwords_len
-                    continue
-
-                subword_len_counter += current_subwords_len
-
-                f_o.write(line + '\n')
-
-def preprocess(data_directory, train_directory, validation_directory, train_percentage, model_name_or_path, max_len):
+def preprocess(data_directory, train_directory, validation_directory):
     """
     Preprocess the data (i.e. segmentize the longer sentences, if necessary by splitting the data on max length of tokens, then it shuffels the sentences per file, and finally split the input into two output folders = 'training' + 'validation')
     param: data_directory (path to the data),
@@ -105,16 +71,12 @@ def preprocess(data_directory, train_directory, validation_directory, train_perc
     tmp_path = "./tmp" + str(round(time.time() * 1000))
     os.mkdir(tmp_path)
 
-    file_paths = glob.glob(os.path.join(data_directory, "*.conll"))
+    file_paths = glob.glob(os.path.join(data_directory, "x*"))
     for file_path in file_paths:
         file_name = os.path.basename(file_path) 
-        if max_len != None:
-            file_path_tmp =  os.path.join(tmp_path, file_name)
-            segmentize_file(file_path, file_path_tmp, model_name_or_path, max_len)
-            file_path = file_path_tmp
 
         sentences = load_sentences(file_path)
-        train, validation = shuffle_split(sentences, train_percentage)
+        train, validation = get_train_test_sets(sentences)
         
         if not os.path.exists(train_directory):
             os.makedirs(train_directory)
@@ -126,18 +88,25 @@ def preprocess(data_directory, train_directory, validation_directory, train_perc
     shutil.rmtree(tmp_path)
                 
 def main():
-    # See: https://docs.python.org/3/library/argparse.html
-    parser = argparse.ArgumentParser(description='Script for preprocessing conll files.')
-    parser.add_argument('--datadirectory', dest='data_directory', required=True, help="Directory to process")
-    parser.add_argument('--traindirectory', dest='train_directory', required=True, help="Directory to write training data to")
-    parser.add_argument('--validationdirectory', dest='validation_directory', required=True, help="Directory to write validation data to")
-    parser.add_argument('--trainpercentage', dest='train_percentage', type=int, required=True, help="Percentage of data that should be outputted as training")
-    parser.add_argument('--modelname', dest='model_name_or_path', default="bert-base-uncased", help="Model name or location")
-    parser.add_argument('--maxlength', dest='max_len', type=int, help="Maximum segment length")
     
-    args = parser.parse_args()
-    preprocess(args.data_directory, args.train_directory, args.validation_directory, args.train_percentage, args.model_name_or_path, args.max_len)    
-    print("Done preprocessing.")
+    dataset = 'Data'
+    outputset = 'Output'
+    data_directory = 'Documents'
+    train_directory = 'Train'
+    validation_directory = 'Test'
+    
+    # See: https://docs.python.org/3/library/argparse.html
+    #parser = argparse.ArgumentParser(description='Script for preprocessing conll files.')
+    #parser.add_argument('--datadirectory', dest='data_directory', required=True, help="Directory to process")
+    #parser.add_argument('--traindirectory', dest='train_directory', required=True, help="Directory to write training data to")
+    #parser.add_argument('--validationdirectory', dest='validation_directory', required=True, help="Directory to write validation data to")
+    #parser.add_argument('--trainpercentage', dest='train_percentage', type=int, required=True, help="Percentage of data that should be outputted as training")
+    #parser.add_argument('--modelname', dest='model_name_or_path', default="bert-base-uncased", help="Model name or location")
+    #parser.add_argument('--maxlength', dest='max_len', type=int, help="Maximum segment length")
+    
+    #args = parser.parse_args()
+    #preprocess(args.data_directory, args.train_directory, args.validation_directory, args.train_percentage, args.model_name_or_path, args.max_len)    
+    #print("Done preprocessing.")
     
 if __name__ == "__main__":
     main()
