@@ -1,5 +1,3 @@
-from transformers import AutoTokenizer
-import argparse
 import random
 from random import shuffle
 import glob
@@ -89,24 +87,13 @@ def preprocess(data_directory, train_directory, validation_directory):
                 
 def main():
     
-    dataset = 'Data'
+    dataset = 'conll_files'
     outputset = 'Output'
-    data_directory = 'Documents'
+    data_directory = '/Users/dillo/Documents/conll_files'
     train_directory = 'Train'
     validation_directory = 'Test'
-    
-    # See: https://docs.python.org/3/library/argparse.html
-    #parser = argparse.ArgumentParser(description='Script for preprocessing conll files.')
-    #parser.add_argument('--datadirectory', dest='data_directory', required=True, help="Directory to process")
-    #parser.add_argument('--traindirectory', dest='train_directory', required=True, help="Directory to write training data to")
-    #parser.add_argument('--validationdirectory', dest='validation_directory', required=True, help="Directory to write validation data to")
-    #parser.add_argument('--trainpercentage', dest='train_percentage', type=int, required=True, help="Percentage of data that should be outputted as training")
-    #parser.add_argument('--modelname', dest='model_name_or_path', default="bert-base-uncased", help="Model name or location")
-    #parser.add_argument('--maxlength', dest='max_len', type=int, help="Maximum segment length")
-    
-    #args = parser.parse_args()
-    #preprocess(args.data_directory, args.train_directory, args.validation_directory, args.train_percentage, args.model_name_or_path, args.max_len)    
-    #print("Done preprocessing.")
-    
-if __name__ == "__main__":
-    main()
+
+    preprocess(data_directory, train_directory, validation_directory)    
+    print("Done preprocessing.")
+
+main()
