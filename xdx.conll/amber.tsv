@@ -1,0 +1,66 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1413724;398176398;403910993;Voortgangsverslag;2020-03-04;"Pte. komt tussendoor, 2x geweest.
+1-1	0-7	1413724	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	398176398	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	403910993	_	_	
+1-6	27-28	;	_	_	
+1-7	28-45	Voortgangsverslag	_	_	
+1-8	45-46	;	_	_	
+1-9	46-50	2020	_	_	
+1-10	50-51	-	_	_	
+1-11	51-53	03	_	_	
+1-12	53-54	-	_	_	
+1-13	54-56	04	_	_	
+1-14	56-57	;	_	_	
+1-15	57-58	"	_	_	
+1-16	58-61	Pte	_	_	
+1-17	61-62	.	_	_	
+1-18	63-67	komt	_	_	
+1-19	68-78	tussendoor	_	_	
+1-20	78-79	,	_	_	
+1-21	80-82	2x	_	_	
+1-22	83-90	geweest	_	_	
+1-23	90-91	.	_	_	
+
+#Text=Pijn aan het oor gisteren.
+2-1	92-96	Pijn	_	_	
+2-2	97-100	aan	_	_	
+2-3	101-104	het	_	_	
+2-4	105-108	oor	_	_	
+2-5	109-117	gisteren	_	_	
+2-6	117-118	.	_	_	
+
+#Text=Misschien met verkoudheid te maken.
+3-1	119-128	Misschien	_	_	
+3-2	129-132	met	_	_	
+3-3	133-144	verkoudheid	_	_	
+3-4	145-147	te	_	_	
+3-5	148-153	maken	_	_	
+3-6	153-154	.	_	_	
+
+#Text=ADS: AS: licht rode gehoorgang.
+4-1	155-158	ADS	_	_	
+4-2	158-159	:	_	_	
+4-3	160-162	AS	_	_	
+4-4	162-163	:	_	_	
+4-5	164-169	licht	_	_	
+4-6	170-174	rode	_	_	
+4-7	175-185	gehoorgang	_	_	
+4-8	185-186	.	_	_	
+
+#Text=B/ doorgaan HBOT geen probleem.  ";;
+5-1	187-188	B	_	_	
+5-2	188-189	/	_	_	
+5-3	190-198	doorgaan	_	_	
+5-4	199-203	HBOT	_	_	
+5-5	204-208	geen	*->1-1	NegCue[1]	
+5-6	209-217	probleem	*->1-2	NegEvent[1]	
+5-7	217-218	.	_	_	
+5-8	220-221	"	_	_	
+5-9	221-222	;	_	_	
+5-10	222-223	;	_	_	

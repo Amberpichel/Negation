@@ -1,0 +1,111 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1414370;390133646;395627769;Voortgangsverslag;2020-02-05;"Anamnese en onderzoek:  Bijna 2 jaar na radiotherapie.
+1-1	0-7	1414370	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	390133646	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	395627769	_	_	
+1-6	27-28	;	_	_	
+1-7	28-45	Voortgangsverslag	_	_	
+1-8	45-46	;	_	_	
+1-9	46-50	2020	_	_	
+1-10	50-51	-	_	_	
+1-11	51-53	02	_	_	
+1-12	53-54	-	_	_	
+1-13	54-56	05	_	_	
+1-14	56-57	;	_	_	
+1-15	57-58	"	_	_	
+1-16	58-66	Anamnese	_	_	
+1-17	67-69	en	_	_	
+1-18	70-79	onderzoek	_	_	
+1-19	79-80	:	_	_	
+1-20	82-87	Bijna	_	_	
+1-21	88-89	2	_	_	
+1-22	90-94	jaar	_	_	
+1-23	95-97	na	_	_	
+1-24	98-111	radiotherapie	_	_	
+1-25	111-112	.	_	_	
+
+#Text=Gaat stuk beter.
+2-1	113-117	Gaat	_	_	
+2-2	118-122	stuk	_	_	
+2-3	123-128	beter	_	_	
+2-4	128-129	.	_	_	
+
+#Text=Is bij gyneacoloog geweest oestrogeencreme gehad voor huidproblemen waarop nu verbetering.
+3-1	130-132	Is	_	_	
+3-2	133-136	bij	_	_	
+3-3	137-148	gyneacoloog	_	_	
+3-4	149-156	geweest	_	_	
+3-5	157-172	oestrogeencreme	_	_	
+3-6	173-178	gehad	_	_	
+3-7	179-183	voor	_	_	
+3-8	184-197	huidproblemen	_	_	
+3-9	198-204	waarop	_	_	
+3-10	205-207	nu	_	_	
+3-11	208-219	verbetering	_	_	
+3-12	219-220	.	_	_	
+
+#Text=In de vagina geen verklevingen.
+4-1	221-223	In	_	_	
+4-2	224-226	de	_	_	
+4-3	227-233	vagina	_	_	
+4-4	234-238	geen	*->1-1	NegCue[1]	
+4-5	239-251	verklevingen	*->1-2	NegEvent[1]	
+4-6	251-252	.	_	_	
+
+#Text=Tevens bekkenbodemtherapie mee bezig.
+5-1	253-259	Tevens	_	_	
+5-2	260-279	bekkenbodemtherapie	_	_	
+5-3	280-283	mee	_	_	
+5-4	284-289	bezig	_	_	
+5-5	289-290	.	_	_	
+
+#Text=Al met al gaat alles een stuk beter en zit er voor haar meer schot in de zaak.
+6-1	292-294	Al	_	_	
+6-2	295-298	met	_	_	
+6-3	299-301	al	_	_	
+6-4	302-306	gaat	_	_	
+6-5	307-312	alles	_	_	
+6-6	313-316	een	_	_	
+6-7	317-321	stuk	_	_	
+6-8	322-327	beter	_	_	
+6-9	328-330	en	_	_	
+6-10	331-334	zit	_	_	
+6-11	335-337	er	_	_	
+6-12	338-342	voor	_	_	
+6-13	343-347	haar	_	_	
+6-14	348-352	meer	_	_	
+6-15	353-358	schot	_	_	
+6-16	359-361	in	_	_	
+6-17	362-364	de	_	_	
+6-18	365-369	zaak	_	_	
+6-19	369-370	.	_	_	
+
+#Text=MRI gehad waarvan uitslag volgt.
+7-1	374-377	MRI	_	_	
+7-2	378-383	gehad	_	_	
+7-3	384-391	waarvan	_	_	
+7-4	392-399	uitslag	_	_	
+7-5	400-405	volgt	_	_	
+7-6	405-406	.	_	_	
+
+#Text=M.i. gewoon in remissie.
+8-1	407-410	M.i	_	_	
+8-2	410-411	.	_	_	
+8-3	412-418	gewoon	_	_	
+8-4	419-421	in	_	_	
+8-5	422-430	remissie	_	_	
+8-6	430-431	.	_	_	
+
+#Text=Controle 6 maanden telefonisch        ";;
+9-1	433-441	Controle	_	_	
+9-2	442-443	6	_	_	
+9-3	444-451	maanden	_	_	
+9-4	452-463	telefonisch	_	_	
+9-5	471-472	"	_	_	
+9-6	472-473	;	_	_	
+9-7	473-474	;	_	_	

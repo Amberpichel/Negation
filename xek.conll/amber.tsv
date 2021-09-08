@@ -1,0 +1,74 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1415707;381952470;387205663;Zorgplan/VPK rapportage;2020-01-09;"Probleem: P: Risico op infectie  Doel: Circulatie  Uitkomst: Vooruitgang   Geen koorts.
+1-1	0-7	1415707	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	381952470	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	387205663	_	_	
+1-6	27-28	;	_	_	
+1-7	28-36	Zorgplan	_	_	
+1-8	36-37	/	_	_	
+1-9	37-40	VPK	_	_	
+1-10	41-51	rapportage	_	_	
+1-11	51-52	;	_	_	
+1-12	52-56	2020	_	_	
+1-13	56-57	-	_	_	
+1-14	57-59	01	_	_	
+1-15	59-60	-	_	_	
+1-16	60-62	09	_	_	
+1-17	62-63	;	_	_	
+1-18	63-64	"	_	_	
+1-19	64-72	Probleem	_	_	
+1-20	72-73	:	_	_	
+1-21	74-75	P	_	_	
+1-22	75-76	:	_	_	
+1-23	77-83	Risico	_	_	
+1-24	84-86	op	_	_	
+1-25	87-95	infectie	_	_	
+1-26	97-101	Doel	_	_	
+1-27	101-102	:	_	_	
+1-28	103-113	Circulatie	_	_	
+1-29	115-123	Uitkomst	_	_	
+1-30	123-124	:	_	_	
+1-31	125-136	Vooruitgang	_	_	
+1-32	139-143	Geen	*->1-1	NegCue[1]	
+1-33	144-150	koorts	*->1-2	NegEvent[1]	
+1-34	150-151	.	_	_	
+
+#Text=Mw hoest niet.
+2-1	152-154	Mw	_	_	
+2-2	155-160	hoest	*->3-1	NegEvent[3]	
+2-3	161-165	niet	*->3-2	NegCue[3]	
+2-4	165-166	.	_	_	
+
+#Text=CZS: Mw heeft tot 5 uur geslapen.
+3-1	171-174	CZS	_	_	
+3-2	174-175	:	_	_	
+3-3	176-178	Mw	_	_	
+3-4	179-184	heeft	_	_	
+3-5	185-188	tot	_	_	
+3-6	189-190	5	_	_	
+3-7	191-194	uur	_	_	
+3-8	195-203	geslapen	_	_	
+3-9	203-204	.	_	_	
+
+#Text=Had geen klachten.
+4-1	205-208	Had	_	_	
+4-2	209-213	geen	*->2-1	NegCue[2]	
+4-3	214-222	klachten	*->2-2	NegEvent[2]	
+4-4	222-223	.	_	_	
+
+#Text=URO: UP: op toilet.     ";;
+5-1	226-229	URO	_	_	
+5-2	229-230	:	_	_	
+5-3	231-233	UP	_	_	
+5-4	233-234	:	_	_	
+5-5	235-237	op	_	_	
+5-6	238-244	toilet	_	_	
+5-7	244-245	.	_	_	
+5-8	250-251	"	_	_	
+5-9	251-252	;	_	_	
+5-10	252-253	;	_	_	

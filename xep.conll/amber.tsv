@@ -1,0 +1,1201 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1415928;393841628;401807045;Brief;2020-02-26;"                BONTENBAL GC / NOF Y  Huisartsen, niet apotheekhoudend  GC.
+1-1	0-7	1415928	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	393841628	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	401807045	_	_	
+1-6	27-28	;	_	_	
+1-7	28-33	Brief	_	_	
+1-8	33-34	;	_	_	
+1-9	34-38	2020	_	_	
+1-10	38-39	-	_	_	
+1-11	39-41	02	_	_	
+1-12	41-42	-	_	_	
+1-13	42-44	26	_	_	
+1-14	44-45	;	_	_	
+1-15	45-46	"	_	_	
+1-16	62-71	BONTENBAL	_	_	
+1-17	72-74	GC	_	_	
+1-18	75-76	/	_	_	
+1-19	77-80	NOF	_	_	
+1-20	81-82	Y	_	_	
+1-21	84-94	Huisartsen	_	_	
+1-22	94-95	,	_	_	
+1-23	96-100	niet	*->3-1	NegCue[3]	
+1-24	101-116	apotheekhoudend	*->1-1	NegEvent[1]	
+1-25	118-120	GC	_	_	
+1-26	120-121	.	_	_	
+
+#Text=Bontenbal  Pieter Calandlaan 86  1068 NP Amsterdam     AMC POLI KINDER MDL    Meibergdreef 9    Amsterdam    Tel: 020-5668000    Fax: 020-5669181          Datum Ons kenmerk   18 februari 2020       Betreft:   L.
+2-1	122-131	Bontenbal	_	_	
+2-2	133-139	Pieter	_	_	
+2-3	140-150	Calandlaan	_	_	
+2-4	151-153	86	_	_	
+2-5	155-159	1068	_	_	
+2-6	160-162	NP	_	_	
+2-7	163-172	Amsterdam	_	_	
+2-8	177-180	AMC	_	_	
+2-9	181-185	POLI	_	_	
+2-10	186-192	KINDER	_	_	
+2-11	193-196	MDL	_	_	
+2-12	200-212	Meibergdreef	_	_	
+2-13	213-214	9	_	_	
+2-14	218-227	Amsterdam	_	_	
+2-15	231-234	Tel	_	_	
+2-16	234-235	:	_	_	
+2-17	236-239	020	_	_	
+2-18	239-240	-	_	_	
+2-19	240-247	5668000	_	_	
+2-20	251-254	Fax	_	_	
+2-21	254-255	:	_	_	
+2-22	256-259	020	_	_	
+2-23	259-260	-	_	_	
+2-24	260-267	5669181	_	_	
+2-25	277-282	Datum	_	_	
+2-26	283-286	Ons	_	_	
+2-27	287-294	kenmerk	_	_	
+2-28	297-299	18	_	_	
+2-29	300-308	februari	_	_	
+2-30	309-313	2020	_	_	
+2-31	320-327	Betreft	_	_	
+2-32	327-328	:	_	_	
+2-33	331-332	L	_	_	
+2-34	332-333	.	_	_	
+
+#Text=Lilipaly, geb.25-4-2017, gesl.man, patnr.1415928   adres BORRENDAMMEHOF 10 4 1069 ZE AMSTERDAM      Geachte collega,      Bovengenoemde patiënt zag ik op 17-2-2020 op AMC POLI KINDER MDL.
+3-1	334-342	Lilipaly	_	_	
+3-2	342-343	,	_	_	
+3-3	344-347	geb	_	_	
+3-4	347-350	.25	_	_	
+3-5	350-351	-	_	_	
+3-6	351-352	4	_	_	
+3-7	352-353	-	_	_	
+3-8	353-357	2017	_	_	
+3-9	357-358	,	_	_	
+3-10	359-367	gesl.man	_	_	
+3-11	367-368	,	_	_	
+3-12	369-374	patnr	_	_	
+3-13	374-382	.1415928	_	_	
+3-14	385-390	adres	_	_	
+3-15	391-405	BORRENDAMMEHOF	_	_	
+3-16	406-408	10	_	_	
+3-17	409-410	4	_	_	
+3-18	411-415	1069	_	_	
+3-19	416-418	ZE	_	_	
+3-20	419-428	AMSTERDAM	_	_	
+3-21	434-441	Geachte	_	_	
+3-22	442-449	collega	_	_	
+3-23	449-450	,	_	_	
+3-24	456-469	Bovengenoemde	_	_	
+3-25	470-477	patiënt	_	_	
+3-26	478-481	zag	_	_	
+3-27	482-484	ik	_	_	
+3-28	485-487	op	_	_	
+3-29	488-490	17	_	_	
+3-30	490-491	-	_	_	
+3-31	491-492	2	_	_	
+3-32	492-493	-	_	_	
+3-33	493-497	2020	_	_	
+3-34	498-500	op	_	_	
+3-35	501-504	AMC	_	_	
+3-36	505-509	POLI	_	_	
+3-37	510-516	KINDER	_	_	
+3-38	517-520	MDL	_	_	
+3-39	520-521	.	_	_	
+
+#Text=Reden van komst:  Evaluatie vermoedelijke obstipatie, verwijzing door huisarts.
+4-1	528-533	Reden	_	_	
+4-2	534-537	van	_	_	
+4-3	538-543	komst	_	_	
+4-4	543-544	:	_	_	
+4-5	546-555	Evaluatie	_	_	
+4-6	556-569	vermoedelijke	_	_	
+4-7	570-580	obstipatie	_	_	
+4-8	580-581	,	_	_	
+4-9	582-592	verwijzing	_	_	
+4-10	593-597	door	_	_	
+4-11	598-606	huisarts	_	_	
+4-12	606-607	.	_	_	
+
+#Text=Voorgeschiedenis:  Verdenking KMA, waarvoor begeleiding OLVG West.
+5-1	611-627	Voorgeschiedenis	_	_	
+5-2	627-628	:	_	_	
+5-3	630-640	Verdenking	_	_	
+5-4	641-644	KMA	_	_	
+5-5	644-645	,	_	_	
+5-6	646-654	waarvoor	_	_	
+5-7	655-666	begeleiding	_	_	
+5-8	667-671	OLVG	_	_	
+5-9	672-676	West	_	_	
+5-10	676-677	.	_	_	
+
+#Text=Anamnese:  Loé is op leeftijd van 36 wk+4 dg geboren nadat moeder was ingeleid ivm weinig kindbewegingen.
+6-1	681-689	Anamnese	_	_	
+6-2	689-690	:	_	_	
+6-3	692-695	Loé	_	_	
+6-4	696-698	is	_	_	
+6-5	699-701	op	_	_	
+6-6	702-710	leeftijd	_	_	
+6-7	711-714	van	_	_	
+6-8	715-717	36	_	_	
+6-9	718-720	wk	_	_	
+6-10	720-721	+	_	_	
+6-11	721-722	4	_	_	
+6-12	723-725	dg	_	_	
+6-13	726-733	geboren	_	_	
+6-14	734-739	nadat	_	_	
+6-15	740-746	moeder	_	_	
+6-16	747-750	was	_	_	
+6-17	751-759	ingeleid	_	_	
+6-18	760-763	ivm	_	_	
+6-19	764-770	weinig	_	_	
+6-20	771-785	kindbewegingen	_	_	
+6-21	785-786	.	_	_	
+
+#Text=Nadien goede start.
+7-1	787-793	Nadien	_	_	
+7-2	794-799	goede	_	_	
+7-3	800-805	start	_	_	
+7-4	805-806	.	_	_	
+
+#Text=Meconium kwam pas na ontslag uit het ziekenhuis (>24 uur, binnen 2 dagen).
+8-1	807-815	Meconium	_	_	
+8-2	816-820	kwam	_	_	
+8-3	821-824	pas	_	_	
+8-4	825-827	na	_	_	
+8-5	828-835	ontslag	_	_	
+8-6	836-839	uit	_	_	
+8-7	840-843	het	_	_	
+8-8	844-854	ziekenhuis	_	_	
+8-9	855-856	(	_	_	
+8-10	856-857	>	_	_	
+8-11	857-859	24	_	_	
+8-12	860-863	uur	_	_	
+8-13	863-864	,	_	_	
+8-14	865-871	binnen	_	_	
+8-15	872-873	2	_	_	
+8-16	874-879	dagen	_	_	
+8-17	879-880	)	_	_	
+8-18	880-881	.	_	_	
+
+#Text=Loé kreeg flesvoeding.
+9-1	882-885	Loé	_	_	
+9-2	886-891	kreeg	_	_	
+9-3	892-903	flesvoeding	_	_	
+9-4	903-904	.	_	_	
+
+#Text=Er was geen sprake van obstipatie bij de overgang van flesvoeding naar vaste voeding.
+10-1	905-907	Er	_	_	
+10-2	908-911	was	_	_	
+10-3	912-916	geen	*->7-1	NegCue[7]	
+10-4	917-923	sprake	_	_	
+10-5	924-927	van	_	_	
+10-6	928-938	obstipatie	*->6-1	NegEvent[6]	
+10-7	939-942	bij	_	_	
+10-8	943-945	de	_	_	
+10-9	946-954	overgang	_	_	
+10-10	955-958	van	_	_	
+10-11	959-970	flesvoeding	_	_	
+10-12	971-975	naar	_	_	
+10-13	976-981	vaste	_	_	
+10-14	982-989	voeding	_	_	
+10-15	989-990	.	_	_	
+
+#Text=Ouders hebben bij hem nooit een anale fissuur bemerkt.
+11-1	991-997	Ouders	_	_	
+11-2	998-1004	hebben	_	_	
+11-3	1005-1008	bij	_	_	
+11-4	1009-1012	hem	_	_	
+11-5	1013-1018	nooit	*->8-1	NegCue[8]	
+11-6	1019-1022	een	_	_	
+11-7	1023-1028	anale	*->4-1	NegEvent[4]	
+11-8	1029-1036	fissuur	*->4-1	NegEvent[4]	
+11-9	1037-1044	bemerkt	_	_	
+11-10	1044-1045	.	_	_	
+
+#Text=Hij is nog niet zindelijk voor urine en ontlasting.
+12-1	1046-1049	Hij	_	_	
+12-2	1050-1052	is	_	_	
+12-3	1053-1056	nog	_	_	
+12-4	1057-1061	niet	*->2-1	NegCue[2]	
+12-5	1062-1071	zindelijk	*->5-1	NegEvent[5]	
+12-6	1072-1076	voor	_	_	
+12-7	1077-1082	urine	_	_	
+12-8	1083-1085	en	_	_	
+12-9	1086-1096	ontlasting	_	_	
+12-10	1096-1097	.	_	_	
+
+#Text=Als baby had Loé regelmatig waterdunne ontlasting, meerdere keren per dag.
+13-1	1102-1105	Als	_	_	
+13-2	1106-1110	baby	_	_	
+13-3	1111-1114	had	_	_	
+13-4	1115-1118	Loé	_	_	
+13-5	1119-1129	regelmatig	_	_	
+13-6	1130-1140	waterdunne	_	_	
+13-7	1141-1151	ontlasting	_	_	
+13-8	1151-1152	,	_	_	
+13-9	1153-1161	meerdere	_	_	
+13-10	1162-1167	keren	_	_	
+13-11	1168-1171	per	_	_	
+13-12	1172-1175	dag	_	_	
+13-13	1175-1176	.	_	_	
+
+#Text=De klachten van obstipatie zijn ontstaan toen hij 1,5 jaar oud was.
+14-1	1177-1179	De	_	_	
+14-2	1180-1188	klachten	_	_	
+14-3	1189-1192	van	_	_	
+14-4	1193-1203	obstipatie	_	_	
+14-5	1204-1208	zijn	_	_	
+14-6	1209-1217	ontstaan	_	_	
+14-7	1218-1222	toen	_	_	
+14-8	1223-1226	hij	_	_	
+14-9	1227-1230	1,5	_	_	
+14-10	1231-1235	jaar	_	_	
+14-11	1236-1239	oud	_	_	
+14-12	1240-1243	was	_	_	
+14-13	1243-1244	.	_	_	
+
+#Text=Loé zijn ontlasting veranderde toen in vastere drollen.
+15-1	1245-1248	Loé	_	_	
+15-2	1249-1253	zijn	_	_	
+15-3	1254-1264	ontlasting	_	_	
+15-4	1265-1275	veranderde	_	_	
+15-5	1276-1280	toen	_	_	
+15-6	1281-1283	in	_	_	
+15-7	1284-1291	vastere	_	_	
+15-8	1292-1299	drollen	_	_	
+15-9	1299-1300	.	_	_	
+
+#Text=Ouders denken dat mogelijk pijn hierbij een rol heeft gespeeld.
+16-1	1301-1307	Ouders	_	_	
+16-2	1308-1314	denken	_	_	
+16-3	1315-1318	dat	_	_	
+16-4	1319-1327	mogelijk	_	_	
+16-5	1328-1332	pijn	_	_	
+16-6	1333-1340	hierbij	_	_	
+16-7	1341-1344	een	_	_	
+16-8	1345-1348	rol	_	_	
+16-9	1349-1354	heeft	_	_	
+16-10	1355-1363	gespeeld	_	_	
+16-11	1363-1364	.	_	_	
+
+#Text=Sinds die periode is hij niet meer klachtenvrij geweest.
+17-1	1365-1370	Sinds	_	_	
+17-2	1371-1374	die	_	_	
+17-3	1375-1382	periode	_	_	
+17-4	1383-1385	is	_	_	
+17-5	1386-1389	hij	_	_	
+17-6	1390-1394	niet	_	_	
+17-7	1395-1399	meer	_	_	
+17-8	1400-1412	klachtenvrij	_	_	
+17-9	1413-1420	geweest	_	_	
+17-10	1420-1421	.	_	_	
+
+#Text=Ten tijde van het poliklinisch bezoek krijgt Loé lactulose 3dd 10 ml.
+18-1	1426-1429	Ten	_	_	
+18-2	1430-1435	tijde	_	_	
+18-3	1436-1439	van	_	_	
+18-4	1440-1443	het	_	_	
+18-5	1444-1456	poliklinisch	_	_	
+18-6	1457-1463	bezoek	_	_	
+18-7	1464-1470	krijgt	_	_	
+18-8	1471-1474	Loé	_	_	
+18-9	1475-1484	lactulose	_	_	
+18-10	1485-1488	3dd	_	_	
+18-11	1489-1491	10	_	_	
+18-12	1492-1494	ml	_	_	
+18-13	1494-1495	.	_	_	
+
+#Text=Echter zeer moeizame inname en altijd strijd.
+19-1	1496-1502	Echter	_	_	
+19-2	1503-1507	zeer	_	_	
+19-3	1508-1516	moeizame	_	_	
+19-4	1517-1523	inname	_	_	
+19-5	1524-1526	en	_	_	
+19-6	1527-1533	altijd	_	_	
+19-7	1534-1540	strijd	_	_	
+19-8	1540-1541	.	_	_	
+
+#Text=Moeder denkt dat Loé uiteindelijk per dag daadwerkelijk 15 ml binnen krijgt.
+20-1	1542-1548	Moeder	_	_	
+20-2	1549-1554	denkt	_	_	
+20-3	1555-1558	dat	_	_	
+20-4	1559-1562	Loé	_	_	
+20-5	1563-1575	uiteindelijk	_	_	
+20-6	1576-1579	per	_	_	
+20-7	1580-1583	dag	_	_	
+20-8	1584-1597	daadwerkelijk	_	_	
+20-9	1598-1600	15	_	_	
+20-10	1601-1603	ml	_	_	
+20-11	1604-1610	binnen	_	_	
+20-12	1611-1617	krijgt	_	_	
+20-13	1617-1618	.	_	_	
+
+#Text=Op dit moment poept hij 1 á 2 keer per week in zijn luier.
+21-1	1619-1621	Op	_	_	
+21-2	1622-1625	dit	_	_	
+21-3	1626-1632	moment	_	_	
+21-4	1633-1638	poept	_	_	
+21-5	1639-1642	hij	_	_	
+21-6	1643-1644	1	_	_	
+21-7	1645-1646	á	_	_	
+21-8	1647-1648	2	_	_	
+21-9	1649-1653	keer	_	_	
+21-10	1654-1657	per	_	_	
+21-11	1658-1662	week	_	_	
+21-12	1663-1665	in	_	_	
+21-13	1666-1670	zijn	_	_	
+21-14	1671-1676	luier	_	_	
+21-15	1676-1677	.	_	_	
+
+#Text=De ontlasting is klonterig/bonken en heeft een harde consistentie (BSS 1-2 en soms BSS 7).
+22-1	1678-1680	De	_	_	
+22-2	1681-1691	ontlasting	_	_	
+22-3	1692-1694	is	_	_	
+22-4	1695-1704	klonterig	_	_	
+22-5	1704-1705	/	_	_	
+22-6	1705-1711	bonken	_	_	
+22-7	1712-1714	en	_	_	
+22-8	1715-1720	heeft	_	_	
+22-9	1721-1724	een	_	_	
+22-10	1725-1730	harde	_	_	
+22-11	1731-1743	consistentie	_	_	
+22-12	1744-1745	(	_	_	
+22-13	1745-1748	BSS	_	_	
+22-14	1749-1750	1	_	_	
+22-15	1750-1751	-	_	_	
+22-16	1751-1752	2	_	_	
+22-17	1753-1755	en	_	_	
+22-18	1756-1760	soms	_	_	
+22-19	1761-1764	BSS	_	_	
+22-20	1765-1766	7	_	_	
+22-21	1766-1767	)	_	_	
+22-22	1767-1768	.	_	_	
+
+#Text=De ontlasting gaat moeizaam en is pijnlijk.
+23-1	1769-1771	De	_	_	
+23-2	1772-1782	ontlasting	_	_	
+23-3	1783-1787	gaat	_	_	
+23-4	1788-1796	moeizaam	_	_	
+23-5	1797-1799	en	_	_	
+23-6	1800-1802	is	_	_	
+23-7	1803-1811	pijnlijk	_	_	
+23-8	1811-1812	.	_	_	
+
+#Text=Tijdens het poepen begint Loé te zweten en krijst hij het uit.
+24-1	1813-1820	Tijdens	_	_	
+24-2	1821-1824	het	_	_	
+24-3	1825-1831	poepen	_	_	
+24-4	1832-1838	begint	_	_	
+24-5	1839-1842	Loé	_	_	
+24-6	1843-1845	te	_	_	
+24-7	1846-1852	zweten	_	_	
+24-8	1853-1855	en	_	_	
+24-9	1856-1862	krijst	_	_	
+24-10	1863-1866	hij	_	_	
+24-11	1867-1870	het	_	_	
+24-12	1871-1874	uit	_	_	
+24-13	1874-1875	.	_	_	
+
+#Text=Hij produceert af en toe opvallend grote hoeveelheden ontlasting.
+25-1	1876-1879	Hij	_	_	
+25-2	1880-1890	produceert	_	_	
+25-3	1891-1893	af	_	_	
+25-4	1894-1896	en	_	_	
+25-5	1897-1900	toe	_	_	
+25-6	1901-1910	opvallend	_	_	
+25-7	1911-1916	grote	_	_	
+25-8	1917-1929	hoeveelheden	_	_	
+25-9	1930-1940	ontlasting	_	_	
+25-10	1940-1941	.	_	_	
+
+#Text=Er is nooit bloed of bij de ontlasting gezien.
+26-1	1942-1944	Er	_	_	
+26-2	1945-1947	is	_	_	
+26-3	1948-1953	nooit	_	_	
+26-4	1954-1959	bloed	_	_	
+26-5	1960-1962	of	_	_	
+26-6	1963-1966	bij	_	_	
+26-7	1967-1969	de	_	_	
+26-8	1970-1980	ontlasting	_	_	
+26-9	1981-1987	gezien	_	_	
+26-10	1987-1988	.	_	_	
+
+#Text=Laatste tijd wel altijd slijm bij ontlasting.
+27-1	1989-1996	Laatste	_	_	
+27-2	1997-2001	tijd	_	_	
+27-3	2002-2005	wel	_	_	
+27-4	2006-2012	altijd	_	_	
+27-5	2013-2018	slijm	_	_	
+27-6	2019-2022	bij	_	_	
+27-7	2023-2033	ontlasting	_	_	
+27-8	2033-2034	.	_	_	
+
+#Text=Hij klaagt wel over buikpijn, welke niet minder wordt na het hebben van ontlasting.
+28-1	2035-2038	Hij	_	_	
+28-2	2039-2045	klaagt	_	_	
+28-3	2046-2049	wel	_	_	
+28-4	2050-2054	over	_	_	
+28-5	2055-2063	buikpijn	_	_	
+28-6	2063-2064	,	_	_	
+28-7	2065-2070	welke	_	_	
+28-8	2071-2075	niet	_	_	
+28-9	2076-2082	minder	_	_	
+28-10	2083-2088	wordt	_	_	
+28-11	2089-2091	na	_	_	
+28-12	2092-2095	het	_	_	
+28-13	2096-2102	hebben	_	_	
+28-14	2103-2106	van	_	_	
+28-15	2107-2117	ontlasting	_	_	
+28-16	2117-2118	.	_	_	
+
+#Text=Loé klaagt op wisselende momenten over buikpijn.
+29-1	2119-2122	Loé	_	_	
+29-2	2123-2129	klaagt	_	_	
+29-3	2130-2132	op	_	_	
+29-4	2133-2143	wisselende	_	_	
+29-5	2144-2152	momenten	_	_	
+29-6	2153-2157	over	_	_	
+29-7	2158-2166	buikpijn	_	_	
+29-8	2166-2167	.	_	_	
+
+#Text=Ook wel eens 's nachts als hij wakker wordt.
+30-1	2168-2171	Ook	_	_	
+30-2	2172-2175	wel	_	_	
+30-3	2176-2180	eens	_	_	
+30-4	2181-2182	'	_	_	
+30-5	2182-2183	s	_	_	
+30-6	2184-2190	nachts	_	_	
+30-7	2191-2194	als	_	_	
+30-8	2195-2198	hij	_	_	
+30-9	2199-2205	wakker	_	_	
+30-10	2206-2211	wordt	_	_	
+30-11	2211-2212	.	_	_	
+
+#Text=Moeder ziet Loé geregeld zijn ontlasting ophouden.
+31-1	2213-2219	Moeder	_	_	
+31-2	2220-2224	ziet	_	_	
+31-3	2225-2228	Loé	_	_	
+31-4	2229-2237	geregeld	_	_	
+31-5	2238-2242	zijn	_	_	
+31-6	2243-2253	ontlasting	_	_	
+31-7	2254-2262	ophouden	_	_	
+31-8	2262-2263	.	_	_	
+
+#Text=Er zijn geen klachten van de urinewegen.
+32-1	2268-2270	Er	_	_	
+32-2	2271-2275	zijn	_	_	
+32-3	2276-2280	geen	_	_	
+32-4	2281-2289	klachten	_	_	
+32-5	2290-2293	van	_	_	
+32-6	2294-2296	de	_	_	
+32-7	2297-2307	urinewegen	_	_	
+32-8	2307-2308	.	_	_	
+
+#Text=Loé is wel een moeizame eter en heeft geen grote eetlust.
+33-1	2309-2312	Loé	_	_	
+33-2	2313-2315	is	_	_	
+33-3	2316-2319	wel	_	_	
+33-4	2320-2323	een	_	_	
+33-5	2324-2332	moeizame	_	_	
+33-6	2333-2337	eter	_	_	
+33-7	2338-2340	en	_	_	
+33-8	2341-2346	heeft	_	_	
+33-9	2347-2351	geen	_	_	
+33-10	2352-2357	grote	_	_	
+33-11	2358-2365	eetlust	_	_	
+33-12	2365-2366	.	_	_	
+
+#Text=Na enkele happen heeft hij genoeg gehad, maakt niet uit wat het is (ook bij patatjes en pizza).
+34-1	2367-2369	Na	_	_	
+34-2	2370-2376	enkele	_	_	
+34-3	2377-2383	happen	_	_	
+34-4	2384-2389	heeft	_	_	
+34-5	2390-2393	hij	_	_	
+34-6	2394-2400	genoeg	_	_	
+34-7	2401-2406	gehad	_	_	
+34-8	2406-2407	,	_	_	
+34-9	2408-2413	maakt	_	_	
+34-10	2414-2418	niet	_	_	
+34-11	2419-2422	uit	_	_	
+34-12	2423-2426	wat	_	_	
+34-13	2427-2430	het	_	_	
+34-14	2431-2433	is	_	_	
+34-15	2434-2435	(	_	_	
+34-16	2435-2438	ook	_	_	
+34-17	2439-2442	bij	_	_	
+34-18	2443-2451	patatjes	_	_	
+34-19	2452-2454	en	_	_	
+34-20	2455-2460	pizza	_	_	
+34-21	2460-2461	)	_	_	
+34-22	2461-2462	.	_	_	
+
+#Text=Drinkt wel goed.
+35-1	2463-2469	Drinkt	_	_	
+35-2	2470-2473	wel	_	_	
+35-3	2474-2478	goed	_	_	
+35-4	2478-2479	.	_	_	
+
+#Text=Hij is niet bekend met allergieën.
+36-1	2480-2483	Hij	_	_	
+36-2	2484-2486	is	_	_	
+36-3	2487-2491	niet	_	_	
+36-4	2492-2498	bekend	_	_	
+36-5	2499-2502	met	_	_	
+36-6	2503-2513	allergieën	_	_	
+36-7	2513-2514	.	_	_	
+
+#Text=Er komen geen allergieën voor in de familie.
+37-1	2515-2517	Er	_	_	
+37-2	2518-2523	komen	_	_	
+37-3	2524-2528	geen	_	_	
+37-4	2529-2539	allergieën	_	_	
+37-5	2540-2544	voor	_	_	
+37-6	2545-2547	in	_	_	
+37-7	2548-2550	de	_	_	
+37-8	2551-2558	familie	_	_	
+37-9	2558-2559	.	_	_	
+
+#Text=Het afgelopen weekend had Loé koorts (39.5 gr), was algeheel niet helemaal fit.
+38-1	2565-2568	Het	_	_	
+38-2	2569-2578	afgelopen	_	_	
+38-3	2579-2586	weekend	_	_	
+38-4	2587-2590	had	_	_	
+38-5	2591-2594	Loé	_	_	
+38-6	2595-2601	koorts	_	_	
+38-7	2602-2603	(	_	_	
+38-8	2603-2607	39.5	_	_	
+38-9	2608-2610	gr	_	_	
+38-10	2610-2611	)	_	_	
+38-11	2611-2612	,	_	_	
+38-12	2613-2616	was	_	_	
+38-13	2617-2625	algeheel	_	_	
+38-14	2626-2630	niet	_	_	
+38-15	2631-2639	helemaal	_	_	
+38-16	2640-2643	fit	_	_	
+38-17	2643-2644	.	_	_	
+
+#Text=Loé heeft niet vaker onverklaarbare koorts.
+39-1	2645-2648	Loé	_	_	
+39-2	2649-2654	heeft	_	_	
+39-3	2655-2659	niet	_	_	
+39-4	2660-2665	vaker	_	_	
+39-5	2666-2680	onverklaarbare	_	_	
+39-6	2681-2687	koorts	_	_	
+39-7	2687-2688	.	_	_	
+
+#Text=Moeder vindt Loé de laatste tijd erg geprikkeld en krijgt geregeld driftaanvallen.
+40-1	2689-2695	Moeder	_	_	
+40-2	2696-2701	vindt	_	_	
+40-3	2702-2705	Loé	_	_	
+40-4	2706-2708	de	_	_	
+40-5	2709-2716	laatste	_	_	
+40-6	2717-2721	tijd	_	_	
+40-7	2722-2725	erg	_	_	
+40-8	2726-2736	geprikkeld	_	_	
+40-9	2737-2739	en	_	_	
+40-10	2740-2746	krijgt	_	_	
+40-11	2747-2755	geregeld	_	_	
+40-12	2756-2770	driftaanvallen	_	_	
+40-13	2770-2771	.	_	_	
+
+#Text=Dit kent moeder niet van hem.
+41-1	2772-2775	Dit	_	_	
+41-2	2776-2780	kent	_	_	
+41-3	2781-2787	moeder	_	_	
+41-4	2788-2792	niet	_	_	
+41-5	2793-2796	van	_	_	
+41-6	2797-2800	hem	_	_	
+41-7	2800-2801	.	_	_	
+
+#Text=Altijd vrolijk mannetje geweest.
+42-1	2802-2808	Altijd	_	_	
+42-2	2809-2816	vrolijk	_	_	
+42-3	2817-2825	mannetje	_	_	
+42-4	2826-2833	geweest	_	_	
+42-5	2833-2834	.	_	_	
+
+#Text=Af en toe klaagt Loé over hoofdpijn.
+43-1	2835-2837	Af	_	_	
+43-2	2838-2840	en	_	_	
+43-3	2841-2844	toe	_	_	
+43-4	2845-2851	klaagt	_	_	
+43-5	2852-2855	Loé	_	_	
+43-6	2856-2860	over	_	_	
+43-7	2861-2870	hoofdpijn	_	_	
+43-8	2870-2871	.	_	_	
+
+#Text=Loé heeft bij wisselend weer ook last van eczeem.
+44-1	2872-2875	Loé	_	_	
+44-2	2876-2881	heeft	_	_	
+44-3	2882-2885	bij	_	_	
+44-4	2886-2895	wisselend	_	_	
+44-5	2896-2900	weer	_	_	
+44-6	2901-2904	ook	_	_	
+44-7	2905-2909	last	_	_	
+44-8	2910-2913	van	_	_	
+44-9	2914-2920	eczeem	_	_	
+44-10	2920-2921	.	_	_	
+
+#Text=De groei is tot nu toe altijd goed geweest (wel kleine kant, maar groeit volgens curve).
+45-1	2922-2924	De	_	_	
+45-2	2925-2930	groei	_	_	
+45-3	2931-2933	is	_	_	
+45-4	2934-2937	tot	_	_	
+45-5	2938-2940	nu	_	_	
+45-6	2941-2944	toe	_	_	
+45-7	2945-2951	altijd	_	_	
+45-8	2952-2956	goed	_	_	
+45-9	2957-2964	geweest	_	_	
+45-10	2965-2966	(	_	_	
+45-11	2966-2969	wel	_	_	
+45-12	2970-2976	kleine	_	_	
+45-13	2977-2981	kant	_	_	
+45-14	2981-2982	,	_	_	
+45-15	2983-2987	maar	_	_	
+45-16	2988-2994	groeit	_	_	
+45-17	2995-3002	volgens	_	_	
+45-18	3003-3008	curve	_	_	
+45-19	3008-3009	)	_	_	
+45-20	3009-3010	.	_	_	
+
+#Text=Eerdere therapieën:   Forlax: 4 sachet junior/dag, zonder gewenst effect.
+46-1	3015-3022	Eerdere	_	_	
+46-2	3023-3033	therapieën	_	_	
+46-3	3033-3034	:	_	_	
+46-4	3037-3043	Forlax	_	_	
+46-5	3043-3044	:	_	_	
+46-6	3045-3046	4	_	_	
+46-7	3047-3053	sachet	_	_	
+46-8	3054-3060	junior	_	_	
+46-9	3060-3061	/	_	_	
+46-10	3061-3064	dag	_	_	
+46-11	3064-3065	,	_	_	
+46-12	3066-3072	zonder	_	_	
+46-13	3073-3080	gewenst	_	_	
+46-14	3081-3087	effect	_	_	
+46-15	3087-3088	.	_	_	
+
+#Text=Wel klei, dunner.
+47-1	3089-3092	Wel	_	_	
+47-2	3093-3097	klei	_	_	
+47-3	3097-3098	,	_	_	
+47-4	3099-3105	dunner	_	_	
+47-5	3105-3106	.	_	_	
+
+#Text=Wel buikkrampen en hield pijn bij het poepen  Macrogol 4000,  geen succes.
+48-1	3107-3110	Wel	_	_	
+48-2	3111-3122	buikkrampen	_	_	
+48-3	3123-3125	en	_	_	
+48-4	3126-3131	hield	_	_	
+48-5	3132-3136	pijn	_	_	
+48-6	3137-3140	bij	_	_	
+48-7	3141-3144	het	_	_	
+48-8	3145-3151	poepen	_	_	
+48-9	3153-3161	Macrogol	_	_	
+48-10	3162-3166	4000	_	_	
+48-11	3166-3167	,	_	_	
+48-12	3169-3173	geen	_	_	
+48-13	3174-3180	succes	_	_	
+48-14	3180-3181	.	_	_	
+
+#Text=Kreeg niet naar binnen.
+49-1	3182-3187	Kreeg	_	_	
+49-2	3188-3192	niet	_	_	
+49-3	3193-3197	naar	_	_	
+49-4	3198-3204	binnen	_	_	
+49-5	3204-3205	.	_	_	
+
+#Text=Lactulose: 3dd 10 ml, zonder gewenst effect.
+50-1	3207-3216	Lactulose	_	_	
+50-2	3216-3217	:	_	_	
+50-3	3218-3221	3dd	_	_	
+50-4	3222-3224	10	_	_	
+50-5	3225-3227	ml	_	_	
+50-6	3227-3228	,	_	_	
+50-7	3229-3235	zonder	_	_	
+50-8	3236-3243	gewenst	_	_	
+50-9	3244-3250	effect	_	_	
+50-10	3250-3251	.	_	_	
+
+#Text=Inname in het begin goed, weigert nu inname.
+51-1	3252-3258	Inname	_	_	
+51-2	3259-3261	in	_	_	
+51-3	3262-3265	het	_	_	
+51-4	3266-3271	begin	_	_	
+51-5	3272-3276	goed	_	_	
+51-6	3276-3277	,	_	_	
+51-7	3278-3285	weigert	_	_	
+51-8	3286-3288	nu	_	_	
+51-9	3289-3295	inname	_	_	
+51-10	3295-3296	.	_	_	
+
+#Text=Microlax: op HAP, met veel verzet toegediend.
+52-1	3299-3307	Microlax	_	_	
+52-2	3307-3308	:	_	_	
+52-3	3309-3311	op	_	_	
+52-4	3312-3315	HAP	_	_	
+52-5	3315-3316	,	_	_	
+52-6	3317-3320	met	_	_	
+52-7	3321-3325	veel	_	_	
+52-8	3326-3332	verzet	_	_	
+52-9	3333-3343	toegediend	_	_	
+52-10	3343-3344	.	_	_	
+
+#Text=Drie keer toegediend, nadien grote bonken ontlasting losgekomen.
+53-1	3345-3349	Drie	_	_	
+53-2	3350-3354	keer	_	_	
+53-3	3355-3365	toegediend	_	_	
+53-4	3365-3366	,	_	_	
+53-5	3367-3373	nadien	_	_	
+53-6	3374-3379	grote	_	_	
+53-7	3380-3386	bonken	_	_	
+53-8	3387-3397	ontlasting	_	_	
+53-9	3398-3408	losgekomen	_	_	
+53-10	3408-3409	.	_	_	
+
+#Text=Manuele ontruiming door moeder.
+54-1	3412-3419	Manuele	_	_	
+54-2	3420-3430	ontruiming	_	_	
+54-3	3431-3435	door	_	_	
+54-4	3436-3442	moeder	_	_	
+54-5	3442-3443	.	_	_	
+
+#Text=In warm bad, ontlasting los te peuteren.
+55-1	3444-3446	In	_	_	
+55-2	3447-3451	warm	_	_	
+55-3	3452-3455	bad	_	_	
+55-4	3455-3456	,	_	_	
+55-5	3457-3467	ontlasting	_	_	
+55-6	3468-3471	los	_	_	
+55-7	3472-3474	te	_	_	
+55-8	3475-3483	peuteren	_	_	
+55-9	3483-3484	.	_	_	
+
+#Text=Eerdere aanvullend onderzoek:  Echo abdomen (@Acibadem IMC): ruime hoeveelheid feces aanwezig, verder geen afwijkingen zichtbaar.
+56-1	3489-3496	Eerdere	_	_	
+56-2	3497-3507	aanvullend	_	_	
+56-3	3508-3517	onderzoek	_	_	
+56-4	3517-3518	:	_	_	
+56-5	3520-3524	Echo	_	_	
+56-6	3525-3532	abdomen	_	_	
+56-7	3533-3534	(	_	_	
+56-8	3534-3535	@	_	_	
+56-9	3535-3543	Acibadem	_	_	
+56-10	3544-3547	IMC	_	_	
+56-11	3547-3548	)	_	_	
+56-12	3548-3549	:	_	_	
+56-13	3550-3555	ruime	_	_	
+56-14	3556-3567	hoeveelheid	_	_	
+56-15	3568-3573	feces	_	_	
+56-16	3574-3582	aanwezig	_	_	
+56-17	3582-3583	,	_	_	
+56-18	3584-3590	verder	_	_	
+56-19	3591-3595	geen	_	_	
+56-20	3596-3607	afwijkingen	_	_	
+56-21	3608-3617	zichtbaar	_	_	
+56-22	3617-3618	.	_	_	
+
+#Text=Sociale anamnese:  Loé gaat 2 dagen in de week naar de voorschoolse opvang.
+57-1	3623-3630	Sociale	_	_	
+57-2	3631-3639	anamnese	_	_	
+57-3	3639-3640	:	_	_	
+57-4	3642-3645	Loé	_	_	
+57-5	3646-3650	gaat	_	_	
+57-6	3651-3652	2	_	_	
+57-7	3653-3658	dagen	_	_	
+57-8	3659-3661	in	_	_	
+57-9	3662-3664	de	_	_	
+57-10	3665-3669	week	_	_	
+57-11	3670-3674	naar	_	_	
+57-12	3675-3677	de	_	_	
+57-13	3678-3690	voorschoolse	_	_	
+57-14	3691-3697	opvang	_	_	
+57-15	3697-3698	.	_	_	
+
+#Text=Hij heeft een broer (Noa, 15 jaar) en zus (Femmy,11 jaar) en komt uit een twee-oudergezin.
+58-1	3699-3702	Hij	_	_	
+58-2	3703-3708	heeft	_	_	
+58-3	3709-3712	een	_	_	
+58-4	3713-3718	broer	_	_	
+58-5	3719-3720	(	_	_	
+58-6	3720-3723	Noa	_	_	
+58-7	3723-3724	,	_	_	
+58-8	3725-3727	15	_	_	
+58-9	3728-3732	jaar	_	_	
+58-10	3732-3733	)	_	_	
+58-11	3734-3736	en	_	_	
+58-12	3737-3740	zus	_	_	
+58-13	3741-3742	(	_	_	
+58-14	3742-3747	Femmy	_	_	
+58-15	3747-3748	,	_	_	
+58-16	3748-3750	11	_	_	
+58-17	3751-3755	jaar	_	_	
+58-18	3755-3756	)	_	_	
+58-19	3757-3759	en	_	_	
+58-20	3760-3764	komt	_	_	
+58-21	3765-3768	uit	_	_	
+58-22	3769-3772	een	_	_	
+58-23	3773-3788	twee-oudergezin	_	_	
+58-24	3788-3789	.	_	_	
+
+#Text=Moeder woont nu alleen met kinderen en hond thuis.
+59-1	3790-3796	Moeder	_	_	
+59-2	3797-3802	woont	_	_	
+59-3	3803-3805	nu	_	_	
+59-4	3806-3812	alleen	_	_	
+59-5	3813-3816	met	_	_	
+59-6	3817-3825	kinderen	_	_	
+59-7	3826-3828	en	_	_	
+59-8	3829-3833	hond	_	_	
+59-9	3834-3839	thuis	_	_	
+59-10	3839-3840	.	_	_	
+
+#Text=Vader is nog wel in beeld.
+60-1	3841-3846	Vader	_	_	
+60-2	3847-3849	is	_	_	
+60-3	3850-3853	nog	_	_	
+60-4	3854-3857	wel	_	_	
+60-5	3858-3860	in	_	_	
+60-6	3861-3866	beeld	_	_	
+60-7	3866-3867	.	_	_	
+
+#Text=Erg betrokken opa's en oma's.
+61-1	3868-3871	Erg	_	_	
+61-2	3872-3881	betrokken	_	_	
+61-3	3882-3887	opa's	_	_	
+61-4	3888-3890	en	_	_	
+61-5	3891-3896	oma's	_	_	
+61-6	3896-3897	.	_	_	
+
+#Text=Familieanamnese:  Vader van oma (moeders kant): maagzweren  Oma (moeder van moeder), tante (zus van moeder) en moeder: PDS    Lichamelijk onderzoek:  Wij zien een vrolijke, coöperatieve jongen met een verzorgd uiterlijk.
+62-1	3903-3918	Familieanamnese	_	_	
+62-2	3918-3919	:	_	_	
+62-3	3921-3926	Vader	_	_	
+62-4	3927-3930	van	_	_	
+62-5	3931-3934	oma	_	_	
+62-6	3935-3936	(	_	_	
+62-7	3936-3943	moeders	_	_	
+62-8	3944-3948	kant	_	_	
+62-9	3948-3949	)	_	_	
+62-10	3949-3950	:	_	_	
+62-11	3951-3961	maagzweren	_	_	
+62-12	3963-3966	Oma	_	_	
+62-13	3967-3968	(	_	_	
+62-14	3968-3974	moeder	_	_	
+62-15	3975-3978	van	_	_	
+62-16	3979-3985	moeder	_	_	
+62-17	3985-3986	)	_	_	
+62-18	3986-3987	,	_	_	
+62-19	3988-3993	tante	_	_	
+62-20	3994-3995	(	_	_	
+62-21	3995-3998	zus	_	_	
+62-22	3999-4002	van	_	_	
+62-23	4003-4009	moeder	_	_	
+62-24	4009-4010	)	_	_	
+62-25	4011-4013	en	_	_	
+62-26	4014-4020	moeder	_	_	
+62-27	4020-4021	:	_	_	
+62-28	4022-4025	PDS	_	_	
+62-29	4029-4040	Lichamelijk	_	_	
+62-30	4041-4050	onderzoek	_	_	
+62-31	4050-4051	:	_	_	
+62-32	4053-4056	Wij	_	_	
+62-33	4057-4061	zien	_	_	
+62-34	4062-4065	een	_	_	
+62-35	4066-4074	vrolijke	_	_	
+62-36	4074-4075	,	_	_	
+62-37	4076-4088	coöperatieve	_	_	
+62-38	4089-4095	jongen	_	_	
+62-39	4096-4099	met	_	_	
+62-40	4100-4103	een	_	_	
+62-41	4104-4112	verzorgd	_	_	
+62-42	4113-4122	uiterlijk	_	_	
+62-43	4122-4123	.	_	_	
+
+#Text=Gewicht: 11,7 kg,  lengte: 89 cm.
+63-1	4126-4133	Gewicht	_	_	
+63-2	4133-4134	:	_	_	
+63-3	4135-4139	11,7	_	_	
+63-4	4140-4142	kg	_	_	
+63-5	4142-4143	,	_	_	
+63-6	4145-4151	lengte	_	_	
+63-7	4151-4152	:	_	_	
+63-8	4153-4155	89	_	_	
+63-9	4156-4158	cm	_	_	
+63-10	4158-4159	.	_	_	
+
+#Text=Abdomen: slank, wisselend tympaan, soepel, geen scybalus palpabel.
+64-1	4162-4169	Abdomen	_	_	
+64-2	4169-4170	:	_	_	
+64-3	4171-4176	slank	_	_	
+64-4	4176-4177	,	_	_	
+64-5	4178-4187	wisselend	_	_	
+64-6	4188-4195	tympaan	_	_	
+64-7	4195-4196	,	_	_	
+64-8	4197-4203	soepel	_	_	
+64-9	4203-4204	,	_	_	
+64-10	4205-4209	geen	_	_	
+64-11	4210-4218	scybalus	_	_	
+64-12	4219-4227	palpabel	_	_	
+64-13	4227-4228	.	_	_	
+
+#Text=Inspectie perianaal: normaal aspect, geen perianale feces, hemorroïden of fissuur zichtbaar.
+65-1	4231-4240	Inspectie	_	_	
+65-2	4241-4250	perianaal	_	_	
+65-3	4250-4251	:	_	_	
+65-4	4252-4259	normaal	_	_	
+65-5	4260-4266	aspect	_	_	
+65-6	4266-4267	,	_	_	
+65-7	4268-4272	geen	_	_	
+65-8	4273-4282	perianale	_	_	
+65-9	4283-4288	feces	_	_	
+65-10	4288-4289	,	_	_	
+65-11	4290-4301	hemorroïden	_	_	
+65-12	4302-4304	of	_	_	
+65-13	4305-4312	fissuur	_	_	
+65-14	4313-4322	zichtbaar	_	_	
+65-15	4322-4323	.	_	_	
+
+#Text=Er is geen sprake van een dimple of asymmetrie van de bilspleet.
+66-1	4324-4326	Er	_	_	
+66-2	4327-4329	is	_	_	
+66-3	4330-4334	geen	_	_	
+66-4	4335-4341	sprake	_	_	
+66-5	4342-4345	van	_	_	
+66-6	4346-4349	een	_	_	
+66-7	4350-4356	dimple	_	_	
+66-8	4357-4359	of	_	_	
+66-9	4360-4370	asymmetrie	_	_	
+66-10	4371-4374	van	_	_	
+66-11	4375-4377	de	_	_	
+66-12	4378-4387	bilspleet	_	_	
+66-13	4387-4388	.	_	_	
+
+#Text=De wervelkolom is palpatoir gesloten.
+67-1	4391-4393	De	_	_	
+67-2	4394-4405	wervelkolom	_	_	
+67-3	4406-4408	is	_	_	
+67-4	4409-4418	palpatoir	_	_	
+67-5	4419-4427	gesloten	_	_	
+67-6	4427-4428	.	_	_	
+
+#Text=Rectaal toucher: niet verricht.
+68-1	4431-4438	Rectaal	_	_	
+68-2	4439-4446	toucher	_	_	
+68-3	4446-4447	:	_	_	
+68-4	4448-4452	niet	_	_	
+68-5	4453-4461	verricht	_	_	
+68-6	4461-4462	.	_	_	
+
+#Text=Bespreking:  Het betreft hier een jongen van 2 jaar en 10 maanden oud met klachten passend bij obstipatie, met tot nu toe onvoldoende effect op de eerdere behandeling door de huisarts.
+69-1	4467-4477	Bespreking	_	_	
+69-2	4477-4478	:	_	_	
+69-3	4480-4483	Het	_	_	
+69-4	4484-4491	betreft	_	_	
+69-5	4492-4496	hier	_	_	
+69-6	4497-4500	een	_	_	
+69-7	4501-4507	jongen	_	_	
+69-8	4508-4511	van	_	_	
+69-9	4512-4513	2	_	_	
+69-10	4514-4518	jaar	_	_	
+69-11	4519-4521	en	_	_	
+69-12	4522-4524	10	_	_	
+69-13	4525-4532	maanden	_	_	
+69-14	4533-4536	oud	_	_	
+69-15	4537-4540	met	_	_	
+69-16	4541-4549	klachten	_	_	
+69-17	4550-4557	passend	_	_	
+69-18	4558-4561	bij	_	_	
+69-19	4562-4572	obstipatie	_	_	
+69-20	4572-4573	,	_	_	
+69-21	4574-4577	met	_	_	
+69-22	4578-4581	tot	_	_	
+69-23	4582-4584	nu	_	_	
+69-24	4585-4588	toe	_	_	
+69-25	4589-4600	onvoldoende	_	_	
+69-26	4601-4607	effect	_	_	
+69-27	4608-4610	op	_	_	
+69-28	4611-4613	de	_	_	
+69-29	4614-4621	eerdere	_	_	
+69-30	4622-4633	behandeling	_	_	
+69-31	4634-4638	door	_	_	
+69-32	4639-4641	de	_	_	
+69-33	4642-4650	huisarts	_	_	
+69-34	4650-4651	.	_	_	
+
+#Text=Er zijn geen aanwijzingen voor een organische oorzaak, derhalve wordt er geen aanvullend onderzoek verricht.
+70-1	4652-4654	Er	_	_	
+70-2	4655-4659	zijn	_	_	
+70-3	4660-4664	geen	_	_	
+70-4	4665-4677	aanwijzingen	_	_	
+70-5	4678-4682	voor	_	_	
+70-6	4683-4686	een	_	_	
+70-7	4687-4697	organische	_	_	
+70-8	4698-4705	oorzaak	_	_	
+70-9	4705-4706	,	_	_	
+70-10	4707-4715	derhalve	_	_	
+70-11	4716-4721	wordt	_	_	
+70-12	4722-4724	er	_	_	
+70-13	4725-4729	geen	_	_	
+70-14	4730-4740	aanvullend	_	_	
+70-15	4741-4750	onderzoek	_	_	
+70-16	4751-4759	verricht	_	_	
+70-17	4759-4760	.	_	_	
+
+#Text=Vermoedelijk betreft het functionele obstipatie.
+71-1	4761-4773	Vermoedelijk	_	_	
+71-2	4774-4781	betreft	_	_	
+71-3	4782-4785	het	_	_	
+71-4	4786-4797	functionele	_	_	
+71-5	4798-4808	obstipatie	_	_	
+71-6	4808-4809	.	_	_	
+
+#Text=Dit wordt uitgebreid met ouders en Loé besproken.
+72-1	4810-4813	Dit	_	_	
+72-2	4814-4819	wordt	_	_	
+72-3	4820-4830	uitgebreid	_	_	
+72-4	4831-4834	met	_	_	
+72-5	4835-4841	ouders	_	_	
+72-6	4842-4844	en	_	_	
+72-7	4845-4848	Loé	_	_	
+72-8	4849-4858	besproken	_	_	
+72-9	4858-4859	.	_	_	
+
+#Text=Er wordt afgesproken te starten met fecale disimpactie middels 7 dagen 15 gr Macrogol 4000/dag, waarna zal worden gestart met een onderhoudstherapie van 10 gram Macrogol per dag.
+73-1	4863-4865	Er	_	_	
+73-2	4866-4871	wordt	_	_	
+73-3	4872-4883	afgesproken	_	_	
+73-4	4884-4886	te	_	_	
+73-5	4887-4894	starten	_	_	
+73-6	4895-4898	met	_	_	
+73-7	4899-4905	fecale	_	_	
+73-8	4906-4917	disimpactie	_	_	
+73-9	4918-4925	middels	_	_	
+73-10	4926-4927	7	_	_	
+73-11	4928-4933	dagen	_	_	
+73-12	4934-4936	15	_	_	
+73-13	4937-4939	gr	_	_	
+73-14	4940-4948	Macrogol	_	_	
+73-15	4949-4953	4000	_	_	
+73-16	4953-4954	/	_	_	
+73-17	4954-4957	dag	_	_	
+73-18	4957-4958	,	_	_	
+73-19	4959-4965	waarna	_	_	
+73-20	4966-4969	zal	_	_	
+73-21	4970-4976	worden	_	_	
+73-22	4977-4984	gestart	_	_	
+73-23	4985-4988	met	_	_	
+73-24	4989-4992	een	_	_	
+73-25	4993-5011	onderhoudstherapie	_	_	
+73-26	5012-5015	van	_	_	
+73-27	5016-5018	10	_	_	
+73-28	5019-5023	gram	_	_	
+73-29	5024-5032	Macrogol	_	_	
+73-30	5033-5036	per	_	_	
+73-31	5037-5040	dag	_	_	
+73-32	5040-5041	.	_	_	
+
+#Text=CONCLUSIE  Obstipatie, zeer waarschijnlijk van functionele aard.
+74-1	5046-5055	CONCLUSIE	_	_	
+74-2	5057-5067	Obstipatie	_	_	
+74-3	5067-5068	,	_	_	
+74-4	5069-5073	zeer	_	_	
+74-5	5074-5088	waarschijnlijk	_	_	
+74-6	5089-5092	van	_	_	
+74-7	5093-5104	functionele	_	_	
+74-8	5105-5109	aard	_	_	
+74-9	5109-5110	.	_	_	
+
+#Text=Problemen met medicatie inname.
+75-1	5111-5120	Problemen	_	_	
+75-2	5121-5124	met	_	_	
+75-3	5125-5134	medicatie	_	_	
+75-4	5135-5141	inname	_	_	
+75-5	5141-5142	.	_	_	
+
+#Text=BELOOP  Er werd nog een vervolgafspraak gepland.
+76-1	5146-5152	BELOOP	_	_	
+76-2	5154-5156	Er	_	_	
+76-3	5157-5161	werd	_	_	
+76-4	5162-5165	nog	_	_	
+76-5	5166-5169	een	_	_	
+76-6	5170-5185	vervolgafspraak	_	_	
+76-7	5186-5193	gepland	_	_	
+76-8	5193-5194	.	_	_	
+
+#Text=Mochten er zich in het verdere beloop nog bijzonderheden voordoen, dan houden wij u daar uiteraard van op de hoogte.
+77-1	5197-5204	Mochten	_	_	
+77-2	5205-5207	er	_	_	
+77-3	5208-5212	zich	_	_	
+77-4	5213-5215	in	_	_	
+77-5	5216-5219	het	_	_	
+77-6	5220-5227	verdere	_	_	
+77-7	5228-5234	beloop	_	_	
+77-8	5235-5238	nog	_	_	
+77-9	5239-5253	bijzonderheden	_	_	
+77-10	5254-5262	voordoen	_	_	
+77-11	5262-5263	,	_	_	
+77-12	5264-5267	dan	_	_	
+77-13	5268-5274	houden	_	_	
+77-14	5275-5278	wij	_	_	
+77-15	5279-5280	u	_	_	
+77-16	5281-5285	daar	_	_	
+77-17	5286-5295	uiteraard	_	_	
+77-18	5296-5299	van	_	_	
+77-19	5300-5302	op	_	_	
+77-20	5303-5305	de	_	_	
+77-21	5306-5312	hoogte	_	_	
+77-22	5312-5313	.	_	_	
+
+#Text=Met collegiale hoogachting,      CMA. de Bruijn, Arts-assistent Kindergeneeskunde - gastro enterologie prof. dr.
+78-1	5319-5322	Met	_	_	
+78-2	5323-5333	collegiale	_	_	
+78-3	5334-5345	hoogachting	_	_	
+78-4	5345-5346	,	_	_	
+78-5	5352-5355	CMA	_	_	
+78-6	5355-5356	.	_	_	
+78-7	5357-5359	de	_	_	
+78-8	5360-5366	Bruijn	_	_	
+78-9	5366-5367	,	_	_	
+78-10	5368-5382	Arts-assistent	_	_	
+78-11	5383-5400	Kindergeneeskunde	_	_	
+78-12	5401-5402	-	_	_	
+78-13	5403-5409	gastro	_	_	
+78-14	5410-5421	enterologie	_	_	
+78-15	5422-5426	prof	_	_	
+78-16	5426-5427	.	_	_	
+78-17	5428-5430	dr	_	_	
+78-18	5430-5431	.	_	_	
+
+#Text=M.A.
+79-1	5432-5435	M.A	_	_	
+79-2	5435-5436	.	_	_	
+
+#Text=Benninga, kinderarts MDL   AMC, Meibergdreef 9, Amsterdam, telefoon 020-5669111      Cc:  Geen ontvangers     ";;
+80-1	5437-5445	Benninga	_	_	
+80-2	5445-5446	,	_	_	
+80-3	5447-5457	kinderarts	_	_	
+80-4	5458-5461	MDL	_	_	
+80-5	5464-5467	AMC	_	_	
+80-6	5467-5468	,	_	_	
+80-7	5469-5481	Meibergdreef	_	_	
+80-8	5482-5483	9	_	_	
+80-9	5483-5484	,	_	_	
+80-10	5485-5494	Amsterdam	_	_	
+80-11	5494-5495	,	_	_	
+80-12	5496-5504	telefoon	_	_	
+80-13	5505-5508	020	_	_	
+80-14	5508-5509	-	_	_	
+80-15	5509-5516	5669111	_	_	
+80-16	5522-5524	Cc	_	_	
+80-17	5524-5525	:	_	_	
+80-18	5527-5531	Geen	_	_	
+80-19	5532-5542	ontvangers	_	_	
+80-20	5547-5548	"	_	_	
+80-21	5548-5549	;	_	_	
+80-22	5549-5550	;	_	_	

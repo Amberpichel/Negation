@@ -1,0 +1,48 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1414370;401983353;407836572;Telefonisch contact;2020-03-19;"Het gaat goed, oestrogeen creme helpt niet  Voor de huid, nog steeds open, lijkt wel iets door tijd te verbeteren.  ";;
+1-1	0-7	1414370	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	401983353	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	407836572	_	_	
+1-6	27-28	;	_	_	
+1-7	28-39	Telefonisch	_	_	
+1-8	40-47	contact	_	_	
+1-9	47-48	;	_	_	
+1-10	48-52	2020	_	_	
+1-11	52-53	-	_	_	
+1-12	53-55	03	_	_	
+1-13	55-56	-	_	_	
+1-14	56-58	19	_	_	
+1-15	58-59	;	_	_	
+1-16	59-60	"	_	_	
+1-17	60-63	Het	_	_	
+1-18	64-68	gaat	_	_	
+1-19	69-73	goed	_	_	
+1-20	73-74	,	_	_	
+1-21	75-85	oestrogeen	_	_	
+1-22	86-91	creme	_	_	
+1-23	92-97	helpt	*->1-1	NegEvent[1]	
+1-24	98-102	niet	*->1-2	NegCue[1]	
+1-25	104-108	Voor	_	_	
+1-26	109-111	de	_	_	
+1-27	112-116	huid	_	_	
+1-28	116-117	,	_	_	
+1-29	118-121	nog	_	_	
+1-30	122-128	steeds	_	_	
+1-31	129-133	open	_	_	
+1-32	133-134	,	_	_	
+1-33	135-140	lijkt	_	_	
+1-34	141-144	wel	_	_	
+1-35	145-149	iets	_	_	
+1-36	150-154	door	_	_	
+1-37	155-159	tijd	_	_	
+1-38	160-162	te	_	_	
+1-39	163-173	verbeteren	_	_	
+1-40	173-174	.	_	_	
+1-41	176-177	"	_	_	
+1-42	177-178	;	_	_	
+1-43	178-179	;	_	_	

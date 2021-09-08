@@ -1,0 +1,217 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1386306;396176301;401849314;Voortgangsverslag;2020-02-26;"Reden van contact: HIV      Speciele anamnese   Laatste contact in sept vorig jaar.
+1-1	0-7	1386306	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	396176301	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	401849314	_	_	
+1-6	27-28	;	_	_	
+1-7	28-45	Voortgangsverslag	_	_	
+1-8	45-46	;	_	_	
+1-9	46-50	2020	_	_	
+1-10	50-51	-	_	_	
+1-11	51-53	02	_	_	
+1-12	53-54	-	_	_	
+1-13	54-56	26	_	_	
+1-14	56-57	;	_	_	
+1-15	57-58	"	_	_	
+1-16	58-63	Reden	_	_	
+1-17	64-67	van	_	_	
+1-18	68-75	contact	_	_	
+1-19	75-76	:	_	_	
+1-20	77-80	HIV	_	_	
+1-21	86-94	Speciele	_	_	
+1-22	95-103	anamnese	_	_	
+1-23	106-113	Laatste	_	_	
+1-24	114-121	contact	_	_	
+1-25	122-124	in	_	_	
+1-26	125-129	sept	_	_	
+1-27	130-135	vorig	_	_	
+1-28	136-140	jaar	_	_	
+1-29	140-141	.	_	_	
+
+#Text=Gebruikt Genvoya.
+2-1	142-150	Gebruikt	_	_	
+2-2	151-158	Genvoya	_	_	
+2-3	158-159	.	_	_	
+
+#Text=Vorige keer veel paniekaanvallen.
+3-1	160-166	Vorige	_	_	
+3-2	167-171	keer	_	_	
+3-3	172-176	veel	_	_	
+3-4	177-192	paniekaanvallen	_	_	
+3-5	192-193	.	_	_	
+
+#Text=Lab niet verricht.
+4-1	197-200	Lab	*->2-1	NegEvent[2]	
+4-2	201-205	niet	*->2-2	NegCue[2]	
+4-3	206-214	verricht	_	_	
+4-4	214-215	.	_	_	
+
+#Text=Neemt de medicatie 3-4 x per week.
+5-1	219-224	Neemt	_	_	
+5-2	225-227	de	_	_	
+5-3	228-237	medicatie	_	_	
+5-4	238-239	3	_	_	
+5-5	239-240	-	_	_	
+5-6	240-241	4	_	_	
+5-7	242-243	x	_	_	
+5-8	244-247	per	_	_	
+5-9	248-252	week	_	_	
+5-10	252-253	.	_	_	
+
+#Text=Krijgt er darmklachten van.
+6-1	254-260	Krijgt	_	_	
+6-2	261-263	er	_	_	
+6-3	264-276	darmklachten	_	_	
+6-4	277-280	van	_	_	
+6-5	280-281	.	_	_	
+
+#Text=Ook van de eerdere medicatie, wilt dus ook niet switchen.
+7-1	282-285	Ook	_	_	
+7-2	286-289	van	_	_	
+7-3	290-292	de	_	_	
+7-4	293-300	eerdere	_	_	
+7-5	301-310	medicatie	_	_	
+7-6	310-311	,	_	_	
+7-7	312-316	wilt	_	_	
+7-8	317-320	dus	_	_	
+7-9	321-324	ook	_	_	
+7-10	325-329	niet	*->5-1	NegCue[5]	
+7-11	330-338	switchen	*->3-1	NegEvent[3]	
+7-12	338-339	.	_	_	
+
+#Text=Zou wel de injectables willen.
+8-1	340-343	Zou	_	_	
+8-2	344-347	wel	_	_	
+8-3	348-350	de	_	_	
+8-4	351-362	injectables	_	_	
+8-5	363-369	willen	_	_	
+8-6	369-370	.	_	_	
+
+#Text=Niet verkouden geweest, niet ziek geweest.
+9-1	372-376	Niet	*->1-1	NegCue[1]	
+9-2	377-386	verkouden	*->1-2	NegEvent[1]	
+9-3	387-394	geweest	_	_	
+9-4	394-395	,	_	_	
+9-5	396-400	niet	*->4-1	NegCue[4]	
+9-6	401-405	ziek	*->4-2	NegEvent[4]	
+9-7	406-413	geweest	_	_	
+9-8	413-414	.	_	_	
+
+#Text=Recent soa screening via de huisarts.
+10-1	419-425	Recent	_	_	
+10-2	426-429	soa	_	_	
+10-3	430-439	screening	_	_	
+10-4	440-443	via	_	_	
+10-5	444-446	de	_	_	
+10-6	447-455	huisarts	_	_	
+10-7	455-456	.	_	_	
+
+#Text=Lichamelijk onderzoek   Niet verricht       Conclusie    Goed behandelde HIV-1 infectie  Angst/depressie waarbij angst nu weer meer actueel > verw GGZ opnieuw proberen.
+11-1	463-474	Lichamelijk	_	_	
+11-2	475-484	onderzoek	_	_	
+11-3	487-491	Niet	_	_	
+11-4	492-500	verricht	_	_	
+11-5	507-516	Conclusie	_	_	
+11-6	520-524	Goed	_	_	
+11-7	525-535	behandelde	_	_	
+11-8	536-539	HIV	_	_	
+11-9	539-540	-	_	_	
+11-10	540-541	1	_	_	
+11-11	542-550	infectie	_	_	
+11-12	552-557	Angst	_	_	
+11-13	557-558	/	_	_	
+11-14	558-567	depressie	_	_	
+11-15	568-575	waarbij	_	_	
+11-16	576-581	angst	_	_	
+11-17	582-584	nu	_	_	
+11-18	585-589	weer	_	_	
+11-19	590-594	meer	_	_	
+11-20	595-602	actueel	_	_	
+11-21	603-604	>	_	_	
+11-22	605-609	verw	_	_	
+11-23	610-613	GGZ	_	_	
+11-24	614-621	opnieuw	_	_	
+11-25	622-630	proberen	_	_	
+11-26	630-631	.	_	_	
+
+#Text=Middelenmisbruik,  wel in mindere mate dan voorheen.
+12-1	633-649	Middelenmisbruik	_	_	
+12-2	649-650	,	_	_	
+12-3	652-655	wel	_	_	
+12-4	656-658	in	_	_	
+12-5	659-666	mindere	_	_	
+12-6	667-671	mate	_	_	
+12-7	672-675	dan	_	_	
+12-8	676-684	voorheen	_	_	
+12-9	684-685	.	_	_	
+
+#Text=Transgender.    
+13-1	688-699	Transgender	_	_	
+13-2	699-700	.	_	_	
+13-3	703-704	 	_	_	
+
+#Text=Behandeldoel(en)  Adequate suppressie virus (VL <40 c/mL) zonder belastende bijwerkingen.
+14-1	706-718	Behandeldoel	_	_	
+14-2	718-719	(	_	_	
+14-3	719-721	en	_	_	
+14-4	721-722	)	_	_	
+14-5	724-732	Adequate	_	_	
+14-6	733-743	suppressie	_	_	
+14-7	744-749	virus	_	_	
+14-8	750-751	(	_	_	
+14-9	751-753	VL	_	_	
+14-10	754-755	<	_	_	
+14-11	755-757	40	_	_	
+14-12	758-759	c	_	_	
+14-13	759-760	/	_	_	
+14-14	760-762	mL	_	_	
+14-15	762-763	)	_	_	
+14-16	764-770	zonder	_	_	
+14-17	771-781	belastende	_	_	
+14-18	782-794	bijwerkingen	_	_	
+14-19	794-795	.	_	_	
+
+#Text=Beleid   AIN bespreken: akkoord wilt dit graag@  Lab: klein lab, hcv rna, lues screen@  CP 6 mnd  Verwijzing adhd via eigen huisarts  Wilt in injectable studie!
+15-1	803-809	Beleid	_	_	
+15-2	812-815	AIN	_	_	
+15-3	816-825	bespreken	_	_	
+15-4	825-826	:	_	_	
+15-5	827-834	akkoord	_	_	
+15-6	835-839	wilt	_	_	
+15-7	840-843	dit	_	_	
+15-8	844-849	graag	_	_	
+15-9	849-850	@	_	_	
+15-10	852-855	Lab	_	_	
+15-11	855-856	:	_	_	
+15-12	857-862	klein	_	_	
+15-13	863-866	lab	_	_	
+15-14	866-867	,	_	_	
+15-15	868-871	hcv	_	_	
+15-16	872-875	rna	_	_	
+15-17	875-876	,	_	_	
+15-18	877-881	lues	_	_	
+15-19	882-888	screen	_	_	
+15-20	888-889	@	_	_	
+15-21	891-893	CP	_	_	
+15-22	894-895	6	_	_	
+15-23	896-899	mnd	_	_	
+15-24	901-911	Verwijzing	_	_	
+15-25	912-916	adhd	_	_	
+15-26	917-920	via	_	_	
+15-27	921-926	eigen	_	_	
+15-28	927-935	huisarts	_	_	
+15-29	937-941	Wilt	_	_	
+15-30	942-944	in	_	_	
+15-31	945-955	injectable	_	_	
+15-32	956-962	studie	_	_	
+15-33	962-963	!	_	_	
+
+#Text=";;
+16-1	968-969	"	_	_	
+16-2	969-970	;	_	_	
+16-3	970-971	;	_	_	

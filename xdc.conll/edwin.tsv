@@ -1,0 +1,179 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1386588;380536291;385752346;NULL;2020-01-04;"Klinische gegevens:  gevallen, dubieus of op hoofd echter nu heparinepomp bij longembolie     Vraagstelling:  aanwijzing voor bloeding?
+1-1	0-7	1386588	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	380536291	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	385752346	_	_	
+1-6	27-28	;	_	_	
+1-7	28-32	NULL	_	_	
+1-8	32-33	;	_	_	
+1-9	33-37	2020	_	_	
+1-10	37-38	-	_	_	
+1-11	38-40	01	_	_	
+1-12	40-41	-	_	_	
+1-13	41-43	04	_	_	
+1-14	43-44	;	_	_	
+1-15	44-45	"	_	_	
+1-16	45-54	Klinische	_	_	
+1-17	55-63	gegevens	_	_	
+1-18	63-64	:	_	_	
+1-19	66-74	gevallen	_	_	
+1-20	74-75	,	_	_	
+1-21	76-83	dubieus	_	_	
+1-22	84-86	of	_	_	
+1-23	87-89	op	_	_	
+1-24	90-95	hoofd	_	_	
+1-25	96-102	echter	_	_	
+1-26	103-105	nu	_	_	
+1-27	106-118	heparinepomp	_	_	
+1-28	119-122	bij	_	_	
+1-29	123-134	longembolie	_	_	
+1-30	139-152	Vraagstelling	_	_	
+1-31	152-153	:	_	_	
+1-32	155-165	aanwijzing	_	_	
+1-33	166-170	voor	_	_	
+1-34	171-179	bloeding	_	_	
+1-35	179-180	?	_	_	
+
+#Text=Verslag:  CT hersenen zonder intraveneus contrast.
+2-1	184-191	Verslag	_	_	
+2-2	191-192	:	_	_	
+2-3	194-196	CT	_	_	
+2-4	197-205	hersenen	_	_	
+2-5	206-212	zonder	_	_	
+2-6	213-224	intraveneus	_	_	
+2-7	225-233	contrast	_	_	
+2-8	233-234	.	_	_	
+
+#Text=Geen eerder onderzoek ter vergelijking beschikbaar.
+3-1	236-240	Geen	*->3-1	NegCue[3]	
+3-2	241-247	eerder	_	_	
+3-3	248-257	onderzoek	*->3-2	NegEvent[3]	
+3-4	258-261	ter	_	_	
+3-5	262-274	vergelijking	_	_	
+3-6	275-286	beschikbaar	_	_	
+3-7	286-287	.	_	_	
+
+#Text=Slank en symmetrisch ventrikelsysteem.
+4-1	291-296	Slank	_	_	
+4-2	297-299	en	_	_	
+4-3	300-311	symmetrisch	_	_	
+4-4	312-328	ventrikelsysteem	_	_	
+4-5	328-329	.	_	_	
+
+#Text=De basale cisternen zijn open.
+5-1	331-333	De	_	_	
+5-2	334-340	basale	_	_	
+5-3	341-350	cisternen	_	_	
+5-4	351-355	zijn	_	_	
+5-5	356-360	open	_	_	
+5-6	360-361	.	_	_	
+
+#Text=Geen intracraniële bloedingen.
+6-1	363-367	Geen	*->4-1	NegCue[4]	
+6-2	368-381	intracraniële	_	_	
+6-3	382-392	bloedingen	*->4-2	NegEvent[4]	
+6-4	392-393	.	_	_	
+
+#Text=Geringe periventriculaire witte stofafwijkingen, meest waarschijnlijk van vasculo-ischemisch origine.
+7-1	395-402	Geringe	_	_	
+7-2	403-420	periventriculaire	_	_	
+7-3	421-426	witte	_	_	
+7-4	427-442	stofafwijkingen	_	_	
+7-5	442-443	,	_	_	
+7-6	444-449	meest	_	_	
+7-7	450-464	waarschijnlijk	_	_	
+7-8	465-468	van	_	_	
+7-9	469-487	vasculo-ischemisch	_	_	
+7-10	488-495	origine	_	_	
+7-11	495-496	.	_	_	
+
+#Text=Geen bijzonderheden aan de basale kernen, thalami, cerebellum of hersenstam.
+8-1	498-502	Geen	*->2-1	NegCue[2]	
+8-2	503-517	bijzonderheden	*->2-2	NegEvent[2]	
+8-3	518-521	aan	_	_	
+8-4	522-524	de	_	_	
+8-5	525-531	basale	_	_	
+8-6	532-538	kernen	_	_	
+8-7	538-539	,	_	_	
+8-8	540-547	thalami	_	_	
+8-9	547-548	,	_	_	
+8-10	549-559	cerebellum	_	_	
+8-11	560-562	of	_	_	
+8-12	563-573	hersenstam	_	_	
+8-13	573-574	.	_	_	
+
+#Text=Normale luchthoudendheid van de paranasale sinus en mastoïden beiderzijds.
+9-1	576-583	Normale	_	_	
+9-2	584-600	luchthoudendheid	_	_	
+9-3	601-604	van	_	_	
+9-4	605-607	de	_	_	
+9-5	608-618	paranasale	_	_	
+9-6	619-624	sinus	_	_	
+9-7	625-627	en	_	_	
+9-8	628-637	mastoïden	_	_	
+9-9	638-649	beiderzijds	_	_	
+9-10	649-650	.	_	_	
+
+#Text=Geen schedel - of aangezichtsfracturen.
+10-1	652-656	Geen	_	_	
+10-2	657-664	schedel	_	_	
+10-3	665-666	-	_	_	
+10-4	667-669	of	_	_	
+10-5	670-690	aangezichtsfracturen	_	_	
+10-6	690-691	.	_	_	
+
+#Text=Conclusie:  Geen traumatische afwijkingen.
+11-1	695-704	Conclusie	_	_	
+11-2	704-705	:	_	_	
+11-3	707-711	Geen	*->5-1	NegCue[5]	
+11-4	712-724	traumatische	_	_	
+11-5	725-736	afwijkingen	*->5-2	NegEvent[5]	
+11-6	736-737	.	_	_	
+
+#Text=Met name geen aanwijzingen voor een intracraniële bloeding.
+12-1	738-741	Met	_	_	
+12-2	742-746	name	_	_	
+12-3	747-751	geen	*->1-1	NegCue[1]	
+12-4	752-764	aanwijzingen	*->1-2	NegEvent[1]	
+12-5	765-769	voor	_	_	
+12-6	770-773	een	_	_	
+12-7	774-787	intracraniële	_	_	
+12-8	788-796	bloeding	_	_	
+12-9	796-797	.	_	_	
+
+#Text=Besproken met aanvrager dr.
+13-1	802-811	Besproken	_	_	
+13-2	812-815	met	_	_	
+13-3	816-825	aanvrager	_	_	
+13-4	826-828	dr	_	_	
+13-5	828-829	.	_	_	
+
+#Text=Wesselman van Helmond [4-1-2020 15:16:19 - DOORSCHODT, T.C.]  ";;
+14-1	830-839	Wesselman	_	_	
+14-2	840-843	van	_	_	
+14-3	844-851	Helmond	_	_	
+14-4	852-853	[	_	_	
+14-5	853-854	4	_	_	
+14-6	854-855	-	_	_	
+14-7	855-856	1	_	_	
+14-8	856-857	-	_	_	
+14-9	857-861	2020	_	_	
+14-10	862-864	15	_	_	
+14-11	864-865	:	_	_	
+14-12	865-867	16	_	_	
+14-13	867-868	:	_	_	
+14-14	868-870	19	_	_	
+14-15	871-872	-	_	_	
+14-16	873-883	DOORSCHODT	_	_	
+14-17	883-884	,	_	_	
+14-18	885-888	T.C	_	_	
+14-19	888-889	.	_	_	
+14-20	889-890	]	_	_	
+14-21	892-893	"	_	_	
+14-22	893-894	;	_	_	
+14-23	894-895	;	_	_	
