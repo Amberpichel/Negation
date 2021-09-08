@@ -1,0 +1,319 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1383315;387432862;392847894;Voortgangsverslag;2020-01-27;"Klinische gegevens:   +4 na acute subtotale colectomie met coloperforatie en fecale spill  met Gister op CT collectie in de buik    Vraagstelling:   gaarne drainage    Verslag:  Drainage collectie abdomen.
+1-1	0-7	1383315	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	387432862	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	392847894	_	_	
+1-6	27-28	;	_	_	
+1-7	28-45	Voortgangsverslag	_	_	
+1-8	45-46	;	_	_	
+1-9	46-50	2020	_	_	
+1-10	50-51	-	_	_	
+1-11	51-53	01	_	_	
+1-12	53-54	-	_	_	
+1-13	54-56	27	_	_	
+1-14	56-57	;	_	_	
+1-15	57-58	"	_	_	
+1-16	58-67	Klinische	_	_	
+1-17	68-76	gegevens	_	_	
+1-18	76-77	:	_	_	
+1-19	80-81	+	_	_	
+1-20	81-82	4	_	_	
+1-21	83-85	na	_	_	
+1-22	86-91	acute	_	_	
+1-23	92-101	subtotale	_	_	
+1-24	102-112	colectomie	_	_	
+1-25	113-116	met	_	_	
+1-26	117-131	coloperforatie	_	_	
+1-27	132-134	en	_	_	
+1-28	135-141	fecale	_	_	
+1-29	142-147	spill	_	_	
+1-30	149-152	met	_	_	
+1-31	153-159	Gister	_	_	
+1-32	160-162	op	_	_	
+1-33	163-165	CT	_	_	
+1-34	166-175	collectie	_	_	
+1-35	176-178	in	_	_	
+1-36	179-181	de	_	_	
+1-37	182-186	buik	_	_	
+1-38	190-203	Vraagstelling	_	_	
+1-39	203-204	:	_	_	
+1-40	207-213	gaarne	_	_	
+1-41	214-222	drainage	_	_	
+1-42	226-233	Verslag	_	_	
+1-43	233-234	:	_	_	
+1-44	236-244	Drainage	_	_	
+1-45	245-254	collectie	_	_	
+1-46	255-262	abdomen	_	_	
+1-47	262-263	.	_	_	
+
+#Text=Ter vergelijking: CT abdomen d.d. 21-10-2020.
+2-1	265-268	Ter	_	_	
+2-2	269-281	vergelijking	_	_	
+2-3	281-282	:	_	_	
+2-4	283-285	CT	_	_	
+2-5	286-293	abdomen	_	_	
+2-6	294-297	d.d	_	_	
+2-7	297-298	.	_	_	
+2-8	299-301	21	_	_	
+2-9	301-302	-	_	_	
+2-10	302-304	10	_	_	
+2-11	304-305	-	_	_	
+2-12	305-309	2020	_	_	
+2-13	309-310	.	_	_	
+
+#Text=Stolling:  Adequaat.    
+3-1	314-322	Stolling	_	_	
+3-2	322-323	:	_	_	
+3-3	325-333	Adequaat	_	_	
+3-4	333-334	.	_	_	
+3-5	337-338	 	_	_	
+
+#Text=Medicatie:  Lidocaïne 2% 9 ml lokaal, gemengd met 1 ml Natriumwaterstofcarbonaat 1 mmol/ml = 8.4% (2 maal voor respectievelijk drainage collectie LOQ en collectie ROQ abdomen).   
+4-1	340-349	Medicatie	_	_	
+4-2	349-350	:	_	_	
+4-3	352-361	Lidocaïne	_	_	
+4-4	362-364	2%	_	_	
+4-5	365-366	9	_	_	
+4-6	366-367	 	_	_	
+4-7	367-369	ml	_	_	
+4-8	370-376	lokaal	_	_	
+4-9	376-377	,	_	_	
+4-10	378-385	gemengd	_	_	
+4-11	386-389	met	_	_	
+4-12	390-391	1	_	_	
+4-13	392-394	ml	_	_	
+4-14	395-420	Natriumwaterstofcarbonaat	_	_	
+4-15	421-422	1	_	_	
+4-16	423-427	mmol	_	_	
+4-17	427-428	/	_	_	
+4-18	428-430	ml	_	_	
+4-19	431-432	=	_	_	
+4-20	433-437	8.4%	_	_	
+4-21	438-439	(	_	_	
+4-22	439-440	2	_	_	
+4-23	441-445	maal	_	_	
+4-24	446-450	voor	_	_	
+4-25	451-466	respectievelijk	_	_	
+4-26	467-475	drainage	_	_	
+4-27	476-485	collectie	_	_	
+4-28	486-489	LOQ	_	_	
+4-29	490-492	en	_	_	
+4-30	493-502	collectie	_	_	
+4-31	503-506	ROQ	_	_	
+4-32	507-514	abdomen	_	_	
+4-33	514-515	)	_	_	
+4-34	515-516	.	_	_	
+4-35	518-519	 	_	_	
+
+#Text=Ingreep:  Procedure en risico’s werden met familie van patiënt besproken.
+5-1	521-528	Ingreep	_	_	
+5-2	528-529	:	_	_	
+5-3	531-540	Procedure	_	_	
+5-4	541-543	en	_	_	
+5-5	544-550	risico	_	_	
+5-6	550-551	’	_	_	
+5-7	551-552	s	_	_	
+5-8	553-559	werden	_	_	
+5-9	560-563	met	_	_	
+5-10	564-571	familie	_	_	
+5-11	572-575	van	_	_	
+5-12	576-583	patiënt	_	_	
+5-13	584-593	besproken	_	_	
+5-14	593-594	.	_	_	
+
+#Text=Time out procedure.   
+6-1	597-601	Time	_	_	
+6-2	602-605	out	_	_	
+6-3	606-615	procedure	_	_	
+6-4	615-616	.	_	_	
+6-5	618-619	 	_	_	
+
+#Text=Echografisch identificatie van de vochtcollectie links supravesicaal.
+7-1	621-633	Echografisch	_	_	
+7-2	634-647	identificatie	_	_	
+7-3	648-651	van	_	_	
+7-4	652-654	de	_	_	
+7-5	655-669	vochtcollectie	_	_	
+7-6	670-675	links	_	_	
+7-7	676-689	supravesicaal	_	_	
+7-8	689-690	.	_	_	
+
+#Text=Uitgebreide schotvorming hierin.
+8-1	691-702	Uitgebreide	_	_	
+8-2	703-715	schotvorming	_	_	
+8-3	716-722	hierin	_	_	
+8-4	722-723	.	_	_	
+
+#Text=Na lokale verdoving werd hierin een 12Fr pigtaildrain geplaatst.
+9-1	724-726	Na	_	_	
+9-2	727-733	lokale	_	_	
+9-3	734-743	verdoving	_	_	
+9-4	744-748	werd	_	_	
+9-5	749-755	hierin	_	_	
+9-6	756-759	een	_	_	
+9-7	760-764	12Fr	_	_	
+9-8	765-777	pigtaildrain	_	_	
+9-9	778-787	geplaatst	_	_	
+9-10	787-788	.	_	_	
+
+#Text=Afvloed van troebel sereus ogend vocht.
+10-1	789-796	Afvloed	_	_	
+10-2	797-800	van	_	_	
+10-3	801-808	troebel	_	_	
+10-4	809-815	sereus	_	_	
+10-5	816-821	ogend	_	_	
+10-6	822-827	vocht	_	_	
+10-7	827-828	.	_	_	
+
+#Text=Aspiraat hiervan werd meegegeven voor nadere analyse.
+11-1	829-837	Aspiraat	_	_	
+11-2	838-845	hiervan	_	_	
+11-3	846-850	werd	_	_	
+11-4	851-861	meegegeven	_	_	
+11-5	862-866	voor	_	_	
+11-6	867-873	nadere	_	_	
+11-7	874-881	analyse	_	_	
+11-8	881-882	.	_	_	
+
+#Text=Na toediening van contrast blijft dit lokaal in de collectie staan, geen uitbreiding naar collectie paracolisch rechts ondanks echografisch ogenschijnlijke verbinding tussen de twee collecties.
+12-1	884-886	Na	_	_	
+12-2	887-897	toediening	_	_	
+12-3	898-901	van	_	_	
+12-4	902-910	contrast	_	_	
+12-5	911-917	blijft	_	_	
+12-6	918-921	dit	_	_	
+12-7	922-928	lokaal	_	_	
+12-8	929-931	in	_	_	
+12-9	932-934	de	_	_	
+12-10	935-944	collectie	_	_	
+12-11	945-950	staan	_	_	
+12-12	950-951	,	_	_	
+12-13	952-956	geen	_	_	
+12-14	957-968	uitbreiding	_	_	
+12-15	969-973	naar	_	_	
+12-16	974-983	collectie	_	_	
+12-17	984-995	paracolisch	_	_	
+12-18	996-1002	rechts	_	_	
+12-19	1003-1010	ondanks	_	_	
+12-20	1011-1023	echografisch	_	_	
+12-21	1024-1039	ogenschijnlijke	_	_	
+12-22	1040-1050	verbinding	_	_	
+12-23	1051-1057	tussen	_	_	
+12-24	1058-1060	de	_	_	
+12-25	1061-1065	twee	_	_	
+12-26	1066-1076	collecties	_	_	
+12-27	1076-1077	.	_	_	
+
+#Text=Derhalve wordt besloten ook in laatstgenoemde collectie een 12Fr pigtaildrain te plaatsen met soortgelijk vocht retour als uit eerstgenoemde collectie.
+13-1	1079-1087	Derhalve	_	_	
+13-2	1088-1093	wordt	_	_	
+13-3	1094-1102	besloten	_	_	
+13-4	1103-1106	ook	_	_	
+13-5	1107-1109	in	_	_	
+13-6	1110-1124	laatstgenoemde	_	_	
+13-7	1125-1134	collectie	_	_	
+13-8	1135-1138	een	_	_	
+13-9	1139-1143	12Fr	_	_	
+13-10	1144-1156	pigtaildrain	_	_	
+13-11	1157-1159	te	_	_	
+13-12	1160-1168	plaatsen	_	_	
+13-13	1169-1172	met	_	_	
+13-14	1173-1184	soortgelijk	_	_	
+13-15	1185-1190	vocht	_	_	
+13-16	1191-1197	retour	_	_	
+13-17	1198-1201	als	_	_	
+13-18	1202-1205	uit	_	_	
+13-19	1206-1219	eerstgenoemde	_	_	
+13-20	1220-1229	collectie	_	_	
+13-21	1229-1230	.	_	_	
+
+#Text=Ook hiervan werd een aspiraat meegegeven voor nadere analyse.
+14-1	1231-1234	Ook	_	_	
+14-2	1235-1242	hiervan	_	_	
+14-3	1243-1247	werd	_	_	
+14-4	1248-1251	een	_	_	
+14-5	1252-1260	aspiraat	_	_	
+14-6	1261-1271	meegegeven	_	_	
+14-7	1272-1276	voor	_	_	
+14-8	1277-1283	nadere	_	_	
+14-9	1284-1291	analyse	_	_	
+14-10	1291-1292	.	_	_	
+
+#Text=Na contrasttoediening via deze drain evenmin noemenswaardige uitbreiding van het contrast, in elk geval niet naar de collectie links.
+15-1	1294-1296	Na	_	_	
+15-2	1297-1315	contrasttoediening	_	_	
+15-3	1316-1319	via	_	_	
+15-4	1320-1324	deze	_	_	
+15-5	1325-1330	drain	_	_	
+15-6	1331-1338	evenmin	_	_	
+15-7	1339-1354	noemenswaardige	_	_	
+15-8	1355-1366	uitbreiding	_	_	
+15-9	1367-1370	van	_	_	
+15-10	1371-1374	het	_	_	
+15-11	1375-1383	contrast	_	_	
+15-12	1383-1384	,	_	_	
+15-13	1385-1387	in	_	_	
+15-14	1388-1391	elk	_	_	
+15-15	1392-1397	geval	_	_	
+15-16	1398-1402	niet	*->1-1	NegCue[1]	
+15-17	1403-1407	naar	_	_	
+15-18	1408-1410	de	_	_	
+15-19	1411-1420	collectie	*->1-2	NegEvent[1]	
+15-20	1421-1426	links	_	_	
+15-21	1426-1427	.	_	_	
+
+#Text=De 2 drains werden gelocked, vastgehecht en op zak geplaatst.
+16-1	1429-1431	De	_	_	
+16-2	1432-1433	2	_	_	
+16-3	1434-1440	drains	_	_	
+16-4	1441-1447	werden	_	_	
+16-5	1448-1456	gelocked	_	_	
+16-6	1456-1457	,	_	_	
+16-7	1458-1469	vastgehecht	_	_	
+16-8	1470-1472	en	_	_	
+16-9	1473-1475	op	_	_	
+16-10	1476-1479	zak	_	_	
+16-11	1480-1489	geplaatst	_	_	
+16-12	1489-1490	.	_	_	
+
+#Text=Vlotte procedure zonder directe complicaties.   
+17-1	1492-1498	Vlotte	_	_	
+17-2	1499-1508	procedure	_	_	
+17-3	1509-1515	zonder	*->2-1	NegCue[2]	
+17-4	1516-1523	directe	_	_	
+17-5	1524-1536	complicaties	*->2-2	NegEvent[2]	
+17-6	1536-1537	.	_	_	
+17-7	1539-1540	 	_	_	
+
+#Text=Conclusie:  Plaatsing 12Fr pigtaildrain in de collectie links supravesicaal.
+18-1	1542-1551	Conclusie	_	_	
+18-2	1551-1552	:	_	_	
+18-3	1554-1563	Plaatsing	_	_	
+18-4	1564-1568	12Fr	_	_	
+18-5	1569-1581	pigtaildrain	_	_	
+18-6	1582-1584	in	_	_	
+18-7	1585-1587	de	_	_	
+18-8	1588-1597	collectie	_	_	
+18-9	1598-1603	links	_	_	
+18-10	1604-1617	supravesicaal	_	_	
+18-11	1617-1618	.	_	_	
+
+#Text=Plaatsing 12Fr pigtaildrain in de collectie rechts caudaal paracolisch.  ";;
+19-1	1620-1629	Plaatsing	_	_	
+19-2	1630-1634	12Fr	_	_	
+19-3	1635-1647	pigtaildrain	_	_	
+19-4	1648-1650	in	_	_	
+19-5	1651-1653	de	_	_	
+19-6	1654-1663	collectie	_	_	
+19-7	1664-1670	rechts	_	_	
+19-8	1671-1678	caudaal	_	_	
+19-9	1679-1690	paracolisch	_	_	
+19-10	1690-1691	.	_	_	
+19-11	1693-1694	"	_	_	
+19-12	1694-1695	;	_	_	
+19-13	1695-1696	;	_	_	

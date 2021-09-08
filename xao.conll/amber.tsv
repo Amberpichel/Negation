@@ -1,0 +1,232 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=1189304;394800559;400436519;Telefonisch contact;2020-02-21;"TCO met vader na CPET:    Spirometrie:  Geen aanwijzingen voor obstructie, geen suggestie voor restrictie.
+1-1	0-7	1189304	
+1-2	7-8	;	
+1-3	8-17	394800559	
+1-4	17-18	;	
+1-5	18-27	400436519	
+1-6	27-28	;	
+1-7	28-39	Telefonisch	
+1-8	40-47	contact	
+1-9	47-48	;	
+1-10	48-52	2020	
+1-11	52-53	-	
+1-12	53-55	02	
+1-13	55-56	-	
+1-14	56-58	21	
+1-15	58-59	;	
+1-16	59-60	"	
+1-17	60-63	TCO	
+1-18	64-67	met	
+1-19	68-73	vader	
+1-20	74-76	na	
+1-21	77-81	CPET	
+1-22	81-82	:	
+1-23	86-97	Spirometrie	
+1-24	97-98	:	
+1-25	100-104	Geen	
+1-26	105-117	aanwijzingen	
+1-27	118-122	voor	
+1-28	123-133	obstructie	
+1-29	133-134	,	
+1-30	135-139	geen	
+1-31	140-149	suggestie	
+1-32	150-154	voor	
+1-33	155-165	restrictie	
+1-34	165-166	.	
+
+#Text=Geen aanwijzingen voor verminderde diffusie.
+2-1	168-172	Geen	
+2-2	173-185	aanwijzingen	
+2-3	186-190	voor	
+2-4	191-202	verminderde	
+2-5	203-211	diffusie	
+2-6	211-212	.	
+
+#Text=Cardiopulmonale inspanningstest:  Maximaal bereikte belasting 210 W.
+3-1	216-231	Cardiopulmonale	
+3-2	232-247	inspanningstest	
+3-3	247-248	:	
+3-4	250-258	Maximaal	
+3-5	259-267	bereikte	
+3-6	268-277	belasting	
+3-7	278-281	210	
+3-8	282-283	W	
+3-9	283-284	.	
+
+#Text=De V O2max is 2429 ml/min (106%, dit is normaal), wat neerkomt op 35 ml/min kg.
+4-1	286-288	De	
+4-2	289-290	V	
+4-3	291-296	O2max	
+4-4	297-299	is	
+4-5	300-304	2429	
+4-6	305-307	ml	
+4-7	307-308	/	
+4-8	308-311	min	
+4-9	312-313	(	
+4-10	313-317	106%	
+4-11	317-318	,	
+4-12	319-322	dit	
+4-13	323-325	is	
+4-14	326-333	normaal	
+4-15	333-334	)	
+4-16	334-335	,	
+4-17	336-339	wat	
+4-18	340-348	neerkomt	
+4-19	349-351	op	
+4-20	352-354	35	
+4-21	355-357	ml	
+4-22	357-358	/	
+4-23	358-361	min	
+4-24	362-364	kg	
+4-25	364-365	.	
+
+#Text=De RER tijdens maximale inspanning is 1.14 (passend bij lactaatacidose).
+5-1	367-369	De	
+5-2	370-373	RER	
+5-3	374-381	tijdens	
+5-4	382-390	maximale	
+5-5	391-401	inspanning	
+5-6	402-404	is	
+5-7	405-409	1.14	
+5-8	410-411	(	
+5-9	411-418	passend	
+5-10	419-422	bij	
+5-11	423-437	lactaatacidose	
+5-12	437-438	)	
+5-13	438-439	.	
+
+#Text=Daling base excess: 4.2 mmol/l.
+6-1	441-447	Daling	
+6-2	448-452	base	
+6-3	453-459	excess	
+6-4	459-460	:	
+6-5	461-464	4.2	
+6-6	465-469	mmol	
+6-7	469-470	/	
+6-8	470-471	l	
+6-9	471-472	.	
+
+#Text=Relatief iets vroeg AT rond 42% bij wel maximale VO2 max  Maximale hartfrequentie 181/min, hartfrequentiereserve 22/min (licht verhoogd).
+7-1	474-482	Relatief	
+7-2	483-487	iets	
+7-3	488-493	vroeg	
+7-4	494-496	AT	
+7-5	497-501	rond	
+7-6	502-505	42%	
+7-7	506-509	bij	
+7-8	510-513	wel	
+7-9	514-522	maximale	
+7-10	523-526	VO2	
+7-11	527-530	max	
+7-12	532-540	Maximale	
+7-13	541-555	hartfrequentie	
+7-14	556-559	181	
+7-15	559-560	/	
+7-16	560-563	min	
+7-17	563-564	,	
+7-18	565-586	hartfrequentiereserve	
+7-19	587-589	22	
+7-20	589-590	/	
+7-21	590-593	min	
+7-22	594-595	(	
+7-23	595-600	licht	
+7-24	601-609	verhoogd	
+7-25	609-610	)	
+7-26	610-611	.	
+
+#Text=De O2-pulse tijdens maximale belasting is 13.4 ml (normaal).
+8-1	613-615	De	
+8-2	616-618	O2	
+8-3	618-619	-	
+8-4	619-624	pulse	
+8-5	625-632	tijdens	
+8-6	633-641	maximale	
+8-7	642-651	belasting	
+8-8	652-654	is	
+8-9	655-659	13.4	
+8-10	660-662	ml	
+8-11	663-664	(	
+8-12	664-671	normaal	
+8-13	671-672	)	
+8-14	672-673	.	
+
+#Text=Conclusie:  Normale inspanningstolerantie, noch circulatoir, noch ventilatoir beperkt gezien gezien licht verhoogde HRR en ademreserve. maximale VO2 icm vroeg AT kan passen bij deconditionering.
+9-1	675-684	Conclusie	
+9-2	684-685	:	
+9-3	687-694	Normale	
+9-4	695-716	inspanningstolerantie	
+9-5	716-717	,	
+9-6	718-722	noch	
+9-7	723-734	circulatoir	
+9-8	734-735	,	
+9-9	736-740	noch	
+9-10	741-752	ventilatoir	
+9-11	753-760	beperkt	
+9-12	761-767	gezien	
+9-13	768-774	gezien	
+9-14	775-780	licht	
+9-15	781-790	verhoogde	
+9-16	791-794	HRR	
+9-17	795-797	en	
+9-18	798-809	ademreserve	
+9-19	809-810	.	
+9-20	811-819	maximale	
+9-21	820-823	VO2	
+9-22	824-827	icm	
+9-23	828-833	vroeg	
+9-24	834-836	AT	
+9-25	837-840	kan	
+9-26	841-847	passen	
+9-27	848-851	bij	
+9-28	852-868	deconditionering	
+9-29	868-869	.	
+
+#Text=A: blijft hangen qua conditie, hyperventilatie of eetprobleem?
+10-1	873-874	A	
+10-2	874-875	:	
+10-3	876-882	blijft	
+10-4	883-889	hangen	
+10-5	890-893	qua	
+10-6	894-902	conditie	
+10-7	902-903	,	
+10-8	904-919	hyperventilatie	
+10-9	920-922	of	
+10-10	923-934	eetprobleem	
+10-11	934-935	?	
+
+#Text=C: bij uitgebreide analyse geen cardiale of pulmonale afwijkingen.
+11-1	939-940	C	
+11-2	940-941	:	
+11-3	942-945	bij	
+11-4	946-957	uitgebreide	
+11-5	958-965	analyse	
+11-6	966-970	geen	
+11-7	971-979	cardiale	
+11-8	980-982	of	
+11-9	983-992	pulmonale	
+11-10	993-1004	afwijkingen	
+11-11	1004-1005	.	
+
+#Text=B:  Cardiologische controle over 5 jaar  transitiepoli  icc SCAR poli VU mc ivm littekenprobleem.      ";;
+12-1	1009-1010	B	
+12-2	1010-1011	:	
+12-3	1013-1027	Cardiologische	
+12-4	1028-1036	controle	
+12-5	1037-1041	over	
+12-6	1042-1043	5	
+12-7	1044-1048	jaar	
+12-8	1050-1063	transitiepoli	
+12-9	1065-1068	icc	
+12-10	1069-1073	SCAR	
+12-11	1074-1078	poli	
+12-12	1079-1081	VU	
+12-13	1082-1084	mc	
+12-14	1085-1088	ivm	
+12-15	1089-1105	littekenprobleem	
+12-16	1105-1106	.	
+12-17	1112-1113	"	
+12-18	1113-1114	;	
+12-19	1114-1115	;	

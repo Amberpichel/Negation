@@ -1,0 +1,85 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=1382784;402573118;408441711;Zorgplan/VPK rapportage;2020-03-22;"Dhr rond 16u ontvangen op de afdeling.
+1-1	0-7	1382784	
+1-2	7-8	;	
+1-3	8-17	402573118	
+1-4	17-18	;	
+1-5	18-27	408441711	
+1-6	27-28	;	
+1-7	28-36	Zorgplan	
+1-8	36-37	/	
+1-9	37-40	VPK	
+1-10	41-51	rapportage	
+1-11	51-52	;	
+1-12	52-56	2020	
+1-13	56-57	-	
+1-14	57-59	03	
+1-15	59-60	-	
+1-16	60-62	22	
+1-17	62-63	;	
+1-18	63-64	"	
+1-19	64-67	Dhr	
+1-20	68-72	rond	
+1-21	73-76	16u	
+1-22	77-86	ontvangen	
+1-23	87-89	op	
+1-24	90-92	de	
+1-25	93-101	afdeling	
+1-26	101-102	.	
+
+#Text=TED-kousen zijn aangemeten en verpleegkundige opname is afgerond.
+2-1	103-113	TED-kousen	
+2-2	114-118	zijn	
+2-3	119-129	aangemeten	
+2-4	130-132	en	
+2-5	133-148	verpleegkundige	
+2-6	149-155	opname	
+2-7	156-158	is	
+2-8	159-167	afgerond	
+2-9	167-168	.	
+
+#Text=Dhr is op de hoogte van het nuchterbeleid vanaf 00:00 middernacht.
+3-1	169-172	Dhr	
+3-2	173-175	is	
+3-3	176-178	op	
+3-4	179-181	de	
+3-5	182-188	hoogte	
+3-6	189-192	van	
+3-7	193-196	het	
+3-8	197-210	nuchterbeleid	
+3-9	211-216	vanaf	
+3-10	217-219	00	
+3-11	219-220	:	
+3-12	220-222	00	
+3-13	223-234	middernacht	
+3-14	234-235	.	
+
+#Text=Ging voor CT-thorax.
+4-1	238-242	Ging	
+4-2	243-247	voor	
+4-3	248-257	CT-thorax	
+4-4	257-258	.	
+
+#Text=Lab is afgenomen.
+5-1	259-262	Lab	
+5-2	263-265	is	
+5-3	266-275	afgenomen	
+5-4	275-276	.	
+
+#Text=Vragen/ aanpassingen: Magnesiumhydroxide volgens zorgpad verhogen naar 1448mg.   ";;
+6-1	281-287	Vragen	
+6-2	287-288	/	
+6-3	289-301	aanpassingen	
+6-4	301-302	:	
+6-5	303-321	Magnesiumhydroxide	
+6-6	322-329	volgens	
+6-7	330-337	zorgpad	
+6-8	338-346	verhogen	
+6-9	347-351	naar	
+6-10	352-358	1448mg	
+6-11	358-359	.	
+6-12	362-363	"	
+6-13	363-364	;	
+6-14	364-365	;	

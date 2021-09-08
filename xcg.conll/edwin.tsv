@@ -1,0 +1,371 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1383315;387765488;393209010;Zorgplan/VPK rapportage;2020-01-28;"CZS: Hr ligt zich zelf in de weg, geeft aan dingen te horen die niet kloppen, realiteit is hij kwijt.
+1-1	0-7	1383315	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	387765488	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	393209010	_	_	
+1-6	27-28	;	_	_	
+1-7	28-36	Zorgplan	_	_	
+1-8	36-37	/	_	_	
+1-9	37-40	VPK	_	_	
+1-10	41-51	rapportage	_	_	
+1-11	51-52	;	_	_	
+1-12	52-56	2020	_	_	
+1-13	56-57	-	_	_	
+1-14	57-59	01	_	_	
+1-15	59-60	-	_	_	
+1-16	60-62	28	_	_	
+1-17	62-63	;	_	_	
+1-18	63-64	"	_	_	
+1-19	64-67	CZS	_	_	
+1-20	67-68	:	_	_	
+1-21	69-71	Hr	_	_	
+1-22	72-76	ligt	_	_	
+1-23	77-81	zich	_	_	
+1-24	82-86	zelf	_	_	
+1-25	87-89	in	_	_	
+1-26	90-92	de	_	_	
+1-27	93-96	weg	_	_	
+1-28	96-97	,	_	_	
+1-29	98-103	geeft	_	_	
+1-30	104-107	aan	_	_	
+1-31	108-114	dingen	_	_	
+1-32	115-117	te	_	_	
+1-33	118-123	horen	_	_	
+1-34	124-127	die	_	_	
+1-35	128-132	niet	*->6-1	NegCue[6]	
+1-36	133-140	kloppen	*->6-2	NegEvent[6]	
+1-37	140-141	,	_	_	
+1-38	142-151	realiteit	_	_	
+1-39	152-154	is	_	_	
+1-40	155-158	hij	_	_	
+1-41	159-164	kwijt	_	_	
+1-42	164-165	.	_	_	
+
+#Text=Zaalarts heeft contact gehad met aps, staken esketamine pomp en om 20uur starten met clonidine.
+2-1	167-175	Zaalarts	_	_	
+2-2	176-181	heeft	_	_	
+2-3	182-189	contact	_	_	
+2-4	190-195	gehad	_	_	
+2-5	196-199	met	_	_	
+2-6	200-203	aps	_	_	
+2-7	203-204	,	_	_	
+2-8	205-211	staken	_	_	
+2-9	212-222	esketamine	_	_	
+2-10	223-227	pomp	_	_	
+2-11	228-230	en	_	_	
+2-12	231-233	om	_	_	
+2-13	234-239	20uur	_	_	
+2-14	240-247	starten	_	_	
+2-15	248-251	met	_	_	
+2-16	252-261	clonidine	_	_	
+2-17	261-262	.	_	_	
+
+#Text=Maakt veel gebruik vd pca-morfine.
+3-1	263-268	Maakt	_	_	
+3-2	269-273	veel	_	_	
+3-3	274-281	gebruik	_	_	
+3-4	282-284	vd	_	_	
+3-5	285-296	pca-morfine	_	_	
+3-6	296-297	.	_	_	
+
+#Text=Bij navraag zijn de drains en vooral de insteek vd drains waar de pijn vandaan komt.
+4-1	299-302	Bij	_	_	
+4-2	303-310	navraag	_	_	
+4-3	311-315	zijn	_	_	
+4-4	316-318	de	_	_	
+4-5	319-325	drains	_	_	
+4-6	326-328	en	_	_	
+4-7	329-335	vooral	_	_	
+4-8	336-338	de	_	_	
+4-9	339-346	insteek	_	_	
+4-10	347-349	vd	_	_	
+4-11	350-356	drains	_	_	
+4-12	357-361	waar	_	_	
+4-13	362-364	de	_	_	
+4-14	365-369	pijn	_	_	
+4-15	370-377	vandaan	_	_	
+4-16	378-382	komt	_	_	
+4-17	382-383	.	_	_	
+
+#Text=Hr ligt nu rustig in bed,oogt ook rustig,  voelt zich alleen inwendig erg onrustig, krijgt zijn lijf niet rustig.
+5-1	385-387	Hr	_	_	
+5-2	388-392	ligt	_	_	
+5-3	393-395	nu	_	_	
+5-4	396-402	rustig	_	_	
+5-5	403-405	in	_	_	
+5-6	406-409	bed	_	_	
+5-7	409-410	,	_	_	
+5-8	410-414	oogt	_	_	
+5-9	415-418	ook	_	_	
+5-10	419-425	rustig	_	_	
+5-11	425-426	,	_	_	
+5-12	428-433	voelt	_	_	
+5-13	434-438	zich	_	_	
+5-14	439-445	alleen	_	_	
+5-15	446-454	inwendig	_	_	
+5-16	455-458	erg	_	_	
+5-17	459-467	onrustig	_	_	
+5-18	467-468	,	_	_	
+5-19	469-475	krijgt	_	_	
+5-20	476-480	zijn	_	_	
+5-21	481-485	lijf	_	_	
+5-22	486-490	niet	*->7-1	NegCue[7]	
+5-23	491-497	rustig	*->7-2	NegEvent[7]	
+5-24	497-498	.	_	_	
+
+#Text=Soms lijkt het alsof hij kramp pijnen heeft, het komt en het gaat weer.
+6-1	499-503	Soms	_	_	
+6-2	504-509	lijkt	_	_	
+6-3	510-513	het	_	_	
+6-4	514-519	alsof	_	_	
+6-5	520-523	hij	_	_	
+6-6	524-529	kramp	_	_	
+6-7	530-536	pijnen	_	_	
+6-8	537-542	heeft	_	_	
+6-9	542-543	,	_	_	
+6-10	544-547	het	_	_	
+6-11	548-552	komt	_	_	
+6-12	553-555	en	_	_	
+6-13	556-559	het	_	_	
+6-14	560-564	gaat	_	_	
+6-15	565-569	weer	_	_	
+6-16	569-570	.	_	_	
+
+#Text=PSYCH: morgen maatschappelijk werk inschakelen bij hr, zit er psychisch helemaal doorheen  RESP: vernevelen helpt wel.
+7-1	572-577	PSYCH	_	_	
+7-2	577-578	:	_	_	
+7-3	579-585	morgen	_	_	
+7-4	586-601	maatschappelijk	_	_	
+7-5	602-606	werk	_	_	
+7-6	607-618	inschakelen	_	_	
+7-7	619-622	bij	_	_	
+7-8	623-625	hr	_	_	
+7-9	625-626	,	_	_	
+7-10	627-630	zit	_	_	
+7-11	631-633	er	_	_	
+7-12	634-643	psychisch	_	_	
+7-13	644-652	helemaal	_	_	
+7-14	653-661	doorheen	_	_	
+7-15	663-667	RESP	_	_	
+7-16	667-668	:	_	_	
+7-17	669-679	vernevelen	_	_	
+7-18	680-685	helpt	_	_	
+7-19	686-689	wel	_	_	
+7-20	689-690	.	_	_	
+
+#Text=CIRC: blijft wat temp houden, verdere controles blijven stabiel.
+8-1	692-696	CIRC	_	_	
+8-2	696-697	:	_	_	
+8-3	698-704	blijft	_	_	
+8-4	705-708	wat	_	_	
+8-5	709-713	temp	_	_	
+8-6	714-720	houden	_	_	
+8-7	720-721	,	_	_	
+8-8	722-729	verdere	_	_	
+8-9	730-739	controles	_	_	
+8-10	740-747	blijven	_	_	
+8-11	748-755	stabiel	_	_	
+8-12	755-756	.	_	_	
+
+#Text=DIG: stoma produceert matig, dun.
+9-1	758-761	DIG	_	_	
+9-2	761-762	:	_	_	
+9-3	763-768	stoma	_	_	
+9-4	769-779	produceert	_	_	
+9-5	780-785	matig	_	_	
+9-6	785-786	,	_	_	
+9-7	787-790	dun	_	_	
+9-8	790-791	.	_	_	
+
+#Text=Heeft vol gevoel in de maag.
+10-1	793-798	Heeft	_	_	
+10-2	799-802	vol	_	_	
+10-3	803-809	gevoel	_	_	
+10-4	810-812	in	_	_	
+10-5	813-815	de	_	_	
+10-6	816-820	maag	_	_	
+10-7	820-821	.	_	_	
+
+#Text=Hr drinkt veel water, geadviseerd hierin te matigen en alleen een slokje te drinken.
+11-1	823-825	Hr	_	_	
+11-2	826-832	drinkt	_	_	
+11-3	833-837	veel	_	_	
+11-4	838-843	water	_	_	
+11-5	843-844	,	_	_	
+11-6	845-856	geadviseerd	_	_	
+11-7	857-863	hierin	_	_	
+11-8	864-866	te	_	_	
+11-9	867-874	matigen	_	_	
+11-10	875-877	en	_	_	
+11-11	878-884	alleen	_	_	
+11-12	885-888	een	_	_	
+11-13	889-895	slokje	_	_	
+11-14	896-898	te	_	_	
+11-15	899-906	drinken	_	_	
+11-16	906-907	.	_	_	
+
+#Text=Is niet misselijk.
+12-1	908-910	Is	_	_	
+12-2	911-915	niet	*->1-1	NegCue[1]	
+12-3	916-925	misselijk	*->1-2	NegEvent[1]	
+12-4	925-926	.	_	_	
+
+#Text=Morgen weer verder kijken.
+13-1	928-934	Morgen	_	_	
+13-2	935-939	weer	_	_	
+13-3	940-946	verder	_	_	
+13-4	947-953	kijken	_	_	
+13-5	953-954	.	_	_	
+
+#Text=URO: urineert goed.
+14-1	956-959	URO	_	_	
+14-2	959-960	:	_	_	
+14-3	961-969	urineert	_	_	
+14-4	970-974	goed	_	_	
+14-5	974-975	.	_	_	
+
+#Text=CHIR: drain links is bijna niet doorgankelijk, spoelen lukte niet.
+15-1	977-981	CHIR	_	_	
+15-2	981-982	:	_	_	
+15-3	983-988	drain	_	_	
+15-4	989-994	links	_	_	
+15-5	995-997	is	_	_	
+15-6	998-1003	bijna	_	_	
+15-7	1004-1008	niet	*->2-1	NegCue[2]	
+15-8	1009-1022	doorgankelijk	*->2-2	NegEvent[2]	
+15-9	1022-1023	,	_	_	
+15-10	1024-1031	spoelen	*->8-1	NegEvent[8]	
+15-11	1032-1037	lukte	_	_	
+15-12	1038-1042	niet	*->8-2	NegCue[8]	
+15-13	1042-1043	.	_	_	
+
+#Text=Drain rechts lekt flink helder bloed, langs de insteek, spoelen met 20cc ging goed, produktie is niet veel.
+16-1	1044-1049	Drain	_	_	
+16-2	1050-1056	rechts	_	_	
+16-3	1057-1061	lekt	_	_	
+16-4	1062-1067	flink	_	_	
+16-5	1068-1074	helder	_	_	
+16-6	1075-1080	bloed	_	_	
+16-7	1080-1081	,	_	_	
+16-8	1082-1087	langs	_	_	
+16-9	1088-1090	de	_	_	
+16-10	1091-1098	insteek	_	_	
+16-11	1098-1099	,	_	_	
+16-12	1100-1107	spoelen	_	_	
+16-13	1108-1111	met	_	_	
+16-14	1112-1116	20cc	_	_	
+16-15	1117-1121	ging	_	_	
+16-16	1122-1126	goed	_	_	
+16-17	1126-1127	,	_	_	
+16-18	1128-1137	produktie	*->5-1	NegEvent[5]	
+16-19	1138-1140	is	_	_	
+16-20	1141-1145	niet	*->5-2	NegCue[5]	
+16-21	1146-1150	veel	_	_	
+16-22	1150-1151	.	_	_	
+
+#Text=MOB: dit ging vanavond echt niet, morgen weer opnieuw proberen.
+17-1	1153-1156	MOB	*->4-1	NegEvent[4]	
+17-2	1156-1157	:	_	_	
+17-3	1158-1161	dit	_	_	
+17-4	1162-1166	ging	_	_	
+17-5	1167-1175	vanavond	_	_	
+17-6	1176-1180	echt	_	_	
+17-7	1181-1185	niet	*->4-2	NegCue[4]	
+17-8	1185-1186	,	_	_	
+17-9	1187-1193	morgen	_	_	
+17-10	1194-1198	weer	_	_	
+17-11	1199-1206	opnieuw	_	_	
+17-12	1207-1215	proberen	_	_	
+17-13	1215-1216	.	_	_	
+
+#Text=Overig:   Vragen / aanpassingen: Morgen graag herstarten met methylfenidaat op vaste tijden: 8 uur 2 tabl, 11 uur 2 tab en 14 uur 2 tabl, hr denkt nl ook dat de onrust hiervan is omdat hij dit sinds ok niet heeft geslikt., order aanpassen dus.
+18-1	1218-1224	Overig	_	_	
+18-2	1224-1225	:	_	_	
+18-3	1228-1234	Vragen	_	_	
+18-4	1235-1236	/	_	_	
+18-5	1237-1249	aanpassingen	_	_	
+18-6	1249-1250	:	_	_	
+18-7	1251-1257	Morgen	_	_	
+18-8	1258-1263	graag	_	_	
+18-9	1264-1274	herstarten	_	_	
+18-10	1275-1278	met	_	_	
+18-11	1279-1293	methylfenidaat	_	_	
+18-12	1294-1296	op	_	_	
+18-13	1297-1302	vaste	_	_	
+18-14	1303-1309	tijden	_	_	
+18-15	1309-1310	:	_	_	
+18-16	1311-1312	8	_	_	
+18-17	1313-1316	uur	_	_	
+18-18	1317-1318	2	_	_	
+18-19	1319-1323	tabl	_	_	
+18-20	1323-1324	,	_	_	
+18-21	1325-1327	11	_	_	
+18-22	1328-1331	uur	_	_	
+18-23	1332-1333	2	_	_	
+18-24	1334-1337	tab	_	_	
+18-25	1338-1340	en	_	_	
+18-26	1341-1343	14	_	_	
+18-27	1344-1347	uur	_	_	
+18-28	1348-1349	2	_	_	
+18-29	1350-1354	tabl	_	_	
+18-30	1354-1355	,	_	_	
+18-31	1356-1358	hr	_	_	
+18-32	1359-1364	denkt	_	_	
+18-33	1365-1367	nl	_	_	
+18-34	1368-1371	ook	_	_	
+18-35	1372-1375	dat	_	_	
+18-36	1376-1378	de	_	_	
+18-37	1379-1385	onrust	_	_	
+18-38	1386-1393	hiervan	_	_	
+18-39	1394-1396	is	_	_	
+18-40	1397-1402	omdat	_	_	
+18-41	1403-1406	hij	_	_	
+18-42	1407-1410	dit	_	_	
+18-43	1411-1416	sinds	_	_	
+18-44	1417-1419	ok	_	_	
+18-45	1420-1424	niet	*->3-1	NegCue[3]	
+18-46	1425-1430	heeft	_	_	
+18-47	1431-1438	geslikt	*->3-2	NegEvent[3]	
+18-48	1438-1439	.	_	_	
+18-49	1439-1440	,	_	_	
+18-50	1441-1446	order	_	_	
+18-51	1447-1456	aanpassen	_	_	
+18-52	1457-1460	dus	_	_	
+18-53	1460-1461	.	_	_	
+
+#Text=Morgen naar de insteek drain rechts laten kijken door de artsen.
+19-1	1463-1469	Morgen	_	_	
+19-2	1470-1474	naar	_	_	
+19-3	1475-1477	de	_	_	
+19-4	1478-1485	insteek	_	_	
+19-5	1486-1491	drain	_	_	
+19-6	1492-1498	rechts	_	_	
+19-7	1499-1504	laten	_	_	
+19-8	1505-1511	kijken	_	_	
+19-9	1512-1516	door	_	_	
+19-10	1517-1519	de	_	_	
+19-11	1520-1526	artsen	_	_	
+19-12	1526-1527	.	_	_	
+
+#Text=Moeder blijft vannacht bij Bas slapen, dit stelt hem al gerust.  ";;
+20-1	1531-1537	Moeder	_	_	
+20-2	1538-1544	blijft	_	_	
+20-3	1545-1553	vannacht	_	_	
+20-4	1554-1557	bij	_	_	
+20-5	1558-1561	Bas	_	_	
+20-6	1562-1568	slapen	_	_	
+20-7	1568-1569	,	_	_	
+20-8	1570-1573	dit	_	_	
+20-9	1574-1579	stelt	_	_	
+20-10	1580-1583	hem	_	_	
+20-11	1584-1586	al	_	_	
+20-12	1587-1593	gerust	_	_	
+20-13	1593-1594	.	_	_	
+20-14	1596-1597	"	_	_	
+20-15	1597-1598	;	_	_	
+20-16	1598-1599	;	_	_	

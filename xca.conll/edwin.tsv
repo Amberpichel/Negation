@@ -1,0 +1,464 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1382620;393226854;398811818;Voortgangsverslag;2020-02-16;"Reden van komst  Fecale incontinentie    Voorgeschiedenis  Actieve poliklinische problemen     Diagnose Datum registratie   • Congenitaal afwijkend kind (verlos. medische indicatie) 10-11-2017   • schisis association 17-11-2017   • Complicatie VOBS Totaalruptuur tijd. partus / operatie 19-03-2018   • incontinentie voor feces 16-02-2020     Overige poliklinische problemen     Diagnose Datum registratie   • Geen opgeloste poliklinische problemen     Allergieën  Patiënt heeft voor zover bekend geen allergieën.
+1-1	0-7	1382620	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	393226854	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	398811818	_	_	
+1-6	27-28	;	_	_	
+1-7	28-45	Voortgangsverslag	_	_	
+1-8	45-46	;	_	_	
+1-9	46-50	2020	_	_	
+1-10	50-51	-	_	_	
+1-11	51-53	02	_	_	
+1-12	53-54	-	_	_	
+1-13	54-56	16	_	_	
+1-14	56-57	;	_	_	
+1-15	57-58	"	_	_	
+1-16	58-63	Reden	_	_	
+1-17	64-67	van	_	_	
+1-18	68-73	komst	_	_	
+1-19	75-81	Fecale	_	_	
+1-20	82-95	incontinentie	_	_	
+1-21	99-115	Voorgeschiedenis	_	_	
+1-22	117-124	Actieve	_	_	
+1-23	125-138	poliklinische	_	_	
+1-24	139-148	problemen	_	_	
+1-25	153-161	Diagnose	_	_	
+1-26	162-167	Datum	_	_	
+1-27	168-179	registratie	_	_	
+1-28	182-183	•	_	_	
+1-29	184-195	Congenitaal	_	_	
+1-30	196-205	afwijkend	_	_	
+1-31	206-210	kind	_	_	
+1-32	211-212	(	_	_	
+1-33	212-218	verlos	_	_	
+1-34	218-219	.	_	_	
+1-35	220-228	medische	_	_	
+1-36	229-238	indicatie	_	_	
+1-37	238-239	)	_	_	
+1-38	240-242	10	_	_	
+1-39	242-243	-	_	_	
+1-40	243-245	11	_	_	
+1-41	245-246	-	_	_	
+1-42	246-250	2017	_	_	
+1-43	253-254	•	_	_	
+1-44	255-262	schisis	_	_	
+1-45	263-274	association	_	_	
+1-46	275-277	17	_	_	
+1-47	277-278	-	_	_	
+1-48	278-280	11	_	_	
+1-49	280-281	-	_	_	
+1-50	281-285	2017	_	_	
+1-51	288-289	•	_	_	
+1-52	290-301	Complicatie	_	_	
+1-53	302-306	VOBS	_	_	
+1-54	307-320	Totaalruptuur	_	_	
+1-55	321-325	tijd	_	_	
+1-56	325-326	.	_	_	
+1-57	327-333	partus	_	_	
+1-58	334-335	/	_	_	
+1-59	336-344	operatie	_	_	
+1-60	345-347	19	_	_	
+1-61	347-348	-	_	_	
+1-62	348-350	03	_	_	
+1-63	350-351	-	_	_	
+1-64	351-355	2018	_	_	
+1-65	358-359	•	_	_	
+1-66	360-373	incontinentie	_	_	
+1-67	374-378	voor	_	_	
+1-68	379-384	feces	_	_	
+1-69	385-387	16	_	_	
+1-70	387-388	-	_	_	
+1-71	388-390	02	_	_	
+1-72	390-391	-	_	_	
+1-73	391-395	2020	_	_	
+1-74	400-407	Overige	_	_	
+1-75	408-421	poliklinische	_	_	
+1-76	422-431	problemen	_	_	
+1-77	436-444	Diagnose	_	_	
+1-78	445-450	Datum	_	_	
+1-79	451-462	registratie	_	_	
+1-80	465-466	•	_	_	
+1-81	467-471	Geen	_	_	
+1-82	472-481	opgeloste	_	_	
+1-83	482-495	poliklinische	_	_	
+1-84	496-505	problemen	_	_	
+1-85	510-520	Allergieën	_	_	
+1-86	522-529	Patiënt	_	_	
+1-87	530-535	heeft	_	_	
+1-88	536-540	voor	_	_	
+1-89	541-546	zover	_	_	
+1-90	547-553	bekend	_	_	
+1-91	554-558	geen	*->4-1	NegCue[4]	
+1-92	559-569	allergieën	*->4-2	NegEvent[4]	
+1-93	569-570	.	_	_	
+
+#Text=Thuismedicatie   - macrogol/zouten (MOVICOLON JUNIOR) poeder voor drank, 1 sachet, oraal, 1dd   - magnesiumhydroxide 724 mg kauwtablet, 724 mg, oraal, 3dd    Speciele anamnese   Vorig jaar vaginaal bevallen met tPerineumruptuur 3B / hoge vaginawandruptuur.
+2-1	574-588	Thuismedicatie	_	_	
+2-2	591-592	-	_	_	
+2-3	593-601	macrogol	_	_	
+2-4	601-602	/	_	_	
+2-5	602-608	zouten	_	_	
+2-6	609-610	(	_	_	
+2-7	610-619	MOVICOLON	_	_	
+2-8	620-626	JUNIOR	_	_	
+2-9	626-627	)	_	_	
+2-10	628-634	poeder	_	_	
+2-11	635-639	voor	_	_	
+2-12	640-645	drank	_	_	
+2-13	645-646	,	_	_	
+2-14	647-648	1	_	_	
+2-15	649-655	sachet	_	_	
+2-16	655-656	,	_	_	
+2-17	657-662	oraal	_	_	
+2-18	662-663	,	_	_	
+2-19	664-667	1dd	_	_	
+2-20	670-671	-	_	_	
+2-21	672-690	magnesiumhydroxide	_	_	
+2-22	691-694	724	_	_	
+2-23	695-697	mg	_	_	
+2-24	698-708	kauwtablet	_	_	
+2-25	708-709	,	_	_	
+2-26	710-713	724	_	_	
+2-27	714-716	mg	_	_	
+2-28	716-717	,	_	_	
+2-29	718-723	oraal	_	_	
+2-30	723-724	,	_	_	
+2-31	725-728	3dd	_	_	
+2-32	732-740	Speciele	_	_	
+2-33	741-749	anamnese	_	_	
+2-34	752-757	Vorig	_	_	
+2-35	758-762	jaar	_	_	
+2-36	763-771	vaginaal	_	_	
+2-37	772-780	bevallen	_	_	
+2-38	781-784	met	_	_	
+2-39	785-801	tPerineumruptuur	_	_	
+2-40	802-804	3B	_	_	
+2-41	805-806	/	_	_	
+2-42	807-811	hoge	_	_	
+2-43	812-829	vaginawandruptuur	_	_	
+2-44	829-830	.	_	_	
+
+#Text=Overhecht op OK.
+3-1	831-840	Overhecht	_	_	
+3-2	841-843	op	_	_	
+3-3	844-846	OK	_	_	
+3-4	846-847	.	_	_	
+
+#Text=Post partum bekkenbodemfysiotherapie gedaan en ontlastingsadviezen (niet vermijden, verhoging voor voeten, voorover gebogen, vezels).
+4-1	848-852	Post	_	_	
+4-2	853-859	partum	_	_	
+4-3	860-884	bekkenbodemfysiotherapie	_	_	
+4-4	885-891	gedaan	_	_	
+4-5	892-894	en	_	_	
+4-6	895-914	ontlastingsadviezen	_	_	
+4-7	915-916	(	_	_	
+4-8	916-920	niet	*->7-1	NegCue[7]	
+4-9	921-930	vermijden	*->7-2	NegEvent[7]	
+4-10	930-931	,	_	_	
+4-11	932-941	verhoging	_	_	
+4-12	942-946	voor	_	_	
+4-13	947-953	voeten	_	_	
+4-14	953-954	,	_	_	
+4-15	955-963	voorover	_	_	
+4-16	964-971	gebogen	_	_	
+4-17	971-972	,	_	_	
+4-18	973-979	vezels	_	_	
+4-19	979-980	)	_	_	
+4-20	980-981	.	_	_	
+
+#Text=Desondanks persisterend soiling.
+5-1	982-992	Desondanks	_	_	
+5-2	993-1005	persisterend	_	_	
+5-3	1006-1013	soiling	_	_	
+5-4	1013-1014	.	_	_	
+
+#Text=Ontlasting zelf geen probleem, eenmaal daags, normale consistentie.
+6-1	1015-1025	Ontlasting	_	_	
+6-2	1026-1030	zelf	_	_	
+6-3	1031-1035	geen	*->3-1	NegCue[3]	
+6-4	1036-1044	probleem	*->3-2	NegEvent[3]	
+6-5	1044-1045	,	_	_	
+6-6	1046-1053	eenmaal	_	_	
+6-7	1054-1059	daags	_	_	
+6-8	1059-1060	,	_	_	
+6-9	1061-1068	normale	_	_	
+6-10	1069-1081	consistentie	_	_	
+6-11	1081-1082	.	_	_	
+
+#Text=Geen gevoel van onvolledige evacuatie, desalniettemin toch vaak nog sporen in onderbroek, of bij urineren later nog wat verlies ontlasting.
+7-1	1083-1087	Geen	*->9-1	NegCue[9]	
+7-2	1088-1094	gevoel	*->9-2	NegEvent[9]	
+7-3	1095-1098	van	_	_	
+7-4	1099-1110	onvolledige	_	_	
+7-5	1111-1120	evacuatie	_	_	
+7-6	1120-1121	,	_	_	
+7-7	1122-1136	desalniettemin	_	_	
+7-8	1137-1141	toch	_	_	
+7-9	1142-1146	vaak	_	_	
+7-10	1147-1150	nog	_	_	
+7-11	1151-1157	sporen	_	_	
+7-12	1158-1160	in	_	_	
+7-13	1161-1171	onderbroek	_	_	
+7-14	1171-1172	,	_	_	
+7-15	1173-1175	of	_	_	
+7-16	1176-1179	bij	_	_	
+7-17	1180-1188	urineren	_	_	
+7-18	1189-1194	later	_	_	
+7-19	1195-1198	nog	_	_	
+7-20	1199-1202	wat	_	_	
+7-21	1203-1210	verlies	_	_	
+7-22	1211-1221	ontlasting	_	_	
+7-23	1221-1222	.	_	_	
+
+#Text=Voor bevalling nooit klachten.
+8-1	1227-1231	Voor	_	_	
+8-2	1232-1241	bevalling	_	_	
+8-3	1242-1247	nooit	_	_	
+8-4	1248-1256	klachten	_	_	
+8-5	1256-1257	.	_	_	
+
+#Text=Sociale impact  Niet invaliderend.
+9-1	1262-1269	Sociale	_	_	
+9-2	1270-1276	impact	_	_	
+9-3	1278-1282	Niet	*->6-1	NegCue[6]	
+9-4	1283-1295	invaliderend	*->6-2	NegEvent[6]	
+9-5	1295-1296	.	_	_	
+
+#Text=Kan ermee leven, maar voelt zich wel minder fris/ vrouwelijk bij.
+10-1	1297-1300	Kan	_	_	
+10-2	1301-1306	ermee	_	_	
+10-3	1307-1312	leven	_	_	
+10-4	1312-1313	,	_	_	
+10-5	1314-1318	maar	_	_	
+10-6	1319-1324	voelt	_	_	
+10-7	1325-1329	zich	_	_	
+10-8	1330-1333	wel	_	_	
+10-9	1334-1340	minder	_	_	
+10-10	1341-1345	fris	_	_	
+10-11	1345-1346	/	_	_	
+10-12	1347-1357	vrouwelijk	_	_	
+10-13	1358-1361	bij	_	_	
+10-14	1361-1362	.	_	_	
+
+#Text=Is met name ook benieuwd of volgende zwangerschap eventueel belemmerd zou worden.
+11-1	1363-1365	Is	_	_	
+11-2	1366-1369	met	_	_	
+11-3	1370-1374	name	_	_	
+11-4	1375-1378	ook	_	_	
+11-5	1379-1387	benieuwd	_	_	
+11-6	1388-1390	of	_	_	
+11-7	1391-1399	volgende	_	_	
+11-8	1400-1412	zwangerschap	_	_	
+11-9	1413-1422	eventueel	_	_	
+11-10	1423-1432	belemmerd	_	_	
+11-11	1433-1436	zou	_	_	
+11-12	1437-1443	worden	_	_	
+11-13	1443-1444	.	_	_	
+
+#Text=Sociale anamnese:  Werkt in gehandicaptenzorg  Zoontje maakt het goed, schisis opereerd.
+12-1	1449-1456	Sociale	_	_	
+12-2	1457-1465	anamnese	_	_	
+12-3	1465-1466	:	_	_	
+12-4	1468-1473	Werkt	_	_	
+12-5	1474-1476	in	_	_	
+12-6	1477-1494	gehandicaptenzorg	_	_	
+12-7	1496-1503	Zoontje	_	_	
+12-8	1504-1509	maakt	_	_	
+12-9	1510-1513	het	_	_	
+12-10	1514-1518	goed	_	_	
+12-11	1518-1519	,	_	_	
+12-12	1520-1527	schisis	_	_	
+12-13	1528-1536	opereerd	_	_	
+12-14	1536-1537	.	_	_	
+
+#Text=Lichamelijk onderzoek  Vaginaal toucher: Geen defecten in wand palpabel, niet gevoelig.
+13-1	1542-1553	Lichamelijk	_	_	
+13-2	1554-1563	onderzoek	_	_	
+13-3	1565-1573	Vaginaal	_	_	
+13-4	1574-1581	toucher	_	_	
+13-5	1581-1582	:	_	_	
+13-6	1583-1587	Geen	_	_	
+13-7	1588-1596	defecten	_	_	
+13-8	1597-1599	in	_	_	
+13-9	1600-1604	wand	_	_	
+13-10	1605-1613	palpabel	_	_	
+13-11	1613-1614	,	_	_	
+13-12	1615-1619	niet	*->5-1	NegCue[5]	
+13-13	1620-1628	gevoelig	*->5-2	NegEvent[5]	
+13-14	1628-1629	.	_	_	
+
+#Text=Rectaal toucher: Goede sfincterspanning, wat vaste ontlasting palpabel, geen defecten in kringspier palpabel.
+14-1	1632-1639	Rectaal	_	_	
+14-2	1640-1647	toucher	_	_	
+14-3	1647-1648	:	_	_	
+14-4	1649-1654	Goede	_	_	
+14-5	1655-1671	sfincterspanning	_	_	
+14-6	1671-1672	,	_	_	
+14-7	1673-1676	wat	_	_	
+14-8	1677-1682	vaste	_	_	
+14-9	1683-1693	ontlasting	_	_	
+14-10	1694-1702	palpabel	_	_	
+14-11	1702-1703	,	_	_	
+14-12	1704-1708	geen	*->8-1	NegCue[8]	
+14-13	1709-1717	defecten	*->8-2	NegEvent[8]	
+14-14	1718-1720	in	_	_	
+14-15	1721-1731	kringspier	_	_	
+14-16	1732-1740	palpabel	_	_	
+14-17	1740-1741	.	_	_	
+
+#Text=Wand tussen vagina en rectum stevig (voor zover te beoordelen door arts MDL).
+15-1	1742-1746	Wand	_	_	
+15-2	1747-1753	tussen	_	_	
+15-3	1754-1760	vagina	_	_	
+15-4	1761-1763	en	_	_	
+15-5	1764-1770	rectum	_	_	
+15-6	1771-1777	stevig	_	_	
+15-7	1778-1779	(	_	_	
+15-8	1779-1783	voor	_	_	
+15-9	1784-1789	zover	_	_	
+15-10	1790-1792	te	_	_	
+15-11	1793-1803	beoordelen	_	_	
+15-12	1804-1808	door	_	_	
+15-13	1809-1813	arts	_	_	
+15-14	1814-1817	MDL	_	_	
+15-15	1817-1818	)	_	_	
+15-16	1818-1819	.	_	_	
+
+#Text=Conclusie   Soiling sinds gecompliceerde vaginale bevalling (perineumruptuur/ hoge vaginawandruptuur).
+16-1	1827-1836	Conclusie	_	_	
+16-2	1839-1846	Soiling	_	_	
+16-3	1847-1852	sinds	_	_	
+16-4	1853-1867	gecompliceerde	_	_	
+16-5	1868-1876	vaginale	_	_	
+16-6	1877-1886	bevalling	_	_	
+16-7	1887-1888	(	_	_	
+16-8	1888-1903	perineumruptuur	_	_	
+16-9	1903-1904	/	_	_	
+16-10	1905-1909	hoge	_	_	
+16-11	1910-1927	vaginawandruptuur	_	_	
+16-12	1927-1928	)	_	_	
+16-13	1928-1929	.	_	_	
+
+#Text=Houdt zicht reeds zeer goed aan ontlastingsadviezen (zie hieronder)  Alleen bekkenbodemfysiotherapie gehad post partum.
+17-1	1931-1936	Houdt	_	_	
+17-2	1937-1942	zicht	_	_	
+17-3	1943-1948	reeds	_	_	
+17-4	1949-1953	zeer	_	_	
+17-5	1954-1958	goed	_	_	
+17-6	1959-1962	aan	_	_	
+17-7	1963-1982	ontlastingsadviezen	_	_	
+17-8	1983-1984	(	_	_	
+17-9	1984-1987	zie	_	_	
+17-10	1988-1997	hieronder	_	_	
+17-11	1997-1998	)	_	_	
+17-12	2000-2006	Alleen	_	_	
+17-13	2007-2031	bekkenbodemfysiotherapie	_	_	
+17-14	2032-2037	gehad	_	_	
+17-15	2038-2042	post	_	_	
+17-16	2043-2049	partum	_	_	
+17-17	2049-2050	.	_	_	
+
+#Text=Beleid  - Advies opnieuw bekkenbodemfysiotherapie  - Ontlastingsadviezen continueren  - Indien gewenst bij persisterende klachten multidisciplinaire benadering (gynaecoloog, colorectaal chirurg, MDL arts en bekkenbodemfystioherapeut) voor eventuele aanvullende diagnostiek zoals anorectale endoechoscopie en ter evaluatie of eventueel sacrale neuromodulatie of geavanceerde sfincter chirurgie.
+18-1	2056-2062	Beleid	_	_	
+18-2	2064-2065	-	_	_	
+18-3	2066-2072	Advies	_	_	
+18-4	2073-2080	opnieuw	_	_	
+18-5	2081-2105	bekkenbodemfysiotherapie	_	_	
+18-6	2107-2108	-	_	_	
+18-7	2109-2128	Ontlastingsadviezen	_	_	
+18-8	2129-2140	continueren	_	_	
+18-9	2142-2143	-	_	_	
+18-10	2144-2150	Indien	_	_	
+18-11	2151-2158	gewenst	_	_	
+18-12	2159-2162	bij	_	_	
+18-13	2163-2176	persisterende	_	_	
+18-14	2177-2185	klachten	_	_	
+18-15	2186-2204	multidisciplinaire	_	_	
+18-16	2205-2215	benadering	_	_	
+18-17	2216-2217	(	_	_	
+18-18	2217-2228	gynaecoloog	_	_	
+18-19	2228-2229	,	_	_	
+18-20	2230-2241	colorectaal	_	_	
+18-21	2242-2249	chirurg	_	_	
+18-22	2249-2250	,	_	_	
+18-23	2251-2254	MDL	_	_	
+18-24	2255-2259	arts	_	_	
+18-25	2260-2262	en	_	_	
+18-26	2263-2288	bekkenbodemfystioherapeut	_	_	
+18-27	2288-2289	)	_	_	
+18-28	2290-2294	voor	_	_	
+18-29	2295-2304	eventuele	_	_	
+18-30	2305-2316	aanvullende	_	_	
+18-31	2317-2328	diagnostiek	_	_	
+18-32	2329-2334	zoals	_	_	
+18-33	2335-2345	anorectale	_	_	
+18-34	2346-2360	endoechoscopie	_	_	
+18-35	2361-2363	en	_	_	
+18-36	2364-2367	ter	_	_	
+18-37	2368-2377	evaluatie	_	_	
+18-38	2378-2380	of	_	_	
+18-39	2381-2390	eventueel	_	_	
+18-40	2391-2398	sacrale	_	_	
+18-41	2399-2413	neuromodulatie	_	_	
+18-42	2414-2416	of	_	_	
+18-43	2417-2429	geavanceerde	_	_	
+18-44	2430-2438	sfincter	_	_	
+18-45	2439-2448	chirurgie	_	_	
+18-46	2448-2449	.	_	_	
+
+#Text=Dit zal in een gespecialiseerd centrum moeten plaats vinden zoals de Proctos kliniek in BIlthoven aangezien de expertise hiervoor helaas niet aanwezig is in het Amsterdam UMC
+19-1	2450-2453	Dit	_	_	
+19-2	2454-2457	zal	_	_	
+19-3	2458-2460	in	_	_	
+19-4	2461-2464	een	_	_	
+19-5	2465-2480	gespecialiseerd	_	_	
+19-6	2481-2488	centrum	_	_	
+19-7	2489-2495	moeten	_	_	
+19-8	2496-2502	plaats	_	_	
+19-9	2503-2509	vinden	_	_	
+19-10	2510-2515	zoals	_	_	
+19-11	2516-2518	de	_	_	
+19-12	2519-2526	Proctos	_	_	
+19-13	2527-2534	kliniek	_	_	
+19-14	2535-2537	in	_	_	
+19-15	2538-2547	BIlthoven	_	_	
+19-16	2548-2557	aangezien	_	_	
+19-17	2558-2560	de	_	_	
+19-18	2561-2570	expertise	_	_	
+19-19	2571-2579	hiervoor	_	_	
+19-20	2580-2586	helaas	_	_	
+19-21	2587-2591	niet	*->2-1	NegCue[2]	
+19-22	2592-2600	aanwezig	*->2-2	NegEvent[2]	
+19-23	2601-2603	is	_	_	
+19-24	2604-2606	in	_	_	
+19-25	2607-2610	het	_	_	
+19-26	2611-2620	Amsterdam	_	_	
+19-27	2621-2624	UMC	_	_	
+
+#Text=.
+20-1	2624-2625	.	_	_	
+
+#Text=- Shared decision voor nu eerst effect bekkenbodemfysiotherapie afwachten  - Ik maakte geen vervolgafspraak.   ";;
+21-1	2628-2629	-	_	_	
+21-2	2630-2636	Shared	_	_	
+21-3	2637-2645	decision	_	_	
+21-4	2646-2650	voor	_	_	
+21-5	2651-2653	nu	_	_	
+21-6	2654-2659	eerst	_	_	
+21-7	2660-2666	effect	_	_	
+21-8	2667-2691	bekkenbodemfysiotherapie	_	_	
+21-9	2692-2701	afwachten	_	_	
+21-10	2703-2704	-	_	_	
+21-11	2705-2707	Ik	_	_	
+21-12	2708-2714	maakte	_	_	
+21-13	2715-2719	geen	*->1-1	NegCue[1]	
+21-14	2720-2735	vervolgafspraak	*->1-2	NegEvent[1]	
+21-15	2735-2736	.	_	_	
+21-16	2739-2740	"	_	_	
+21-17	2740-2741	;	_	_	
+21-18	2741-2742	;	_	_	

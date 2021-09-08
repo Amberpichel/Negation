@@ -1,0 +1,402 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1190039;403762802;409712956;Voortgangsverslag;2020-03-26;"Hoofdbehandelaar JD. de Boer, Arts-assist*  Duur huidige opname 2    Volledig beleid    Reden van opname  Verdenking transplantaatpyelonefritis, UK: E.
+1-1	0-7	1190039	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	403762802	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	409712956	_	_	
+1-6	27-28	;	_	_	
+1-7	28-45	Voortgangsverslag	_	_	
+1-8	45-46	;	_	_	
+1-9	46-50	2020	_	_	
+1-10	50-51	-	_	_	
+1-11	51-53	03	_	_	
+1-12	53-54	-	_	_	
+1-13	54-56	26	_	_	
+1-14	56-57	;	_	_	
+1-15	57-58	"	_	_	
+1-16	58-74	Hoofdbehandelaar	_	_	
+1-17	75-77	JD	_	_	
+1-18	77-78	.	_	_	
+1-19	79-81	de	_	_	
+1-20	82-86	Boer	_	_	
+1-21	86-87	,	_	_	
+1-22	88-99	Arts-assist	_	_	
+1-23	99-100	*	_	_	
+1-24	102-106	Duur	_	_	
+1-25	107-114	huidige	_	_	
+1-26	115-121	opname	_	_	
+1-27	122-123	2	_	_	
+1-28	127-135	Volledig	_	_	
+1-29	136-142	beleid	_	_	
+1-30	146-151	Reden	_	_	
+1-31	152-155	van	_	_	
+1-32	156-162	opname	_	_	
+1-33	164-174	Verdenking	_	_	
+1-34	175-201	transplantaatpyelonefritis	_	_	
+1-35	201-202	,	_	_	
+1-36	203-205	UK	_	_	
+1-37	205-206	:	_	_	
+1-38	207-208	E	_	_	
+1-39	208-209	.	_	_	
+
+#Text=Coli     Speciele anamnese   Vpk: Ze was misselijk en zwak, voelt zich nu iets beter.
+2-1	210-214	Coli	_	_	
+2-2	216-217	 	_	_	
+2-3	219-227	Speciele	_	_	
+2-4	228-236	anamnese	_	_	
+2-5	239-242	Vpk	_	_	
+2-6	242-243	:	_	_	
+2-7	244-246	Ze	_	_	
+2-8	247-250	was	_	_	
+2-9	251-260	misselijk	_	_	
+2-10	261-263	en	_	_	
+2-11	264-268	zwak	_	_	
+2-12	268-269	,	_	_	
+2-13	270-275	voelt	_	_	
+2-14	276-280	zich	_	_	
+2-15	281-283	nu	_	_	
+2-16	284-288	iets	_	_	
+2-17	289-294	beter	_	_	
+2-18	294-295	.	_	_	
+
+#Text=Heeft diarree vannacht 2x, vanochtend 1x, gisteren op kweek gezet.
+3-1	296-301	Heeft	_	_	
+3-2	302-309	diarree	_	_	
+3-3	310-318	vannacht	_	_	
+3-4	319-321	2x	_	_	
+3-5	321-322	,	_	_	
+3-6	323-333	vanochtend	_	_	
+3-7	334-336	1x	_	_	
+3-8	336-337	,	_	_	
+3-9	338-346	gisteren	_	_	
+3-10	347-349	op	_	_	
+3-11	350-355	kweek	_	_	
+3-12	356-361	gezet	_	_	
+3-13	361-362	.	_	_	
+
+#Text=Slaperig.
+4-1	363-371	Slaperig	_	_	
+4-2	371-372	.	_	_	
+
+#Text=Patiente: Patiente spreekt engels.
+5-1	378-386	Patiente	_	_	
+5-2	386-387	:	_	_	
+5-3	388-396	Patiente	_	_	
+5-4	397-404	spreekt	_	_	
+5-5	405-411	engels	_	_	
+5-6	411-412	.	_	_	
+
+#Text=Gaat goed.
+6-1	413-417	Gaat	_	_	
+6-2	418-422	goed	_	_	
+6-3	422-423	.	_	_	
+
+#Text=Niet meer overgegeven.
+7-1	424-428	Niet	*->1-1	NegCue[1]	
+7-2	429-433	meer	_	_	
+7-3	434-445	overgegeven	*->1-2	NegEvent[1]	
+7-4	445-446	.	_	_	
+
+#Text=Heeft niet het idee dat ze vocht vast houdt, benen zijn zoals gebruikelijk.
+8-1	447-452	Heeft	_	_	
+8-2	453-457	niet	*->3-1	NegEvent[3]	
+8-3	458-461	het	_	_	
+8-4	462-466	idee	_	_	
+8-5	467-470	dat	_	_	
+8-6	471-473	ze	_	_	
+8-7	474-479	vocht	*->3-2	NegEvent[3]	
+8-8	480-484	vast	_	_	
+8-9	485-490	houdt	_	_	
+8-10	490-491	,	_	_	
+8-11	492-497	benen	_	_	
+8-12	498-502	zijn	_	_	
+8-13	503-508	zoals	_	_	
+8-14	509-521	gebruikelijk	_	_	
+8-15	521-522	.	_	_	
+
+#Text=Lichamelijk onderzoek   RR 176/81  | Polsfreq. 102  | Temp. 36,6 °C  | Ademhal. 16  | SpO2 94%  zonder zuurstof    Clostridium difficile GDH: positief     Conclusie   Het betreft een 57 jarige patiente met:  1.
+9-1	528-539	Lichamelijk	_	_	
+9-2	540-549	onderzoek	_	_	
+9-3	552-554	RR	_	_	
+9-4	555-558	176	_	_	
+9-5	558-559	/	_	_	
+9-6	559-561	81	_	_	
+9-7	563-564	|	_	_	
+9-8	565-573	Polsfreq	_	_	
+9-9	573-574	.	_	_	
+9-10	575-578	102	_	_	
+9-11	580-581	|	_	_	
+9-12	582-586	Temp	_	_	
+9-13	586-587	.	_	_	
+9-14	588-592	36,6	_	_	
+9-15	593-594	°	_	_	
+9-16	594-595	C	_	_	
+9-17	597-598	|	_	_	
+9-18	599-606	Ademhal	_	_	
+9-19	606-607	.	_	_	
+9-20	608-610	16	_	_	
+9-21	612-613	|	_	_	
+9-22	614-618	SpO2	_	_	
+9-23	619-622	94%	_	_	
+9-24	624-630	zonder	_	_	
+9-25	631-639	zuurstof	_	_	
+9-26	643-654	Clostridium	_	_	
+9-27	655-664	difficile	_	_	
+9-28	665-668	GDH	_	_	
+9-29	668-669	:	_	_	
+9-30	670-678	positief	_	_	
+9-31	683-692	Conclusie	_	_	
+9-32	695-698	Het	_	_	
+9-33	699-706	betreft	_	_	
+9-34	707-710	een	_	_	
+9-35	711-713	57	_	_	
+9-36	714-720	jarige	_	_	
+9-37	721-729	patiente	_	_	
+9-38	730-733	met	_	_	
+9-39	733-734	:	_	_	
+9-40	736-737	1	_	_	
+9-41	737-738	.	_	_	
+
+#Text=Malaise, misselijk, braken, urineretentie, fors verhoogde inflammatiewaarden, DD transplantaatpyelonefritis DD gastro-entertisis (CAVE status na CMV colitis)  2.
+10-1	739-746	Malaise	_	_	
+10-2	746-747	,	_	_	
+10-3	748-757	misselijk	_	_	
+10-4	757-758	,	_	_	
+10-5	759-765	braken	_	_	
+10-6	765-766	,	_	_	
+10-7	767-780	urineretentie	_	_	
+10-8	780-781	,	_	_	
+10-9	782-786	fors	_	_	
+10-10	787-796	verhoogde	_	_	
+10-11	797-815	inflammatiewaarden	_	_	
+10-12	815-816	,	_	_	
+10-13	817-819	DD	_	_	
+10-14	820-846	transplantaatpyelonefritis	_	_	
+10-15	847-849	DD	_	_	
+10-16	850-867	gastro-entertisis	_	_	
+10-17	868-869	(	_	_	
+10-18	869-873	CAVE	_	_	
+10-19	874-880	status	_	_	
+10-20	881-883	na	_	_	
+10-21	884-887	CMV	_	_	
+10-22	888-895	colitis	_	_	
+10-23	895-896	)	_	_	
+10-24	898-899	2	_	_	
+10-25	899-900	.	_	_	
+
+#Text=Pre-terminaal transplantaatnierfalen, waarschijnlijk bij chronische rejectie, thans kreatsprong DD pre-renaal/ATN bij 1, gekozen voor HD (doet dit nog niet) via lijn, wil (nog) geen shunt, thans duotherapie ciclo/pred  3.
+11-1	901-914	Pre-terminaal	_	_	
+11-2	915-937	transplantaatnierfalen	_	_	
+11-3	937-938	,	_	_	
+11-4	939-953	waarschijnlijk	_	_	
+11-5	954-957	bij	_	_	
+11-6	958-968	chronische	_	_	
+11-7	969-977	rejectie	_	_	
+11-8	977-978	,	_	_	
+11-9	979-984	thans	_	_	
+11-10	985-996	kreatsprong	_	_	
+11-11	997-999	DD	_	_	
+11-12	1000-1010	pre-renaal	_	_	
+11-13	1010-1011	/	_	_	
+11-14	1011-1014	ATN	_	_	
+11-15	1015-1018	bij	_	_	
+11-16	1019-1020	1	_	_	
+11-17	1020-1021	,	_	_	
+11-18	1022-1029	gekozen	_	_	
+11-19	1030-1034	voor	_	_	
+11-20	1035-1037	HD	*->2-1	NegEvent[2]	
+11-21	1038-1039	(	_	_	
+11-22	1039-1043	doet	_	_	
+11-23	1044-1047	dit	_	_	
+11-24	1048-1051	nog	_	_	
+11-25	1052-1056	niet	*->2-2	NegCue[2]	
+11-26	1056-1057	)	_	_	
+11-27	1058-1061	via	_	_	
+11-28	1062-1066	lijn	_	_	
+11-29	1066-1067	,	_	_	
+11-30	1068-1071	wil	_	_	
+11-31	1072-1073	(	_	_	
+11-32	1073-1076	nog	_	_	
+11-33	1076-1077	)	_	_	
+11-34	1078-1082	geen	*->4-1	NegCue[4]	
+11-35	1083-1088	shunt	*->4-2	NegEvent[4]	
+11-36	1088-1089	,	_	_	
+11-37	1090-1095	thans	_	_	
+11-38	1096-1107	duotherapie	_	_	
+11-39	1108-1113	ciclo	_	_	
+11-40	1113-1114	/	_	_	
+11-41	1114-1118	pred	_	_	
+11-42	1120-1121	3	_	_	
+11-43	1121-1122	.	_	_	
+
+#Text=DM type 2 met nefropathie en retinopathie wv 4x daags insuline ontregeld bij 1 en ophogen prednison  4.
+12-1	1123-1125	DM	_	_	
+12-2	1126-1130	type	_	_	
+12-3	1131-1132	2	_	_	
+12-4	1133-1136	met	_	_	
+12-5	1137-1148	nefropathie	_	_	
+12-6	1149-1151	en	_	_	
+12-7	1152-1164	retinopathie	_	_	
+12-8	1165-1167	wv	_	_	
+12-9	1168-1170	4x	_	_	
+12-10	1171-1176	daags	_	_	
+12-11	1177-1185	insuline	_	_	
+12-12	1186-1195	ontregeld	_	_	
+12-13	1196-1199	bij	_	_	
+12-14	1200-1201	1	_	_	
+12-15	1202-1204	en	_	_	
+12-16	1205-1212	ophogen	_	_	
+12-17	1213-1222	prednison	_	_	
+12-18	1224-1225	4	_	_	
+12-19	1225-1226	.	_	_	
+
+#Text=Status na OBA links, loopt met prothese   5.
+13-1	1227-1233	Status	_	_	
+13-2	1234-1236	na	_	_	
+13-3	1237-1240	OBA	_	_	
+13-4	1241-1246	links	_	_	
+13-5	1246-1247	,	_	_	
+13-6	1248-1253	loopt	_	_	
+13-7	1254-1257	met	_	_	
+13-8	1258-1266	prothese	_	_	
+13-9	1269-1270	5	_	_	
+13-10	1270-1271	.	_	_	
+
+#Text=CIN III en intrauteriene afwijkingen en sterk verhoogd SCC.
+14-1	1272-1275	CIN	_	_	
+14-2	1276-1279	III	_	_	
+14-3	1280-1282	en	_	_	
+14-4	1283-1296	intrauteriene	_	_	
+14-5	1297-1308	afwijkingen	_	_	
+14-6	1308-1309	 	_	_	
+14-7	1309-1311	en	_	_	
+14-8	1311-1312	 	_	_	
+14-9	1312-1317	sterk	_	_	
+14-10	1318-1326	verhoogd	_	_	
+14-11	1326-1327	 	_	_	
+14-12	1327-1330	SCC	_	_	
+14-13	1330-1331	.	_	_	
+
+#Text=Tevens uVIN vulva. 
+15-1	1332-1338	Tevens	_	_	
+15-2	1339-1343	uVIN	_	_	
+15-3	1344-1349	vulva	_	_	
+15-4	1349-1350	.	_	_	
+15-5	1350-1351	 	_	_	
+
+#Text=Voorgesteld beleid: Uterusextirpatie met adnexa. 
+16-1	1351-1362	Voorgesteld	_	_	
+16-2	1363-1369	beleid	_	_	
+16-3	1369-1370	:	_	_	
+16-4	1371-1387	Uterusextirpatie	_	_	
+16-5	1387-1388	 	_	_	
+16-6	1388-1391	met	_	_	
+16-7	1392-1398	adnexa	_	_	
+16-8	1398-1399	.	_	_	
+16-9	1399-1400	 	_	_	
+
+#Text=Beleid   - Meropenem continueren in huidige dosering  - Ondansetron zo nodig  - Evalueren vullingsstatus: dagelijks gewicht meten  - Gezien clos dif GDH positief,  contact einddesinfectie    - Bloed en feceskweken afwachten, urinekweek E.
+17-1	1405-1411	Beleid	_	_	
+17-2	1414-1415	-	_	_	
+17-3	1416-1425	Meropenem	_	_	
+17-4	1426-1437	continueren	_	_	
+17-5	1438-1440	in	_	_	
+17-6	1441-1448	huidige	_	_	
+17-7	1449-1457	dosering	_	_	
+17-8	1459-1460	-	_	_	
+17-9	1461-1472	Ondansetron	_	_	
+17-10	1473-1475	zo	_	_	
+17-11	1476-1481	nodig	_	_	
+17-12	1483-1484	-	_	_	
+17-13	1485-1494	Evalueren	_	_	
+17-14	1495-1509	vullingsstatus	_	_	
+17-15	1509-1510	:	_	_	
+17-16	1511-1520	dagelijks	_	_	
+17-17	1521-1528	gewicht	_	_	
+17-18	1529-1534	meten	_	_	
+17-19	1536-1537	-	_	_	
+17-20	1538-1544	Gezien	_	_	
+17-21	1545-1549	clos	_	_	
+17-22	1550-1553	dif	_	_	
+17-23	1554-1557	GDH	_	_	
+17-24	1558-1566	positief	_	_	
+17-25	1566-1567	,	_	_	
+17-26	1569-1576	contact	_	_	
+17-27	1577-1592	einddesinfectie	_	_	
+17-28	1596-1597	-	_	_	
+17-29	1598-1603	Bloed	_	_	
+17-30	1604-1606	en	_	_	
+17-31	1607-1618	feceskweken	_	_	
+17-32	1619-1628	afwachten	_	_	
+17-33	1628-1629	,	_	_	
+17-34	1630-1640	urinekweek	_	_	
+17-35	1641-1642	E	_	_	
+17-36	1642-1643	.	_	_	
+
+#Text=Coli: gevoeligheid volgt  - Viroloog: feces virusdiagnostiek @  - Ciclosporinespiegel: 323 --> dosering aanpassen van 2dd 150 naar 2dd 75mg  - Glucosedagcurve 4dd  - Kalium 60mmg in NaCl 1L  - Morgen lab controle voor kalium    - PM start dialyse (gezien hoog ureum),  aanmelden bij Dianet voor dialyseren maandag 30-1     ";;
+18-1	1644-1648	Coli	_	_	
+18-2	1648-1649	:	_	_	
+18-3	1650-1662	gevoeligheid	_	_	
+18-4	1663-1668	volgt	_	_	
+18-5	1670-1671	-	_	_	
+18-6	1672-1680	Viroloog	_	_	
+18-7	1680-1681	:	_	_	
+18-8	1682-1687	feces	_	_	
+18-9	1688-1704	virusdiagnostiek	_	_	
+18-10	1705-1706	@	_	_	
+18-11	1708-1709	-	_	_	
+18-12	1710-1729	Ciclosporinespiegel	_	_	
+18-13	1729-1730	:	_	_	
+18-14	1731-1734	323	_	_	
+18-15	1735-1736	-	_	_	
+18-16	1736-1737	-	_	_	
+18-17	1737-1738	>	_	_	
+18-18	1739-1747	dosering	_	_	
+18-19	1748-1757	aanpassen	_	_	
+18-20	1758-1761	van	_	_	
+18-21	1762-1765	2dd	_	_	
+18-22	1766-1769	150	_	_	
+18-23	1770-1774	naar	_	_	
+18-24	1775-1778	2dd	_	_	
+18-25	1779-1783	75mg	_	_	
+18-26	1785-1786	-	_	_	
+18-27	1787-1802	Glucosedagcurve	_	_	
+18-28	1803-1806	4dd	_	_	
+18-29	1808-1809	-	_	_	
+18-30	1810-1816	Kalium	_	_	
+18-31	1817-1822	60mmg	_	_	
+18-32	1823-1825	in	_	_	
+18-33	1826-1830	NaCl	_	_	
+18-34	1831-1833	1L	_	_	
+18-35	1835-1836	-	_	_	
+18-36	1837-1843	Morgen	_	_	
+18-37	1844-1847	lab	_	_	
+18-38	1848-1856	controle	_	_	
+18-39	1857-1861	voor	_	_	
+18-40	1862-1868	kalium	_	_	
+18-41	1872-1873	-	_	_	
+18-42	1874-1876	PM	_	_	
+18-43	1877-1882	start	_	_	
+18-44	1883-1890	dialyse	_	_	
+18-45	1891-1892	(	_	_	
+18-46	1892-1898	gezien	_	_	
+18-47	1899-1903	hoog	_	_	
+18-48	1904-1909	ureum	_	_	
+18-49	1909-1910	)	_	_	
+18-50	1910-1911	,	_	_	
+18-51	1913-1922	aanmelden	_	_	
+18-52	1923-1926	bij	_	_	
+18-53	1927-1933	Dianet	_	_	
+18-54	1934-1938	voor	_	_	
+18-55	1939-1949	dialyseren	_	_	
+18-56	1950-1957	maandag	_	_	
+18-57	1958-1960	30	_	_	
+18-58	1960-1961	-	_	_	
+18-59	1961-1962	1	_	_	
+18-60	1967-1968	"	_	_	
+18-61	1968-1969	;	_	_	
+18-62	1969-1970	;	_	_	

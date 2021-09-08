@@ -1,0 +1,198 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1383315;388380839;393825666;Zorgplan/VPK rapportage;2020-01-30;"CZS: pijn onder controle met huidige pijnmedicatie.
+1-1	0-7	1383315	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	388380839	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	393825666	_	_	
+1-6	27-28	;	_	_	
+1-7	28-36	Zorgplan	_	_	
+1-8	36-37	/	_	_	
+1-9	37-40	VPK	_	_	
+1-10	41-51	rapportage	_	_	
+1-11	51-52	;	_	_	
+1-12	52-56	2020	_	_	
+1-13	56-57	-	_	_	
+1-14	57-59	01	_	_	
+1-15	59-60	-	_	_	
+1-16	60-62	30	_	_	
+1-17	62-63	;	_	_	
+1-18	63-64	"	_	_	
+1-19	64-67	CZS	_	_	
+1-20	67-68	:	_	_	
+1-21	69-73	pijn	_	_	
+1-22	74-79	onder	_	_	
+1-23	80-88	controle	_	_	
+1-24	89-92	met	_	_	
+1-25	93-100	huidige	_	_	
+1-26	101-114	pijnmedicatie	_	_	
+1-27	114-115	.	_	_	
+
+#Text=PSYCH: geeft aan zich vandaag beter te voelen.
+2-1	117-122	PSYCH	_	_	
+2-2	122-123	:	_	_	
+2-3	124-129	geeft	_	_	
+2-4	130-133	aan	_	_	
+2-5	134-138	zich	_	_	
+2-6	139-146	vandaag	_	_	
+2-7	147-152	beter	_	_	
+2-8	153-155	te	_	_	
+2-9	156-162	voelen	_	_	
+2-10	162-163	.	_	_	
+
+#Text=RESP: 5L O² sat hierbij 96%.
+3-1	165-169	RESP	_	_	
+3-2	169-170	:	_	_	
+3-3	171-173	5L	_	_	
+3-4	174-176	O²	_	_	
+3-5	177-180	sat	_	_	
+3-6	181-188	hierbij	_	_	
+3-7	189-192	96%	_	_	
+3-8	192-193	.	_	_	
+
+#Text=CIRC: MEWS blijft 4, geprobeerd aan arts door te geven maar was er niet.
+4-1	195-199	CIRC	_	_	
+4-2	199-200	:	_	_	
+4-3	201-205	MEWS	_	_	
+4-4	206-212	blijft	_	_	
+4-5	213-214	4	_	_	
+4-6	214-215	,	_	_	
+4-7	216-226	geprobeerd	_	_	
+4-8	227-230	aan	_	_	
+4-9	231-235	arts	*->1-1	NegEvent[1]	
+4-10	236-240	door	_	_	
+4-11	241-243	te	_	_	
+4-12	244-249	geven	_	_	
+4-13	250-254	maar	_	_	
+4-14	255-258	was	_	_	
+4-15	259-261	er	_	_	
+4-16	262-266	niet	*->1-2	NegCue[1]	
+4-17	266-267	.	_	_	
+
+#Text=Pols blijft hoog (124).
+5-1	268-272	Pols	_	_	
+5-2	273-279	blijft	_	_	
+5-3	280-284	hoog	_	_	
+5-4	285-286	(	_	_	
+5-5	286-289	124	_	_	
+5-6	289-290	)	_	_	
+5-7	290-291	.	_	_	
+
+#Text=DIG: matige intake, wat yoghurt en een cracker.
+6-1	293-296	DIG	_	_	
+6-2	296-297	:	_	_	
+6-3	298-304	matige	_	_	
+6-4	305-311	intake	_	_	
+6-5	311-312	,	_	_	
+6-6	313-316	wat	_	_	
+6-7	317-324	yoghurt	_	_	
+6-8	325-327	en	_	_	
+6-9	328-331	een	_	_	
+6-10	332-339	cracker	_	_	
+6-11	339-340	.	_	_	
+
+#Text=Stoma productief.
+7-1	341-346	Stoma	_	_	
+7-2	347-357	productief	_	_	
+7-3	357-358	.	_	_	
+
+#Text=URO: up+ ruim in urinaal (kreeg lasix).
+8-1	360-363	URO	_	_	
+8-2	363-364	:	_	_	
+8-3	365-367	up	_	_	
+8-4	367-368	+	_	_	
+8-5	369-373	ruim	_	_	
+8-6	374-376	in	_	_	
+8-7	377-384	urinaal	_	_	
+8-8	385-386	(	_	_	
+8-9	386-391	kreeg	_	_	
+8-10	392-397	lasix	_	_	
+8-11	397-398	)	_	_	
+8-12	398-399	.	_	_	
+
+#Text=CHIR: drain bijna niet productief.
+9-1	401-405	CHIR	_	_	
+9-2	405-406	:	_	_	
+9-3	407-412	drain	_	_	
+9-4	413-418	bijna	_	_	
+9-5	419-423	niet	*->2-1	NegCue[2]	
+9-6	424-434	productief	*->2-2	NegEvent[2]	
+9-7	434-435	.	_	_	
+
+#Text=Wond onderbuik gespoeld met 20 cc spuitje (vanaf nu 2x dd spoelen).
+10-1	436-440	Wond	_	_	
+10-2	441-450	onderbuik	_	_	
+10-3	451-459	gespoeld	_	_	
+10-4	460-463	met	_	_	
+10-5	464-466	20	_	_	
+10-6	467-469	cc	_	_	
+10-7	470-477	spuitje	_	_	
+10-8	478-479	(	_	_	
+10-9	479-484	vanaf	_	_	
+10-10	485-487	nu	_	_	
+10-11	488-490	2x	_	_	
+10-12	491-493	dd	_	_	
+10-13	494-501	spoelen	_	_	
+10-14	501-502	)	_	_	
+10-15	502-503	.	_	_	
+
+#Text=MOB: AMEXO-mobiliteitsscore: Loopt ten minste 75 meter   Heeft met de fysio geoefend en wilde vanochtend naar het ontbijtbuffet in de hillrom stoel.
+11-1	505-508	MOB	_	_	
+11-2	508-509	:	_	_	
+11-3	510-532	AMEXO-mobiliteitsscore	_	_	
+11-4	532-533	:	_	_	
+11-5	534-539	Loopt	_	_	
+11-6	540-543	ten	_	_	
+11-7	544-550	minste	_	_	
+11-8	551-553	75	_	_	
+11-9	554-559	meter	_	_	
+11-10	562-567	Heeft	_	_	
+11-11	568-571	met	_	_	
+11-12	572-574	de	_	_	
+11-13	575-580	fysio	_	_	
+11-14	581-589	geoefend	_	_	
+11-15	590-592	en	_	_	
+11-16	593-598	wilde	_	_	
+11-17	599-609	vanochtend	_	_	
+11-18	610-614	naar	_	_	
+11-19	615-618	het	_	_	
+11-20	619-632	ontbijtbuffet	_	_	
+11-21	633-635	in	_	_	
+11-22	636-638	de	_	_	
+11-23	639-646	hillrom	_	_	
+11-24	647-652	stoel	_	_	
+11-25	652-653	.	_	_	
+
+#Text=Overig:   - order wond kweekvocht nog regelen (staat in keukentje)
+12-1	655-661	Overig	_	_	
+12-2	661-662	:	_	_	
+12-3	665-666	-	_	_	
+12-4	667-672	order	_	_	
+12-5	673-677	wond	_	_	
+12-6	678-688	kweekvocht	_	_	
+12-7	689-692	nog	_	_	
+12-8	693-700	regelen	_	_	
+12-9	701-702	(	_	_	
+12-10	702-707	staat	_	_	
+12-11	708-710	in	_	_	
+12-12	711-720	keukentje	_	_	
+12-13	720-721	)	_	_	
+
+#Text=.
+13-1	721-722	.	_	_	
+
+#Text=- ging rond 14.15 uur voor CT-abdomen.      ";;
+14-1	724-725	-	_	_	
+14-2	726-730	ging	_	_	
+14-3	731-735	rond	_	_	
+14-4	736-741	14.15	_	_	
+14-5	742-745	uur	_	_	
+14-6	746-750	voor	_	_	
+14-7	751-761	CT-abdomen	_	_	
+14-8	761-762	.	_	_	
+14-9	768-769	"	_	_	
+14-10	769-770	;	_	_	
+14-11	770-771	;	_	_	

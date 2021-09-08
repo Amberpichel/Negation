@@ -1,0 +1,233 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1189304;394800559;400436519;Telefonisch contact;2020-02-21;"TCO met vader na CPET:    Spirometrie:  Geen aanwijzingen voor obstructie, geen suggestie voor restrictie.
+1-1	0-7	1189304	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	394800559	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	400436519	_	_	
+1-6	27-28	;	_	_	
+1-7	28-39	Telefonisch	_	_	
+1-8	40-47	contact	_	_	
+1-9	47-48	;	_	_	
+1-10	48-52	2020	_	_	
+1-11	52-53	-	_	_	
+1-12	53-55	02	_	_	
+1-13	55-56	-	_	_	
+1-14	56-58	21	_	_	
+1-15	58-59	;	_	_	
+1-16	59-60	"	_	_	
+1-17	60-63	TCO	_	_	
+1-18	64-67	met	_	_	
+1-19	68-73	vader	_	_	
+1-20	74-76	na	_	_	
+1-21	77-81	CPET	_	_	
+1-22	81-82	:	_	_	
+1-23	86-97	Spirometrie	_	_	
+1-24	97-98	:	_	_	
+1-25	100-104	Geen	*->2-1	NegCue[2]	
+1-26	105-117	aanwijzingen	_	_	
+1-27	118-122	voor	_	_	
+1-28	123-133	obstructie	*->2-2	NegEvent[2]	
+1-29	133-134	,	_	_	
+1-30	135-139	geen	*->3-1	NegCue[3]	
+1-31	140-149	suggestie	_	_	
+1-32	150-154	voor	_	_	
+1-33	155-165	restrictie	*->3-2	NegEvent[3]	
+1-34	165-166	.	_	_	
+
+#Text=Geen aanwijzingen voor verminderde diffusie.
+2-1	168-172	Geen	*->5-1	NegCue[5]	
+2-2	173-185	aanwijzingen	_	_	
+2-3	186-190	voor	_	_	
+2-4	191-202	verminderde	_	_	
+2-5	203-211	diffusie	*->5-2	NegEvent[5]	
+2-6	211-212	.	_	_	
+
+#Text=Cardiopulmonale inspanningstest:  Maximaal bereikte belasting 210 W.
+3-1	216-231	Cardiopulmonale	_	_	
+3-2	232-247	inspanningstest	_	_	
+3-3	247-248	:	_	_	
+3-4	250-258	Maximaal	_	_	
+3-5	259-267	bereikte	_	_	
+3-6	268-277	belasting	_	_	
+3-7	278-281	210	_	_	
+3-8	282-283	W	_	_	
+3-9	283-284	.	_	_	
+
+#Text=De V O2max is 2429 ml/min (106%, dit is normaal), wat neerkomt op 35 ml/min kg.
+4-1	286-288	De	_	_	
+4-2	289-290	V	_	_	
+4-3	291-296	O2max	_	_	
+4-4	297-299	is	_	_	
+4-5	300-304	2429	_	_	
+4-6	305-307	ml	_	_	
+4-7	307-308	/	_	_	
+4-8	308-311	min	_	_	
+4-9	312-313	(	_	_	
+4-10	313-317	106%	_	_	
+4-11	317-318	,	_	_	
+4-12	319-322	dit	_	_	
+4-13	323-325	is	_	_	
+4-14	326-333	normaal	_	_	
+4-15	333-334	)	_	_	
+4-16	334-335	,	_	_	
+4-17	336-339	wat	_	_	
+4-18	340-348	neerkomt	_	_	
+4-19	349-351	op	_	_	
+4-20	352-354	35	_	_	
+4-21	355-357	ml	_	_	
+4-22	357-358	/	_	_	
+4-23	358-361	min	_	_	
+4-24	362-364	kg	_	_	
+4-25	364-365	.	_	_	
+
+#Text=De RER tijdens maximale inspanning is 1.14 (passend bij lactaatacidose).
+5-1	367-369	De	_	_	
+5-2	370-373	RER	_	_	
+5-3	374-381	tijdens	_	_	
+5-4	382-390	maximale	_	_	
+5-5	391-401	inspanning	_	_	
+5-6	402-404	is	_	_	
+5-7	405-409	1.14	_	_	
+5-8	410-411	(	_	_	
+5-9	411-418	passend	_	_	
+5-10	419-422	bij	_	_	
+5-11	423-437	lactaatacidose	_	_	
+5-12	437-438	)	_	_	
+5-13	438-439	.	_	_	
+
+#Text=Daling base excess: 4.2 mmol/l.
+6-1	441-447	Daling	_	_	
+6-2	448-452	base	_	_	
+6-3	453-459	excess	_	_	
+6-4	459-460	:	_	_	
+6-5	461-464	4.2	_	_	
+6-6	465-469	mmol	_	_	
+6-7	469-470	/	_	_	
+6-8	470-471	l	_	_	
+6-9	471-472	.	_	_	
+
+#Text=Relatief iets vroeg AT rond 42% bij wel maximale VO2 max  Maximale hartfrequentie 181/min, hartfrequentiereserve 22/min (licht verhoogd).
+7-1	474-482	Relatief	_	_	
+7-2	483-487	iets	_	_	
+7-3	488-493	vroeg	_	_	
+7-4	494-496	AT	_	_	
+7-5	497-501	rond	_	_	
+7-6	502-505	42%	_	_	
+7-7	506-509	bij	_	_	
+7-8	510-513	wel	_	_	
+7-9	514-522	maximale	_	_	
+7-10	523-526	VO2	_	_	
+7-11	527-530	max	_	_	
+7-12	532-540	Maximale	_	_	
+7-13	541-555	hartfrequentie	_	_	
+7-14	556-559	181	_	_	
+7-15	559-560	/	_	_	
+7-16	560-563	min	_	_	
+7-17	563-564	,	_	_	
+7-18	565-586	hartfrequentiereserve	_	_	
+7-19	587-589	22	_	_	
+7-20	589-590	/	_	_	
+7-21	590-593	min	_	_	
+7-22	594-595	(	_	_	
+7-23	595-600	licht	_	_	
+7-24	601-609	verhoogd	_	_	
+7-25	609-610	)	_	_	
+7-26	610-611	.	_	_	
+
+#Text=De O2-pulse tijdens maximale belasting is 13.4 ml (normaal).
+8-1	613-615	De	_	_	
+8-2	616-618	O2	_	_	
+8-3	618-619	-	_	_	
+8-4	619-624	pulse	_	_	
+8-5	625-632	tijdens	_	_	
+8-6	633-641	maximale	_	_	
+8-7	642-651	belasting	_	_	
+8-8	652-654	is	_	_	
+8-9	655-659	13.4	_	_	
+8-10	660-662	ml	_	_	
+8-11	663-664	(	_	_	
+8-12	664-671	normaal	_	_	
+8-13	671-672	)	_	_	
+8-14	672-673	.	_	_	
+
+#Text=Conclusie:  Normale inspanningstolerantie, noch circulatoir, noch ventilatoir beperkt gezien gezien licht verhoogde HRR en ademreserve. maximale VO2 icm vroeg AT kan passen bij deconditionering.
+9-1	675-684	Conclusie	_	_	
+9-2	684-685	:	_	_	
+9-3	687-694	Normale	_	_	
+9-4	695-716	inspanningstolerantie	_	_	
+9-5	716-717	,	_	_	
+9-6	718-722	noch	*->1-1	NegCue[1]	
+9-7	723-734	circulatoir	*->1-1	NegCue[1]	
+9-8	734-735	,	_	_	
+9-9	736-740	noch	*->1-2	NegCue[1]	
+9-10	741-752	ventilatoir	*->1-2	NegCue[1]	
+9-11	753-760	beperkt	*->1-3	NegEvent[1]	
+9-12	761-767	gezien	_	_	
+9-13	768-774	gezien	_	_	
+9-14	775-780	licht	_	_	
+9-15	781-790	verhoogde	_	_	
+9-16	791-794	HRR	_	_	
+9-17	795-797	en	_	_	
+9-18	798-809	ademreserve	_	_	
+9-19	809-810	.	_	_	
+9-20	811-819	maximale	_	_	
+9-21	820-823	VO2	_	_	
+9-22	824-827	icm	_	_	
+9-23	828-833	vroeg	_	_	
+9-24	834-836	AT	_	_	
+9-25	837-840	kan	_	_	
+9-26	841-847	passen	_	_	
+9-27	848-851	bij	_	_	
+9-28	852-868	deconditionering	_	_	
+9-29	868-869	.	_	_	
+
+#Text=A: blijft hangen qua conditie, hyperventilatie of eetprobleem?
+10-1	873-874	A	_	_	
+10-2	874-875	:	_	_	
+10-3	876-882	blijft	_	_	
+10-4	883-889	hangen	_	_	
+10-5	890-893	qua	_	_	
+10-6	894-902	conditie	_	_	
+10-7	902-903	,	_	_	
+10-8	904-919	hyperventilatie	_	_	
+10-9	920-922	of	_	_	
+10-10	923-934	eetprobleem	_	_	
+10-11	934-935	?	_	_	
+
+#Text=C: bij uitgebreide analyse geen cardiale of pulmonale afwijkingen.
+11-1	939-940	C	_	_	
+11-2	940-941	:	_	_	
+11-3	942-945	bij	_	_	
+11-4	946-957	uitgebreide	_	_	
+11-5	958-965	analyse	_	_	
+11-6	966-970	geen	*->4-1	NegCue[4]	
+11-7	971-979	cardiale	_	_	
+11-8	980-982	of	_	_	
+11-9	983-992	pulmonale	_	_	
+11-10	993-1004	afwijkingen	*->4-2	NegEvent[4]	
+11-11	1004-1005	.	_	_	
+
+#Text=B:  Cardiologische controle over 5 jaar  transitiepoli  icc SCAR poli VU mc ivm littekenprobleem.      ";;
+12-1	1009-1010	B	_	_	
+12-2	1010-1011	:	_	_	
+12-3	1013-1027	Cardiologische	_	_	
+12-4	1028-1036	controle	_	_	
+12-5	1037-1041	over	_	_	
+12-6	1042-1043	5	_	_	
+12-7	1044-1048	jaar	_	_	
+12-8	1050-1063	transitiepoli	_	_	
+12-9	1065-1068	icc	_	_	
+12-10	1069-1073	SCAR	_	_	
+12-11	1074-1078	poli	_	_	
+12-12	1079-1081	VU	_	_	
+12-13	1082-1084	mc	_	_	
+12-14	1085-1088	ivm	_	_	
+12-15	1089-1105	littekenprobleem	_	_	
+12-16	1105-1106	.	_	_	
+12-17	1112-1113	"	_	_	
+12-18	1113-1114	;	_	_	
+12-19	1114-1115	;	_	_	

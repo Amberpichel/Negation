@@ -1,0 +1,73 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1187949;389427384;394899459;Zorgplan/VPK rapportage;2020-02-03;"CZS: niet pijnlijk  PSYCH:   CIRC:   DIG: at crackers.
+1-1	0-7	1187949	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	389427384	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	394899459	_	_	
+1-6	27-28	;	_	_	
+1-7	28-36	Zorgplan	_	_	
+1-8	36-37	/	_	_	
+1-9	37-40	VPK	_	_	
+1-10	41-51	rapportage	_	_	
+1-11	51-52	;	_	_	
+1-12	52-56	2020	_	_	
+1-13	56-57	-	_	_	
+1-14	57-59	02	_	_	
+1-15	59-60	-	_	_	
+1-16	60-62	03	_	_	
+1-17	62-63	;	_	_	
+1-18	63-64	"	_	_	
+1-19	64-67	CZS	_	_	
+1-20	67-68	:	_	_	
+1-21	69-73	niet	*->1-1	*[1]	
+1-22	74-82	pijnlijk	*->1-2	NegEvent[1]	
+1-23	84-89	PSYCH	_	_	
+1-24	89-90	:	_	_	
+1-25	93-97	CIRC	_	_	
+1-26	97-98	:	_	_	
+1-27	101-104	DIG	_	_	
+1-28	104-105	:	_	_	
+1-29	106-108	at	_	_	
+1-30	109-117	crackers	_	_	
+1-31	117-118	.	_	_	
+
+#Text=Stoma prod dikt in  URO: plast op toilet  CHIR: wondje is schoon  MOB: AMEXO-mobiliteitsscore: Zet maximaal 10 stappen   Zegt rondjes te lopen  Overig:   Vragen / aanpassingen:   ";;
+2-1	119-124	Stoma	_	_	
+2-2	125-129	prod	_	_	
+2-3	130-134	dikt	_	_	
+2-4	135-137	in	_	_	
+2-5	139-142	URO	_	_	
+2-6	142-143	:	_	_	
+2-7	144-149	plast	_	_	
+2-8	150-152	op	_	_	
+2-9	153-159	toilet	_	_	
+2-10	161-165	CHIR	_	_	
+2-11	165-166	:	_	_	
+2-12	167-173	wondje	_	_	
+2-13	174-176	is	_	_	
+2-14	177-183	schoon	_	_	
+2-15	185-188	MOB	_	_	
+2-16	188-189	:	_	_	
+2-17	190-212	AMEXO-mobiliteitsscore	_	_	
+2-18	212-213	:	_	_	
+2-19	214-217	Zet	_	_	
+2-20	218-226	maximaal	_	_	
+2-21	227-229	10	_	_	
+2-22	230-237	stappen	_	_	
+2-23	240-244	Zegt	_	_	
+2-24	245-252	rondjes	_	_	
+2-25	253-255	te	_	_	
+2-26	256-261	lopen	_	_	
+2-27	263-269	Overig	_	_	
+2-28	269-270	:	_	_	
+2-29	273-279	Vragen	_	_	
+2-30	280-281	/	_	_	
+2-31	282-294	aanpassingen	_	_	
+2-32	294-295	:	_	_	
+2-33	298-299	"	_	_	
+2-34	299-300	;	_	_	
+2-35	300-301	;	_	_	

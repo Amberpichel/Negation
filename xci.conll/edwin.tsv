@@ -1,0 +1,163 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1383315;388471519;393927197;VPK verloop opname;2020-01-30;"CZS: Kreeg een nieuwe pijn in de linker zijde, de plek van de oude drain insteek.
+1-1	0-7	1383315	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	388471519	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	393927197	_	_	
+1-6	27-28	;	_	_	
+1-7	28-31	VPK	_	_	
+1-8	32-39	verloop	_	_	
+1-9	40-46	opname	_	_	
+1-10	46-47	;	_	_	
+1-11	47-51	2020	_	_	
+1-12	51-52	-	_	_	
+1-13	52-54	01	_	_	
+1-14	54-55	-	_	_	
+1-15	55-57	30	_	_	
+1-16	57-58	;	_	_	
+1-17	58-59	"	_	_	
+1-18	59-62	CZS	_	_	
+1-19	62-63	:	_	_	
+1-20	64-69	Kreeg	_	_	
+1-21	70-73	een	_	_	
+1-22	74-80	nieuwe	_	_	
+1-23	81-85	pijn	_	_	
+1-24	86-88	in	_	_	
+1-25	89-91	de	_	_	
+1-26	92-98	linker	_	_	
+1-27	99-104	zijde	_	_	
+1-28	104-105	,	_	_	
+1-29	106-108	de	_	_	
+1-30	109-113	plek	_	_	
+1-31	114-117	van	_	_	
+1-32	118-120	de	_	_	
+1-33	121-125	oude	_	_	
+1-34	126-131	drain	_	_	
+1-35	132-139	insteek	_	_	
+1-36	139-140	.	_	_	
+
+#Text=Zakte later weer af.
+2-1	141-146	Zakte	_	_	
+2-2	147-152	later	_	_	
+2-3	153-157	weer	_	_	
+2-4	158-160	af	_	_	
+2-5	160-161	.	_	_	
+
+#Text=PSYCH: Voelt zich beter.
+3-1	164-169	PSYCH	_	_	
+3-2	169-170	:	_	_	
+3-3	171-176	Voelt	_	_	
+3-4	177-181	zich	_	_	
+3-5	182-187	beter	_	_	
+3-6	187-188	.	_	_	
+
+#Text=RESP: Sat 99% met 5L.
+4-1	191-195	RESP	_	_	
+4-2	195-196	:	_	_	
+4-3	197-200	Sat	_	_	
+4-4	201-204	99%	_	_	
+4-5	205-208	met	_	_	
+4-6	209-211	5L	_	_	
+4-7	211-212	.	_	_	
+
+#Text=CIRC: Controles stabiel, MEWS 3.
+5-1	215-219	CIRC	_	_	
+5-2	219-220	:	_	_	
+5-3	221-230	Controles	_	_	
+5-4	231-238	stabiel	_	_	
+5-5	238-239	,	_	_	
+5-6	240-244	MEWS	_	_	
+5-7	245-246	3	_	_	
+5-8	246-247	.	_	_	
+
+#Text=Echter wel tachycard.
+6-1	248-254	Echter	_	_	
+6-2	255-258	wel	_	_	
+6-3	259-268	tachycard	_	_	
+6-4	268-269	.	_	_	
+
+#Text=DIG: Def+.
+7-1	272-275	DIG	_	_	
+7-2	275-276	:	_	_	
+7-3	277-280	Def	_	_	
+7-4	280-281	+	_	_	
+7-5	281-282	.	_	_	
+
+#Text=Stoma produceert veel -> 1,5L.
+8-1	283-288	Stoma	_	_	
+8-2	289-299	produceert	_	_	
+8-3	300-304	veel	_	_	
+8-4	305-306	-	_	_	
+8-5	306-307	>	_	_	
+8-6	308-312	1,5L	_	_	
+8-7	312-313	.	_	_	
+
+#Text=Intake een paar hapjes vla.
+9-1	316-322	Intake	_	_	
+9-2	323-326	een	_	_	
+9-3	327-331	paar	_	_	
+9-4	332-338	hapjes	_	_	
+9-5	339-342	vla	_	_	
+9-6	342-343	.	_	_	
+
+#Text=Niet misselijk geweest.
+10-1	344-348	Niet	*->1-1	NegCue[1]	
+10-2	349-358	misselijk	*->1-2	NegEvent[1]	
+10-3	359-366	geweest	_	_	
+10-4	366-367	.	_	_	
+
+#Text=URO: Up+.
+11-1	370-373	URO	_	_	
+11-2	373-374	:	_	_	
+11-3	375-377	Up	_	_	
+11-4	377-378	+	_	_	
+11-5	378-379	.	_	_	
+
+#Text=CHIR: Buik wond gespoeld, ziet pussig.
+12-1	382-386	CHIR	_	_	
+12-2	386-387	:	_	_	
+12-3	388-392	Buik	_	_	
+12-4	393-397	wond	_	_	
+12-5	398-406	gespoeld	_	_	
+12-6	406-407	,	_	_	
+12-7	408-412	ziet	_	_	
+12-8	413-419	pussig	_	_	
+12-9	419-420	.	_	_	
+
+#Text=Pigtial drain gespoeld, produceert nauwelijks.
+13-1	421-428	Pigtial	_	_	
+13-2	429-434	drain	_	_	
+13-3	435-443	gespoeld	_	_	
+13-4	443-444	,	_	_	
+13-5	445-455	produceert	_	_	
+13-6	456-466	nauwelijks	_	_	
+13-7	466-467	.	_	_	
+
+#Text=MOB: AMEXO-mobiliteitsscore: Loopt ten minste 75 meter  Overig:   Vragen / aanpassingen:   Kweek vocht is geregeld.   ";;
+14-1	470-473	MOB	_	_	
+14-2	473-474	:	_	_	
+14-3	475-497	AMEXO-mobiliteitsscore	_	_	
+14-4	497-498	:	_	_	
+14-5	499-504	Loopt	_	_	
+14-6	505-508	ten	_	_	
+14-7	509-515	minste	_	_	
+14-8	516-518	75	_	_	
+14-9	519-524	meter	_	_	
+14-10	526-532	Overig	_	_	
+14-11	532-533	:	_	_	
+14-12	536-542	Vragen	_	_	
+14-13	543-544	/	_	_	
+14-14	545-557	aanpassingen	_	_	
+14-15	557-558	:	_	_	
+14-16	561-566	Kweek	_	_	
+14-17	567-572	vocht	_	_	
+14-18	573-575	is	_	_	
+14-19	576-584	geregeld	_	_	
+14-20	584-585	.	_	_	
+14-21	588-589	"	_	_	
+14-22	589-590	;	_	_	
+14-23	590-591	;	_	_	

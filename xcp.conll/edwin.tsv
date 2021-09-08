@@ -1,0 +1,198 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=1383315;390764789;396526326;Voortgangsverslag;2020-02-08;"Weekend zaterdag    Visite: Schuring (29371), Olthof, Vugt    Anamnese + vpk/  Voelt zich goed.
+1-1	0-7	1383315	
+1-2	7-8	;	
+1-3	8-17	390764789	
+1-4	17-18	;	
+1-5	18-27	396526326	
+1-6	27-28	;	
+1-7	28-45	Voortgangsverslag	
+1-8	45-46	;	
+1-9	46-50	2020	
+1-10	50-51	-	
+1-11	51-53	02	
+1-12	53-54	-	
+1-13	54-56	08	
+1-14	56-57	;	
+1-15	57-58	"	
+1-16	58-65	Weekend	
+1-17	66-74	zaterdag	
+1-18	78-84	Visite	
+1-19	84-85	:	
+1-20	86-94	Schuring	
+1-21	95-96	(	
+1-22	96-101	29371	
+1-23	101-102	)	
+1-24	102-103	,	
+1-25	104-110	Olthof	
+1-26	110-111	,	
+1-27	112-116	Vugt	
+1-28	120-128	Anamnese	
+1-29	129-130	+	
+1-30	131-134	vpk	
+1-31	134-135	/	
+1-32	137-142	Voelt	
+1-33	143-147	zich	
+1-34	148-152	goed	
+1-35	152-153	.	
+
+#Text=Gisterenavond nog 39.3.
+2-1	154-167	Gisterenavond	
+2-2	168-171	nog	
+2-3	172-176	39.3	
+2-4	176-177	.	
+
+#Text=Drain wordt nog niet gespoeld.
+3-1	178-183	Drain	
+3-2	184-189	wordt	
+3-3	190-193	nog	
+3-4	194-198	niet	
+3-5	199-207	gespoeld	
+3-6	207-208	.	
+
+#Text=LO/   Bloeddruk 117/72, polsfrequentie 98, temperatuur 38 °C, ademhalingsfrequentie 14, lengte 184 cm, gewicht 92 kg, SpO2 94 %.
+4-1	213-215	LO	
+4-2	215-216	/	
+4-3	219-228	Bloeddruk	
+4-4	229-232	117	
+4-5	232-233	/	
+4-6	233-235	72	
+4-7	235-236	,	
+4-8	237-251	polsfrequentie	
+4-9	252-254	98	
+4-10	254-255	,	
+4-11	256-267	temperatuur	
+4-12	268-270	38	
+4-13	271-272	°	
+4-14	272-273	C	
+4-15	273-274	,	
+4-16	275-296	ademhalingsfrequentie	
+4-17	297-299	14	
+4-18	299-300	,	
+4-19	301-307	lengte	
+4-20	308-311	184	
+4-21	312-314	cm	
+4-22	314-315	,	
+4-23	316-323	gewicht	
+4-24	324-326	92	
+4-25	327-329	kg	
+4-26	329-330	,	
+4-27	331-335	SpO2	
+4-28	336-338	94	
+4-29	339-340	%	
+4-30	340-341	.	
+
+#Text=Drainproductie: over ochtend 20 cc (totaal 395 cc sinds plaatsing), aspect: oud bloed en in slang ook pussig!
+5-1	343-357	Drainproductie	
+5-2	357-358	:	
+5-3	359-363	over	
+5-4	364-371	ochtend	
+5-5	372-374	20	
+5-6	375-377	cc	
+5-7	378-379	(	
+5-8	379-385	totaal	
+5-9	386-389	395	
+5-10	390-392	cc	
+5-11	393-398	sinds	
+5-12	399-408	plaatsing	
+5-13	408-409	)	
+5-14	409-410	,	
+5-15	411-417	aspect	
+5-16	417-418	:	
+5-17	419-422	oud	
+5-18	423-428	bloed	
+5-19	429-431	en	
+5-20	432-434	in	
+5-21	435-440	slang	
+5-22	441-444	ook	
+5-23	445-451	pussig	
+5-24	451-452	!	
+
+#Text=AO/   Vancospiegel @ vanmiddag    Conclusie  32 jarige man +16 dagen na laparoscopische subtotale colectomie met eindstandig ileostoma vw toxisch megacolon met darmperforaties bij verdenking CU, gecompliceerd door pneumonie wv AB en abcescollecties wv drainage en wondinfectie      Beleid   - AB continueren, maandag evalueren of dit stop kan bij verbeterende kliniek en lab  -zaterdag vancodalspiegel@  -maandag routine lab@   - Drain in situ laten, start spoelen      ";;
+6-1	457-459	AO	
+6-2	459-460	/	
+6-3	463-475	Vancospiegel	
+6-4	476-477	@	
+6-5	478-487	vanmiddag	
+6-6	491-500	Conclusie	
+6-7	502-504	32	
+6-8	505-511	jarige	
+6-9	512-515	man	
+6-10	515-516	 	
+6-11	516-517	+	
+6-12	517-519	16	
+6-13	519-520	 	
+6-14	520-525	dagen	
+6-15	526-528	na	
+6-16	528-529	 	
+6-17	529-544	laparoscopische	
+6-18	545-554	subtotale	
+6-19	555-565	colectomie	
+6-20	566-569	met	
+6-21	570-581	eindstandig	
+6-22	582-591	ileostoma	
+6-23	592-594	vw	
+6-24	595-602	toxisch	
+6-25	603-612	megacolon	
+6-26	613-616	met	
+6-27	617-632	darmperforaties	
+6-28	632-633	 	
+6-29	633-636	bij	
+6-30	637-647	verdenking	
+6-31	648-650	CU	
+6-32	650-651	,	
+6-33	652-665	gecompliceerd	
+6-34	666-670	door	
+6-35	671-680	pneumonie	
+6-36	680-681	 	
+6-37	681-683	wv	
+6-38	683-684	 	
+6-39	684-686	AB	
+6-40	686-687	 	
+6-41	687-689	en	
+6-42	690-705	abcescollecties	
+6-43	706-708	wv	
+6-44	709-717	drainage	
+6-45	717-718	 	
+6-46	718-720	en	
+6-47	721-733	wondinfectie	
+6-48	733-737	    	
+6-49	739-745	Beleid	
+6-50	748-749	-	
+6-51	750-752	AB	
+6-52	753-764	continueren	
+6-53	764-765	,	
+6-54	766-773	maandag	
+6-55	774-783	evalueren	
+6-56	784-786	of	
+6-57	787-790	dit	
+6-58	791-795	stop	
+6-59	796-799	kan	
+6-60	800-803	bij	
+6-61	804-816	verbeterende	
+6-62	817-824	kliniek	
+6-63	825-827	en	
+6-64	828-831	lab	
+6-65	833-834	-	
+6-66	834-842	zaterdag	
+6-67	843-858	vancodalspiegel	
+6-68	858-859	@	
+6-69	861-862	-	
+6-70	862-869	maandag	
+6-71	870-877	routine	
+6-72	878-881	lab	
+6-73	881-882	@	
+6-74	885-886	-	
+6-75	887-892	Drain	
+6-76	893-895	in	
+6-77	896-900	situ	
+6-78	901-906	laten	
+6-79	906-907	,	
+6-80	908-913	start	
+6-81	914-921	spoelen	
+6-82	924-925	 	
+6-83	927-928	"	
+6-84	928-929	;	
+6-85	929-930	;	

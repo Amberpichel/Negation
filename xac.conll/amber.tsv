@@ -1,0 +1,202 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=1187949;386770132;392169110;Consulten;2020-01-25;"S/diverse VAC wissels 16/1 laatste  intra-abdominale abcessen  -Hyperkaliemie bij acute nierinsufficientie, waarschijnlijk agv infectie en dehydratie bij intra-abdominaal abces     B/  DM vermoedelijk type I  M Crohn met zeer uitgebreide abdominale voorgeschiedenis  Aug 2019 IC opname na continuiteitsherstel, gecompliceerd door ARDS, type 2 myocardischemie, trombose v.iliaca wv rivaroxaban en AKI bij sepsis (goed hersteld).       
+1-1	0-7	1187949	
+1-2	7-8	;	
+1-3	8-17	386770132	
+1-4	17-18	;	
+1-5	18-27	392169110	
+1-6	27-28	;	
+1-7	28-37	Consulten	
+1-8	37-38	;	
+1-9	38-42	2020	
+1-10	42-43	-	
+1-11	43-45	01	
+1-12	45-46	-	
+1-13	46-48	25	
+1-14	48-49	;	
+1-15	49-50	"	
+1-16	50-51	S	
+1-17	51-52	/	
+1-18	52-59	diverse	
+1-19	60-63	VAC	
+1-20	64-71	wissels	
+1-21	72-74	16	
+1-22	74-75	/	
+1-23	75-76	1	
+1-24	77-84	laatste	
+1-25	86-102	intra-abdominale	
+1-26	103-111	abcessen	
+1-27	113-114	-	
+1-28	114-127	Hyperkaliemie	
+1-29	128-131	bij	
+1-30	132-137	acute	
+1-31	138-156	nierinsufficientie	
+1-32	156-157	,	
+1-33	158-172	waarschijnlijk	
+1-34	173-176	agv	
+1-35	177-185	infectie	
+1-36	186-188	en	
+1-37	189-199	dehydratie	
+1-38	200-203	bij	
+1-39	204-220	intra-abdominaal	
+1-40	221-226	abces	
+1-41	228-229	 	
+1-42	231-232	B	
+1-43	232-233	/	
+1-44	235-237	DM	
+1-45	238-250	vermoedelijk	
+1-46	251-255	type	
+1-47	256-257	I	
+1-48	259-260	M	
+1-49	261-266	Crohn	
+1-50	267-270	met	
+1-51	271-275	zeer	
+1-52	276-287	uitgebreide	
+1-53	288-298	abdominale	
+1-54	299-315	voorgeschiedenis	
+1-55	317-320	Aug	
+1-56	321-325	2019	
+1-57	326-328	IC	
+1-58	329-335	opname	
+1-59	336-338	na	
+1-60	339-359	continuiteitsherstel	
+1-61	359-360	,	
+1-62	361-374	gecompliceerd	
+1-63	375-379	door	
+1-64	380-384	ARDS	
+1-65	384-385	,	
+1-66	386-390	type	
+1-67	391-392	2	
+1-68	393-408	myocardischemie	
+1-69	408-409	,	
+1-70	410-418	trombose	
+1-71	419-427	v.iliaca	
+1-72	428-430	wv	
+1-73	431-442	rivaroxaban	
+1-74	443-445	en	
+1-75	446-449	AKI	
+1-76	450-453	bij	
+1-77	454-460	sepsis	
+1-78	461-462	(	
+1-79	462-466	goed	
+1-80	467-475	hersteld	
+1-81	475-476	)	
+1-82	476-477	.	
+1-83	479-484	     	
+
+#Text=A/  Huidige pijnmedicatie  - Paracetamol  1 gr 4 dd  - PCA Dipidolor 3/3/4h  - Metamizol 4dd  1000mg   -Ketanest 0.8 ml per uur ( 0,15mg/kg/uur)  - clonidine 2 dd 50 mcgr ( aangepaste dosering ivm RR)     EGFR: 46 (2017)    OK+5  Gaat goed,  Heeft nog pca dipidolor als escape.
+2-1	486-487	A	
+2-2	487-488	/	
+2-3	490-497	Huidige	
+2-4	498-511	pijnmedicatie	
+2-5	513-514	-	
+2-6	515-526	Paracetamol	
+2-7	527-528	 	
+2-8	528-529	1	
+2-9	530-532	gr	
+2-10	533-534	4	
+2-11	535-537	dd	
+2-12	539-540	-	
+2-13	540-541	 	
+2-14	541-544	PCA	
+2-15	545-554	Dipidolor	
+2-16	554-555	 	
+2-17	555-556	3	
+2-18	556-557	/	
+2-19	557-558	3	
+2-20	558-559	/	
+2-21	559-561	4h	
+2-22	563-564	-	
+2-23	565-574	Metamizol	
+2-24	575-578	4dd	
+2-25	580-586	1000mg	
+2-26	588-589	 	
+2-27	589-590	-	
+2-28	590-598	Ketanest	
+2-29	599-602	0.8	
+2-30	603-605	ml	
+2-31	606-609	per	
+2-32	610-613	uur	
+2-33	614-615	(	
+2-34	616-622	0,15mg	
+2-35	622-623	/	
+2-36	623-625	kg	
+2-37	625-626	/	
+2-38	626-629	uur	
+2-39	629-630	)	
+2-40	632-633	-	
+2-41	634-643	clonidine	
+2-42	644-645	2	
+2-43	646-648	dd	
+2-44	649-651	50	
+2-45	652-656	mcgr	
+2-46	657-658	(	
+2-47	659-669	aangepaste	
+2-48	670-678	dosering	
+2-49	679-682	ivm	
+2-50	683-685	RR	
+2-51	685-686	)	
+2-52	688-689	 	
+2-53	691-695	EGFR	
+2-54	695-696	:	
+2-55	697-699	46	
+2-56	700-701	(	
+2-57	701-705	2017	
+2-58	705-706	)	
+2-59	710-712	OK	
+2-60	712-713	+	
+2-61	713-714	5	
+2-62	716-720	Gaat	
+2-63	721-725	goed	
+2-64	725-726	,	
+2-65	728-733	Heeft	
+2-66	734-737	nog	
+2-67	738-741	pca	
+2-68	742-751	dipidolor	
+2-69	752-755	als	
+2-70	756-762	escape	
+2-71	762-763	.	
+
+#Text=Gebruikt PCA pomp goed  Volgende week naar Heliomare  Heeft vanmorgen de clonidine niet ingenomen.
+3-1	764-772	Gebruikt	
+3-2	773-776	PCA	
+3-3	777-781	pomp	
+3-4	782-786	goed	
+3-5	788-796	Volgende	
+3-6	797-801	week	
+3-7	802-806	naar	
+3-8	807-816	Heliomare	
+3-9	818-823	Heeft	
+3-10	824-833	vanmorgen	
+3-11	834-836	de	
+3-12	837-846	clonidine	
+3-13	847-851	niet	
+3-14	852-861	ingenomen	
+3-15	861-862	.	
+
+#Text=NRS:3 stekende pijn in wondgebied.
+4-1	863-866	NRS	
+4-2	866-867	:	
+4-3	867-868	3	
+4-4	869-877	stekende	
+4-5	878-882	pijn	
+4-6	883-885	in	
+4-7	886-896	wondgebied	
+4-8	896-897	.	
+
+#Text=R/ Stop Ketanest.
+5-1	901-902	R	
+5-2	902-903	/	
+5-3	904-908	Stop	
+5-4	909-917	Ketanest	
+5-5	917-918	.	
+
+#Text=Overige pijnmedicatie continueren  ";;
+6-1	920-927	Overige	
+6-2	928-941	pijnmedicatie	
+6-3	942-953	continueren	
+6-4	955-956	"	
+6-5	956-957	;	
+6-6	957-958	;	

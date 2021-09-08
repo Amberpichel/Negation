@@ -1,0 +1,238 @@
+#FORMAT=WebAnno TSV 3.3
+
+
+#Text=1383315;389714694;395286428;Zorgplan/VPK rapportage;2020-02-04;"CZS: Had wat steken op de oude draininsteek, arts heeft dit beoordeeld.
+1-1	0-7	1383315	
+1-2	7-8	;	
+1-3	8-17	389714694	
+1-4	17-18	;	
+1-5	18-27	395286428	
+1-6	27-28	;	
+1-7	28-36	Zorgplan	
+1-8	36-37	/	
+1-9	37-40	VPK	
+1-10	41-51	rapportage	
+1-11	51-52	;	
+1-12	52-56	2020	
+1-13	56-57	-	
+1-14	57-59	02	
+1-15	59-60	-	
+1-16	60-62	04	
+1-17	62-63	;	
+1-18	63-64	"	
+1-19	64-67	CZS	
+1-20	67-68	:	
+1-21	68-69	 	
+1-22	69-72	Had	
+1-23	73-76	wat	
+1-24	77-83	steken	
+1-25	84-86	op	
+1-26	87-89	de	
+1-27	90-94	oude	
+1-28	95-107	draininsteek	
+1-29	107-108	,	
+1-30	109-113	arts	
+1-31	114-119	heeft	
+1-32	120-123	dit	
+1-33	124-134	beoordeeld	
+1-34	134-135	.	
+
+#Text=Over op alleen oxynorm.
+2-1	136-140	Over	
+2-2	141-143	op	
+2-3	144-150	alleen	
+2-4	151-158	oxynorm	
+2-5	158-159	.	
+
+#Text=PSYCH: Dhr was goed gestemd vandaag.
+3-1	161-166	PSYCH	
+3-2	166-167	:	
+3-3	168-171	Dhr	
+3-4	172-175	was	
+3-5	176-180	goed	
+3-6	181-188	gestemd	
+3-7	189-196	vandaag	
+3-8	196-197	.	
+
+#Text=CIRC: Controles stabiel.
+4-1	200-204	CIRC	
+4-2	204-205	:	
+4-3	205-206	 	
+4-4	206-215	Controles	
+4-5	216-223	stabiel	
+4-6	223-224	.	
+
+#Text=TPV gestopt, krijgt 2eh erytrocyten.
+5-1	225-228	TPV	
+5-2	229-236	gestopt	
+5-3	236-237	,	
+5-4	238-244	krijgt	
+5-5	245-248	2eh	
+5-6	249-260	erytrocyten	
+5-7	260-261	.	
+
+#Text=Eerste hangt aan vanaf 14.15.
+6-1	262-268	Eerste	
+6-2	269-274	hangt	
+6-3	275-278	aan	
+6-4	279-284	vanaf	
+6-5	285-290	14.15	
+6-6	290-291	.	
+
+#Text=DIG: Intake goed, zat aan het ontbijtbuffet.
+7-1	293-296	DIG	
+7-2	296-297	:	
+7-3	298-304	Intake	
+7-4	305-309	goed	
+7-5	309-310	,	
+7-6	311-314	zat	
+7-7	315-318	aan	
+7-8	319-322	het	
+7-9	323-336	ontbijtbuffet	
+7-10	336-337	.	
+
+#Text=Stoma dikt in, nog wel dun.
+8-1	338-343	Stoma	
+8-2	344-348	dikt	
+8-3	349-351	in	
+8-4	351-352	,	
+8-5	353-356	nog	
+8-6	357-360	wel	
+8-7	361-364	dun	
+8-8	364-365	.	
+
+#Text=Legen doet Dhr zelf samen met partner.
+9-1	366-371	Legen	
+9-2	372-376	doet	
+9-3	377-380	Dhr	
+9-4	381-385	zelf	
+9-5	386-391	samen	
+9-6	392-395	met	
+9-7	396-403	partner	
+9-8	403-404	.	
+
+#Text=Stomazorg geoefend met dhr zelf, ging goed voor de eerste keer.
+10-1	405-414	Stomazorg	
+10-2	415-423	geoefend	
+10-3	424-427	met	
+10-4	428-431	dhr	
+10-5	432-436	zelf	
+10-6	436-437	,	
+10-7	438-442	ging	
+10-8	443-447	goed	
+10-9	448-452	voor	
+10-10	453-455	de	
+10-11	456-462	eerste	
+10-12	463-467	keer	
+10-13	467-468	.	
+
+#Text=Tweedelig systeem besteld voor dhr.
+11-1	469-478	Tweedelig	
+11-2	479-486	systeem	
+11-3	487-494	besteld	
+11-4	495-499	voor	
+11-5	500-503	dhr	
+11-6	503-504	.	
+
+#Text=URO: UP+ in urinaal/toilet.
+12-1	507-510	URO	
+12-2	510-511	:	
+12-3	511-512	 	
+12-4	512-514	UP	
+12-5	514-515	+	
+12-6	516-518	in	
+12-7	519-526	urinaal	
+12-8	526-527	/	
+12-9	527-533	toilet	
+12-10	533-534	.	
+
+#Text=CHIR: Wond gespoeld op bed met vrouwencatheter, geel beslag nog aanwezig, neemt wel af.
+13-1	536-540	CHIR	
+13-2	540-541	:	
+13-3	541-542	 	
+13-4	542-546	Wond	
+13-5	547-555	gespoeld	
+13-6	556-558	op	
+13-7	559-562	bed	
+13-8	563-566	met	
+13-9	567-582	vrouwencatheter	
+13-10	582-583	,	
+13-11	584-588	geel	
+13-12	589-595	beslag	
+13-13	596-599	nog	
+13-14	600-608	aanwezig	
+13-15	608-609	,	
+13-16	610-615	neemt	
+13-17	616-619	wel	
+13-18	620-622	af	
+13-19	622-623	.	
+
+#Text=Wond ondermijn ongeveer 4/5 centimeter beiderzijds.
+14-1	624-628	Wond	
+14-2	629-638	ondermijn	
+14-3	639-647	ongeveer	
+14-4	648-649	4	
+14-5	649-650	/	
+14-6	650-651	5	
+14-7	652-662	centimeter	
+14-8	663-674	beiderzijds	
+14-9	674-675	.	
+
+#Text=Protosan met plastisch verbinden.
+15-1	676-684	Protosan	
+15-2	685-688	met	
+15-3	689-698	plastisch	
+15-4	699-708	verbinden	
+15-5	708-709	.	
+
+#Text=Wondmaterialen ook besteld.
+16-1	710-724	Wondmaterialen	
+16-2	725-728	ook	
+16-3	729-736	besteld	
+16-4	736-737	.	
+
+#Text=MOB: AMEXO-mobiliteitsscore: Loopt ten minste 450 meter Loopt samen met partner.
+17-1	739-742	MOB	
+17-2	742-743	:	
+17-3	744-766	AMEXO-mobiliteitsscore	
+17-4	766-767	:	
+17-5	768-773	Loopt	
+17-6	774-777	ten	
+17-7	778-784	minste	
+17-8	785-788	450	
+17-9	789-794	meter	
+17-10	795-800	Loopt	
+17-11	801-806	samen	
+17-12	807-810	met	
+17-13	811-818	partner	
+17-14	818-819	.	
+
+#Text=Overig: Thuiszorg nog niet rond, alle materialen worden thuisgeleverd op 5-2-2020.
+18-1	822-828	Overig	
+18-2	828-829	:	
+18-3	830-839	Thuiszorg	
+18-4	840-843	nog	
+18-5	844-848	niet	
+18-6	849-853	rond	
+18-7	853-854	,	
+18-8	855-859	alle	
+18-9	860-870	materialen	
+18-10	871-877	worden	
+18-11	878-891	thuisgeleverd	
+18-12	892-894	op	
+18-13	895-896	5	
+18-14	896-897	-	
+18-15	897-898	2	
+18-16	898-899	-	
+18-17	899-903	2020	
+18-18	903-904	.	
+
+#Text=VPK overdracht moet nog.   ";;
+19-1	905-908	VPK	
+19-2	909-919	overdracht	
+19-3	920-924	moet	
+19-4	925-928	nog	
+19-5	928-929	.	
+19-6	932-933	"	
+19-7	933-934	;	
+19-8	934-935	;	

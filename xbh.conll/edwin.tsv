@@ -1,0 +1,152 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1190503;397496327;403209047;Voortgangsverslag;2020-03-02;"Reden van komst: controle bij chronisch subduraal hematoom waarvoor inclusie TORCH studie    Interval-anamnese  Voor uitgebreide voorgeschiedenis verwijs ik naar eerdere correspondentie.
+1-1	0-7	1190503	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	397496327	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	403209047	_	_	
+1-6	27-28	;	_	_	
+1-7	28-45	Voortgangsverslag	_	_	
+1-8	45-46	;	_	_	
+1-9	46-50	2020	_	_	
+1-10	50-51	-	_	_	
+1-11	51-53	03	_	_	
+1-12	53-54	-	_	_	
+1-13	54-56	02	_	_	
+1-14	56-57	;	_	_	
+1-15	57-58	"	_	_	
+1-16	58-63	Reden	_	_	
+1-17	64-67	van	_	_	
+1-18	68-73	komst	_	_	
+1-19	73-74	:	_	_	
+1-20	75-83	controle	_	_	
+1-21	84-87	bij	_	_	
+1-22	88-97	chronisch	_	_	
+1-23	98-107	subduraal	_	_	
+1-24	108-116	hematoom	_	_	
+1-25	117-125	waarvoor	_	_	
+1-26	126-134	inclusie	_	_	
+1-27	135-140	TORCH	_	_	
+1-28	141-147	studie	_	_	
+1-29	151-168	Interval-anamnese	_	_	
+1-30	170-174	Voor	_	_	
+1-31	175-186	uitgebreide	_	_	
+1-32	187-203	voorgeschiedenis	_	_	
+1-33	204-211	verwijs	_	_	
+1-34	212-214	ik	_	_	
+1-35	215-219	naar	_	_	
+1-36	220-227	eerdere	_	_	
+1-37	228-243	correspondentie	_	_	
+1-38	243-244	.	_	_	
+
+#Text=Het gaat goed met patient.
+2-1	248-251	Het	_	_	
+2-2	252-256	gaat	_	_	
+2-3	257-261	goed	_	_	
+2-4	262-265	met	_	_	
+2-5	266-273	patient	_	_	
+2-6	273-274	.	_	_	
+
+#Text=Vooral het lopen gaat steeds beter (nog niet feilloos).
+3-1	275-281	Vooral	_	_	
+3-2	282-285	het	_	_	
+3-3	286-291	lopen	_	_	
+3-4	292-296	gaat	_	_	
+3-5	297-303	steeds	_	_	
+3-6	304-309	beter	_	_	
+3-7	310-311	(	_	_	
+3-8	311-314	nog	_	_	
+3-9	315-319	niet	*->1-1	NegCue[1]	
+3-10	320-328	feilloos	*->1-2	NegEvent[1]	
+3-11	328-329	)	_	_	
+3-12	329-330	.	_	_	
+
+#Text=Ook de coördinatie is verbeterd.
+4-1	331-334	Ook	_	_	
+4-2	335-337	de	_	_	
+4-3	338-349	coördinatie	_	_	
+4-4	350-352	is	_	_	
+4-5	353-362	verbeterd	_	_	
+4-6	362-363	.	_	_	
+
+#Text=Heeft af en toe nog lichte hoofdpijn achter in het hoofd.
+5-1	364-369	Heeft	_	_	
+5-2	370-372	af	_	_	
+5-3	373-375	en	_	_	
+5-4	376-379	toe	_	_	
+5-5	380-383	nog	_	_	
+5-6	384-390	lichte	_	_	
+5-7	391-400	hoofdpijn	_	_	
+5-8	401-407	achter	_	_	
+5-9	408-410	in	_	_	
+5-10	411-414	het	_	_	
+5-11	415-420	hoofd	_	_	
+5-12	420-421	.	_	_	
+
+#Text=Neurologisch onderzoek  Intact  mNIHSS 0    Aanvullend onderzoek  Ct-hersenen: verdere afname chronisch subduraal hematoom (mgl nog zeer gering schilletje zichtbaar).
+6-1	426-438	Neurologisch	_	_	
+6-2	439-448	onderzoek	_	_	
+6-3	450-456	Intact	_	_	
+6-4	458-464	mNIHSS	_	_	
+6-5	465-466	0	_	_	
+6-6	470-480	Aanvullend	_	_	
+6-7	481-490	onderzoek	_	_	
+6-8	492-503	Ct-hersenen	_	_	
+6-9	503-504	:	_	_	
+6-10	505-512	verdere	_	_	
+6-11	513-519	afname	_	_	
+6-12	520-529	chronisch	_	_	
+6-13	530-539	subduraal	_	_	
+6-14	540-548	hematoom	_	_	
+6-15	549-550	(	_	_	
+6-16	550-553	mgl	_	_	
+6-17	554-557	nog	_	_	
+6-18	558-562	zeer	_	_	
+6-19	563-569	gering	_	_	
+6-20	570-580	schilletje	_	_	
+6-21	581-590	zichtbaar	_	_	
+6-22	590-591	)	_	_	
+6-23	591-592	.	_	_	
+
+#Text=Officieel verslag radioloog volgt.
+7-1	593-602	Officieel	_	_	
+7-2	603-610	verslag	_	_	
+7-3	611-620	radioloog	_	_	
+7-4	621-626	volgt	_	_	
+7-5	626-627	.	_	_	
+
+#Text=Conclusie   Klinisch en radiologisch herstel bij chronisch subduraal hematoom rechts waarvoor deelname TORCH studie        Beleid   - Volgens protocol: poliklinische controle 4 weken + Ct-hersenen  - Vragenlijsten meegegeven           ";;
+8-1	632-641	Conclusie	_	_	
+8-2	644-652	Klinisch	_	_	
+8-3	653-655	en	_	_	
+8-4	656-668	radiologisch	_	_	
+8-5	669-676	herstel	_	_	
+8-6	677-680	bij	_	_	
+8-7	681-690	chronisch	_	_	
+8-8	691-700	subduraal	_	_	
+8-9	701-709	hematoom	_	_	
+8-10	710-716	rechts	_	_	
+8-11	717-725	waarvoor	_	_	
+8-12	726-734	deelname	_	_	
+8-13	735-740	TORCH	_	_	
+8-14	741-747	studie	_	_	
+8-15	755-761	Beleid	_	_	
+8-16	764-765	-	_	_	
+8-17	766-773	Volgens	_	_	
+8-18	774-782	protocol	_	_	
+8-19	782-783	:	_	_	
+8-20	784-797	poliklinische	_	_	
+8-21	798-806	controle	_	_	
+8-22	807-808	4	_	_	
+8-23	809-814	weken	_	_	
+8-24	815-816	+	_	_	
+8-25	817-828	Ct-hersenen	_	_	
+8-26	830-831	-	_	_	
+8-27	832-845	Vragenlijsten	_	_	
+8-28	846-856	meegegeven	_	_	
+8-29	867-868	"	_	_	
+8-30	868-869	;	_	_	
+8-31	869-870	;	_	_	

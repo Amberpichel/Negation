@@ -1,0 +1,75 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1382439;402574685;408444772;Zorgplan/VPK rapportage;2020-03-22;"NF: Geen klachten  URO: Nog iets bloedverlies bij de katheter ingang.
+1-1	0-7	1382439	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	402574685	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	408444772	_	_	
+1-6	27-28	;	_	_	
+1-7	28-36	Zorgplan	_	_	
+1-8	36-37	/	_	_	
+1-9	37-40	VPK	_	_	
+1-10	41-51	rapportage	_	_	
+1-11	51-52	;	_	_	
+1-12	52-56	2020	_	_	
+1-13	56-57	-	_	_	
+1-14	57-59	03	_	_	
+1-15	59-60	-	_	_	
+1-16	60-62	22	_	_	
+1-17	62-63	;	_	_	
+1-18	63-64	"	_	_	
+1-19	64-66	NF	_	_	
+1-20	66-67	:	_	_	
+1-21	68-72	Geen	*->1-1	NegCue[1]	
+1-22	73-81	klachten	*->1-2	NegEvent[1]	
+1-23	83-86	URO	_	_	
+1-24	86-87	:	_	_	
+1-25	88-91	Nog	_	_	
+1-26	92-96	iets	_	_	
+1-27	97-109	bloedverlies	_	_	
+1-28	110-113	bij	_	_	
+1-29	114-116	de	_	_	
+1-30	117-125	katheter	_	_	
+1-31	126-132	ingang	_	_	
+1-32	132-133	.	_	_	
+
+#Text=Urine zag helder, geen stolsels.
+2-1	134-139	Urine	_	_	
+2-2	140-143	zag	_	_	
+2-3	144-150	helder	_	_	
+2-4	150-151	,	_	_	
+2-5	152-156	geen	*->2-1	NegCue[2]	
+2-6	157-165	stolsels	*->2-2	NegEvent[2]	
+2-7	165-166	.	_	_	
+
+#Text=DIG: Def-  MOB: Heeft in de stoel gezeten.
+3-1	169-172	DIG	_	_	
+3-2	172-173	:	_	_	
+3-3	174-177	Def	_	_	
+3-4	177-178	-	_	_	
+3-5	180-183	MOB	_	_	
+3-6	183-184	:	_	_	
+3-7	185-190	Heeft	_	_	
+3-8	191-193	in	_	_	
+3-9	194-196	de	_	_	
+3-10	197-202	stoel	_	_	
+3-11	203-210	gezeten	_	_	
+3-12	210-211	.	_	_	
+
+#Text=Naar het toilet gelopen onder begeleiding van 1 vpk.     ";;
+4-1	212-216	Naar	_	_	
+4-2	217-220	het	_	_	
+4-3	221-227	toilet	_	_	
+4-4	228-235	gelopen	_	_	
+4-5	236-241	onder	_	_	
+4-6	242-253	begeleiding	_	_	
+4-7	254-257	van	_	_	
+4-8	258-259	1	_	_	
+4-9	260-263	vpk	_	_	
+4-10	263-264	.	_	_	
+4-11	269-270	"	_	_	
+4-12	270-271	;	_	_	
+4-13	271-272	;	_	_	

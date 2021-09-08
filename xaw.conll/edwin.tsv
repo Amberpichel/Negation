@@ -1,0 +1,165 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1190039;404136194;410037815;Zorgplan/VPK rapportage;2020-03-27;"Mw sliep.
+1-1	0-7	1190039	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	404136194	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	410037815	_	_	
+1-6	27-28	;	_	_	
+1-7	28-36	Zorgplan	_	_	
+1-8	36-37	/	_	_	
+1-9	37-40	VPK	_	_	
+1-10	41-51	rapportage	_	_	
+1-11	51-52	;	_	_	
+1-12	52-56	2020	_	_	
+1-13	56-57	-	_	_	
+1-14	57-59	03	_	_	
+1-15	59-60	-	_	_	
+1-16	60-62	27	_	_	
+1-17	62-63	;	_	_	
+1-18	63-64	"	_	_	
+1-19	64-66	Mw	_	_	
+1-20	67-72	sliep	_	_	
+1-21	72-73	.	_	_	
+
+#Text=Geen def gehad.
+2-1	74-78	Geen	_	_	
+2-2	79-82	def	_	_	
+2-3	83-88	gehad	_	_	
+2-4	88-89	.	_	_	
+
+#Text=Belde rond 5.00u dat zij de CAD graag eruit wilde.
+3-1	92-97	Belde	_	_	
+3-2	98-102	rond	_	_	
+3-3	103-108	5.00u	_	_	
+3-4	109-112	dat	_	_	
+3-5	113-116	zij	_	_	
+3-6	117-119	de	_	_	
+3-7	120-123	CAD	_	_	
+3-8	124-129	graag	_	_	
+3-9	130-135	eruit	_	_	
+3-10	136-141	wilde	_	_	
+3-11	141-142	.	_	_	
+
+#Text=Dit scheen door de arts belooft te zijn gister.
+4-1	143-146	Dit	_	_	
+4-2	147-153	scheen	_	_	
+4-3	154-158	door	_	_	
+4-4	159-161	de	_	_	
+4-5	162-166	arts	_	_	
+4-6	167-174	belooft	_	_	
+4-7	175-177	te	_	_	
+4-8	178-182	zijn	_	_	
+4-9	183-189	gister	_	_	
+4-10	189-190	.	_	_	
+
+#Text=Echter geen notitie hiervan dus gezegd dat mw moet wachten tot de arts er is straks.
+5-1	191-197	Echter	_	_	
+5-2	198-202	geen	*->2-1	NegCue[2]	
+5-3	203-210	notitie	*->2-2	NegEvent[2]	
+5-4	211-218	hiervan	_	_	
+5-5	219-222	dus	_	_	
+5-6	223-229	gezegd	_	_	
+5-7	230-233	dat	_	_	
+5-8	234-236	mw	_	_	
+5-9	237-241	moet	_	_	
+5-10	242-249	wachten	_	_	
+5-11	250-253	tot	_	_	
+5-12	254-256	de	_	_	
+5-13	257-261	arts	_	_	
+5-14	262-264	er	_	_	
+5-15	265-267	is	_	_	
+5-16	268-274	straks	_	_	
+5-17	274-275	.	_	_	
+
+#Text=Had ook al dagen last van pijn bij de CAD/blaaskrampen.
+6-1	276-279	Had	_	_	
+6-2	280-283	ook	_	_	
+6-3	284-286	al	_	_	
+6-4	287-292	dagen	_	_	
+6-5	293-297	last	_	_	
+6-6	298-301	van	_	_	
+6-7	302-306	pijn	_	_	
+6-8	307-310	bij	_	_	
+6-9	311-313	de	_	_	
+6-10	314-317	CAD	_	_	
+6-11	317-318	/	_	_	
+6-12	318-330	blaaskrampen	_	_	
+6-13	330-331	.	_	_	
+
+#Text=Kreeg hiervoor PCM.
+7-1	332-337	Kreeg	_	_	
+7-2	338-346	hiervoor	_	_	
+7-3	347-350	PCM	_	_	
+7-4	350-351	.	_	_	
+
+#Text=Toen bleek dat de UP een stuk minder was dan afgelopen dagen.
+8-1	353-357	Toen	_	_	
+8-2	358-363	bleek	_	_	
+8-3	364-367	dat	_	_	
+8-4	368-370	de	_	_	
+8-5	371-373	UP	_	_	
+8-6	374-377	een	_	_	
+8-7	378-382	stuk	_	_	
+8-8	383-389	minder	_	_	
+8-9	390-393	was	_	_	
+8-10	394-397	dan	_	_	
+8-11	398-407	afgelopen	_	_	
+8-12	408-413	dagen	_	_	
+8-13	413-414	.	_	_	
+
+#Text=Gebladderd maar blaas is zo goed als leeg.
+9-1	415-425	Gebladderd	_	_	
+9-2	426-430	maar	_	_	
+9-3	431-436	blaas	_	_	
+9-4	437-439	is	_	_	
+9-5	440-442	zo	_	_	
+9-6	443-447	goed	_	_	
+9-7	448-451	als	_	_	
+9-8	452-456	leeg	_	_	
+9-9	456-457	.	_	_	
+
+#Text=RR is netjes.
+10-1	458-460	RR	_	_	
+10-2	461-463	is	_	_	
+10-3	464-470	netjes	_	_	
+10-4	470-471	.	_	_	
+
+#Text=Arts gebeld maar voor nu geen actie gezien kans op overvulling.
+11-1	472-476	Arts	_	_	
+11-2	477-483	gebeld	_	_	
+11-3	484-488	maar	_	_	
+11-4	489-493	voor	_	_	
+11-5	494-496	nu	_	_	
+11-6	497-501	geen	*->1-1	NegCue[1]	
+11-7	502-507	actie	*->1-2	NegEvent[1]	
+11-8	508-514	gezien	_	_	
+11-9	515-519	kans	_	_	
+11-10	520-522	op	_	_	
+11-11	523-534	overvulling	_	_	
+11-12	534-535	.	_	_	
+
+#Text=CAD zak met urimeter aangehangen.
+12-1	536-539	CAD	_	_	
+12-2	540-543	zak	_	_	
+12-3	544-547	met	_	_	
+12-4	548-556	urimeter	_	_	
+12-5	557-568	aangehangen	_	_	
+12-6	568-569	.	_	_	
+
+#Text=Mw plast nu +- 20cc per uur.  ";;
+13-1	570-572	Mw	_	_	
+13-2	573-578	plast	_	_	
+13-3	579-581	nu	_	_	
+13-4	582-583	+	_	_	
+13-5	583-584	-	_	_	
+13-6	585-589	20cc	_	_	
+13-7	590-593	per	_	_	
+13-8	594-597	uur	_	_	
+13-9	597-598	.	_	_	
+13-10	600-601	"	_	_	
+13-11	601-602	;	_	_	
+13-12	602-603	;	_	_	

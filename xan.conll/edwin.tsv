@@ -1,0 +1,31 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1189253;399639623;405415526;NULL;2020-03-10;"Geimporteerde radiologie/nucleaire beelden zonder verslag.  ";;
+1-1	0-7	1189253	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	399639623	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	405415526	_	_	
+1-6	27-28	;	_	_	
+1-7	28-32	NULL	_	_	
+1-8	32-33	;	_	_	
+1-9	33-37	2020	_	_	
+1-10	37-38	-	_	_	
+1-11	38-40	03	_	_	
+1-12	40-41	-	_	_	
+1-13	41-43	10	_	_	
+1-14	43-44	;	_	_	
+1-15	44-45	"	_	_	
+1-16	45-58	Geimporteerde	_	_	
+1-17	59-69	radiologie	_	_	
+1-18	69-70	/	_	_	
+1-19	70-79	nucleaire	_	_	
+1-20	80-87	beelden	_	_	
+1-21	88-94	zonder	*->1-1	NegCue[1]	
+1-22	95-102	verslag	*->1-2	NegEvent[1]	
+1-23	102-103	.	_	_	
+1-24	105-106	"	_	_	
+1-25	106-107	;	_	_	
+1-26	107-108	;	_	_	

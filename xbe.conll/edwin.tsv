@@ -1,0 +1,143 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1190259;401748294;407593990;OBS Beleid;2020-03-18;"1. 
+1-1	0-7	1190259	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	401748294	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	407593990	_	_	
+1-6	27-28	;	_	_	
+1-7	28-31	OBS	_	_	
+1-8	32-38	Beleid	_	_	
+1-9	38-39	;	_	_	
+1-10	39-43	2020	_	_	
+1-11	43-44	-	_	_	
+1-12	44-46	03	_	_	
+1-13	46-47	-	_	_	
+1-14	47-49	18	_	_	
+1-15	49-50	;	_	_	
+1-16	50-51	"	_	_	
+1-17	51-52	1	_	_	
+1-18	52-53	.	_	_	
+1-19	53-54	 	_	_	
+
+#Text=P1 met syndromale afwijking KBG syndroom en microduplicatie waarbij dysmaturiteit.
+2-1	54-56	P1	_	_	
+2-2	57-60	met	_	_	
+2-3	61-71	syndromale	_	_	
+2-4	72-81	afwijking	_	_	
+2-5	82-85	KBG	_	_	
+2-6	86-94	syndroom	_	_	
+2-7	95-97	en	_	_	
+2-8	98-113	microduplicatie	_	_	
+2-9	114-121	waarbij	_	_	
+2-10	122-135	dysmaturiteit	_	_	
+2-11	135-136	.	_	_	
+
+#Text=Niet voor bevalling gezien waardoor verlies van vertrouwen in zorgsysteem.  2.
+3-1	137-141	Niet	*->1-1	NegCue[1]	
+3-2	142-146	voor	_	_	
+3-3	147-156	bevalling	_	_	
+3-4	157-163	gezien	*->1-2	NegEvent[1]	
+3-5	164-172	waardoor	_	_	
+3-6	173-180	verlies	_	_	
+3-7	181-184	van	_	_	
+3-8	185-195	vertrouwen	_	_	
+3-9	196-198	in	_	_	
+3-10	199-210	zorgsysteem	_	_	
+3-11	210-211	.	_	_	
+3-12	213-214	2	_	_	
+3-13	214-215	.	_	_	
+
+#Text=Diabetes gravidarum in de VG.   3. 
+4-1	216-224	Diabetes	_	_	
+4-2	225-235	gravidarum	_	_	
+4-3	236-238	in	_	_	
+4-4	239-241	de	_	_	
+4-5	242-244	VG	_	_	
+4-6	244-245	.	_	_	
+4-7	248-249	3	_	_	
+4-8	249-250	.	_	_	
+4-9	250-251	 	_	_	
+
+#Text=Afbuigende groei op groeiechos van huidige graviditeit     Ad 1. 
+5-1	251-261	Afbuigende	_	_	
+5-2	262-267	groei	_	_	
+5-3	268-270	op	_	_	
+5-4	271-281	groeiechos	_	_	
+5-5	282-285	van	_	_	
+5-6	286-293	huidige	_	_	
+5-7	294-305	graviditeit	_	_	
+5-8	307-308	 	_	_	
+5-9	310-312	Ad	_	_	
+5-10	313-314	1	_	_	
+5-11	314-315	.	_	_	
+5-12	315-316	 	_	_	
+
+#Text=NIPT: geen afwijkingen.
+6-1	316-320	NIPT	_	_	
+6-2	320-321	:	_	_	
+6-3	322-326	geen	_	_	
+6-4	327-338	afwijkingen	_	_	
+6-5	338-339	.	_	_	
+
+#Text=Postnataal chromosomaal onderzoek bij kind volgt.
+7-1	340-350	Postnataal	_	_	
+7-2	351-363	chromosomaal	_	_	
+7-3	364-373	onderzoek	_	_	
+7-4	374-377	bij	_	_	
+7-5	378-382	kind	_	_	
+7-6	383-388	volgt	_	_	
+7-7	388-389	.	_	_	
+
+#Text=Ad 2.
+8-1	392-394	Ad	_	_	
+8-2	395-396	2	_	_	
+8-3	396-397	.	_	_	
+
+#Text=OGTT in eerste lijn was goed.
+9-1	398-402	OGTT	_	_	
+9-2	403-405	in	_	_	
+9-3	406-412	eerste	_	_	
+9-4	413-417	lijn	_	_	
+9-5	418-421	was	_	_	
+9-6	422-426	goed	_	_	
+9-7	426-427	.	_	_	
+
+#Text=Ad 3. echo dopplers 1x/week, groei bij 36 weken niet zo zinvol.
+10-1	430-432	Ad	_	_	
+10-2	433-434	3	_	_	
+10-3	434-435	.	_	_	
+10-4	435-436	 	_	_	
+10-5	436-440	echo	_	_	
+10-6	441-449	dopplers	_	_	
+10-7	450-452	1x	_	_	
+10-8	452-453	/	_	_	
+10-9	453-457	week	_	_	
+10-10	457-458	,	_	_	
+10-11	459-464	groei	_	_	
+10-12	465-468	bij	_	_	
+10-13	469-471	36	_	_	
+10-14	472-477	weken	_	_	
+10-15	478-482	niet	*->3-1	NegCue[3]	
+10-16	483-485	zo	_	_	
+10-17	486-492	zinvol	*->3-2	NegEvent[3]	
+10-18	492-493	.	_	_	
+
+#Text=Drigitat cohort gecounseld: ivm Corona niet meer van toepassing.  ";;
+11-1	494-502	Drigitat	_	_	
+11-2	503-509	cohort	_	_	
+11-3	510-520	gecounseld	_	_	
+11-4	520-521	:	_	_	
+11-5	522-525	ivm	_	_	
+11-6	526-532	Corona	_	_	
+11-7	533-537	niet	*->2-1	NegCue[2]	
+11-8	538-542	meer	_	_	
+11-9	543-546	van	_	_	
+11-10	547-557	toepassing	*->2-2	NegEvent[2]	
+11-11	557-558	.	_	_	
+11-12	560-561	"	_	_	
+11-13	561-562	;	_	_	
+11-14	562-563	;	_	_	

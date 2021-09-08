@@ -1,0 +1,230 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1190039;404377737;410288076;Voortgangsverslag;2020-03-28;"Eerste dialyse bij transplantaatfalen.
+1-1	0-7	1190039	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	404377737	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	410288076	_	_	
+1-6	27-28	;	_	_	
+1-7	28-45	Voortgangsverslag	_	_	
+1-8	45-46	;	_	_	
+1-9	46-50	2020	_	_	
+1-10	50-51	-	_	_	
+1-11	51-53	03	_	_	
+1-12	53-54	-	_	_	
+1-13	54-56	28	_	_	
+1-14	56-57	;	_	_	
+1-15	57-58	"	_	_	
+1-16	58-64	Eerste	_	_	
+1-17	65-72	dialyse	_	_	
+1-18	73-76	bij	_	_	
+1-19	77-95	transplantaatfalen	_	_	
+1-20	95-96	.	_	_	
+
+#Text=Mw zou eigenlijk maandag instromen maar is nu benauwd en overvuld.
+2-1	97-99	Mw	_	_	
+2-2	100-103	zou	_	_	
+2-3	104-113	eigenlijk	_	_	
+2-4	114-121	maandag	_	_	
+2-5	122-131	instromen	_	_	
+2-6	132-136	maar	_	_	
+2-7	137-139	is	_	_	
+2-8	140-142	nu	_	_	
+2-9	143-150	benauwd	_	_	
+2-10	151-153	en	_	_	
+2-11	154-162	overvuld	_	_	
+2-12	162-163	.	_	_	
+
+#Text=Mw komt met bed van de verpleegafdeling.
+3-1	166-168	Mw	_	_	
+3-2	169-173	komt	_	_	
+3-3	174-177	met	_	_	
+3-4	178-181	bed	_	_	
+3-5	182-185	van	_	_	
+3-6	186-188	de	_	_	
+3-7	189-205	verpleegafdeling	_	_	
+3-8	205-206	.	_	_	
+
+#Text=Arts heeft geprobeerd een lieslijn rechts in te brengen, links zat er nog een niet werkende shunt.
+4-1	209-213	Arts	_	_	
+4-2	214-219	heeft	_	_	
+4-3	220-230	geprobeerd	_	_	
+4-4	231-234	een	_	_	
+4-5	235-243	lieslijn	*->1-1	NegEvent[1]	
+4-6	244-250	rechts	_	_	
+4-7	251-253	in	_	_	
+4-8	254-256	te	_	_	
+4-9	257-264	brengen	_	_	
+4-10	264-265	,	_	_	
+4-11	266-271	links	_	_	
+4-12	272-275	zat	_	_	
+4-13	276-278	er	_	_	
+4-14	279-282	nog	_	_	
+4-15	283-286	een	_	_	
+4-16	287-291	niet	*->4-1	NegCue[4]	
+4-17	292-300	werkende	_	_	
+4-18	301-306	shunt	*->4-2	NegEvent[4]	
+4-19	306-307	.	_	_	
+
+#Text=Dit lukte niet.
+5-1	308-311	Dit	_	_	
+5-2	312-317	lukte	_	_	
+5-3	318-322	niet	*->1-2	NegCue[1]	
+5-4	322-323	.	_	_	
+
+#Text=Anesthesie is naar beneden gekomen om de lijn in te brengen.
+6-1	324-334	Anesthesie	_	_	
+6-2	335-337	is	_	_	
+6-3	338-342	naar	_	_	
+6-4	343-350	beneden	_	_	
+6-5	351-358	gekomen	_	_	
+6-6	359-361	om	_	_	
+6-7	362-364	de	_	_	
+6-8	365-369	lijn	_	_	
+6-9	370-372	in	_	_	
+6-10	373-375	te	_	_	
+6-11	376-383	brengen	_	_	
+6-12	383-384	.	_	_	
+
+#Text=Eerst jug rechts geprobeerd, dit ging niet.
+7-1	387-392	Eerst	_	_	
+7-2	393-396	jug	*->2-1	NegEvent[2]	
+7-3	397-403	rechts	_	_	
+7-4	404-414	geprobeerd	_	_	
+7-5	414-415	,	_	_	
+7-6	416-419	dit	_	_	
+7-7	420-424	ging	_	_	
+7-8	425-429	niet	*->2-2	NegCue[2]	
+7-9	429-430	.	_	_	
+
+#Text=Toen jug links.
+8-1	431-435	Toen	_	_	
+8-2	436-439	jug	_	_	
+8-3	440-445	links	_	_	
+8-4	445-446	.	_	_	
+
+#Text=Leek goed.
+9-1	447-451	Leek	_	_	
+9-2	452-456	goed	_	_	
+9-3	456-457	.	_	_	
+
+#Text=Maar beide polen waren niet optrekbaar.
+10-1	458-462	Maar	_	_	
+10-2	463-468	beide	_	_	
+10-3	469-474	polen	_	_	
+10-4	475-480	waren	_	_	
+10-5	481-485	niet	*->3-1	NegCue[3]	
+10-6	486-496	optrekbaar	*->3-2	NegEvent[3]	
+10-7	496-497	.	_	_	
+
+#Text=Naar de rontgen geweest voor een controle foto.
+11-1	498-502	Naar	_	_	
+11-2	503-505	de	_	_	
+11-3	506-513	rontgen	_	_	
+11-4	514-521	geweest	_	_	
+11-5	522-526	voor	_	_	
+11-6	527-530	een	_	_	
+11-7	531-539	controle	_	_	
+11-8	540-544	foto	_	_	
+11-9	544-545	.	_	_	
+
+#Text=Lijn lijkt goed te zitten, arts heeft hem een beetje terug getrokken.
+12-1	548-552	Lijn	_	_	
+12-2	553-558	lijkt	_	_	
+12-3	559-563	goed	_	_	
+12-4	564-566	te	_	_	
+12-5	567-573	zitten	_	_	
+12-6	573-574	,	_	_	
+12-7	575-579	arts	_	_	
+12-8	580-585	heeft	_	_	
+12-9	586-589	hem	_	_	
+12-10	590-593	een	_	_	
+12-11	594-600	beetje	_	_	
+12-12	601-606	terug	_	_	
+12-13	607-616	getrokken	_	_	
+12-14	616-617	.	_	_	
+
+#Text=Hierna was arterieel goed optrekbaar.
+13-1	618-624	Hierna	_	_	
+13-2	625-628	was	_	_	
+13-3	629-638	arterieel	_	_	
+13-4	639-643	goed	_	_	
+13-5	644-654	optrekbaar	_	_	
+13-6	654-655	.	_	_	
+
+#Text=Lijn vastgemaakt met statlock.
+14-1	656-660	Lijn	_	_	
+14-2	661-672	vastgemaakt	_	_	
+14-3	673-676	met	_	_	
+14-4	677-685	statlock	_	_	
+14-5	685-686	.	_	_	
+
+#Text=Eerste half uur GUF daarna een uur HD. 1500 ml UF proberen. 0.3 fraxiparine.
+15-1	689-695	Eerste	_	_	
+15-2	696-700	half	_	_	
+15-3	701-704	uur	_	_	
+15-4	705-708	GUF	_	_	
+15-5	709-715	daarna	_	_	
+15-6	716-719	een	_	_	
+15-7	720-723	uur	_	_	
+15-8	724-726	HD	_	_	
+15-9	726-727	.	_	_	
+15-10	728-732	1500	_	_	
+15-11	733-735	ml	_	_	
+15-12	736-738	UF	_	_	
+15-13	739-747	proberen	_	_	
+15-14	747-748	.	_	_	
+15-15	749-752	0.3	_	_	
+15-16	753-764	fraxiparine	_	_	
+15-17	764-765	.	_	_	
+
+#Text=Dialyse is stabiel verlopen.
+16-1	768-775	Dialyse	_	_	
+16-2	776-778	is	_	_	
+16-3	779-786	stabiel	_	_	
+16-4	787-795	verlopen	_	_	
+16-5	795-796	.	_	_	
+
+#Text=Uiteindelijk 1615 ml vocht onttrokken.
+17-1	799-811	Uiteindelijk	_	_	
+17-2	812-816	1615	_	_	
+17-3	817-819	ml	_	_	
+17-4	820-825	vocht	_	_	
+17-5	826-836	onttrokken	_	_	
+17-6	836-837	.	_	_	
+
+#Text=RR na dialyse 119/48.
+18-1	838-840	RR	_	_	
+18-2	841-843	na	_	_	
+18-3	844-851	dialyse	_	_	
+18-4	852-855	119	_	_	
+18-5	855-856	/	_	_	
+18-6	856-858	48	_	_	
+18-7	858-859	.	_	_	
+
+#Text=Mw gaf aan zich iets beter te voelen.
+19-1	860-862	Mw	_	_	
+19-2	863-866	gaf	_	_	
+19-3	867-870	aan	_	_	
+19-4	871-875	zich	_	_	
+19-5	876-880	iets	_	_	
+19-6	881-886	beter	_	_	
+19-7	887-889	te	_	_	
+19-8	890-896	voelen	_	_	
+19-9	896-897	.	_	_	
+
+#Text=Morgen opnieuw dialyse in overleg?
+20-1	900-906	Morgen	_	_	
+20-2	907-914	opnieuw	_	_	
+20-3	915-922	dialyse	_	_	
+20-4	923-925	in	_	_	
+20-5	926-933	overleg	_	_	
+20-6	933-934	?	_	_	
+
+#Text=";;
+21-1	941-942	"	_	_	
+21-2	942-943	;	_	_	
+21-3	943-944	;	_	_	

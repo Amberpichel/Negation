@@ -1,0 +1,154 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1187949;388368522;393830936;Zorgplan/VPK rapportage;2020-01-30;"CZS: Pijn onder controle.
+1-1	0-7	1187949	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	388368522	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	393830936	_	_	
+1-6	27-28	;	_	_	
+1-7	28-36	Zorgplan	_	_	
+1-8	36-37	/	_	_	
+1-9	37-40	VPK	_	_	
+1-10	41-51	rapportage	_	_	
+1-11	51-52	;	_	_	
+1-12	52-56	2020	_	_	
+1-13	56-57	-	_	_	
+1-14	57-59	01	_	_	
+1-15	59-60	-	_	_	
+1-16	60-62	30	_	_	
+1-17	62-63	;	_	_	
+1-18	63-64	"	_	_	
+1-19	64-67	CZS	_	_	
+1-20	67-68	:	_	_	
+1-21	69-73	Pijn	_	_	
+1-22	74-79	onder	_	_	
+1-23	80-88	controle	_	_	
+1-24	88-89	.	_	_	
+
+#Text=PSYCH: Vriendelijk aanwezig.
+2-1	91-96	PSYCH	_	_	
+2-2	96-97	:	_	_	
+2-3	98-109	Vriendelijk	_	_	
+2-4	110-118	aanwezig	_	_	
+2-5	118-119	.	_	_	
+
+#Text=Geeft aan erg emotioneel te zijn en graag naar huis te willen.
+3-1	120-125	Geeft	_	_	
+3-2	126-129	aan	_	_	
+3-3	130-133	erg	_	_	
+3-4	134-144	emotioneel	_	_	
+3-5	145-147	te	_	_	
+3-6	148-152	zijn	_	_	
+3-7	153-155	en	_	_	
+3-8	156-161	graag	_	_	
+3-9	162-166	naar	_	_	
+3-10	167-171	huis	_	_	
+3-11	172-174	te	_	_	
+3-12	175-181	willen	_	_	
+3-13	181-182	.	_	_	
+
+#Text=CIRC: Licht hypotensief.
+4-1	184-188	CIRC	_	_	
+4-2	188-189	:	_	_	
+4-3	190-195	Licht	_	_	
+4-4	196-207	hypotensief	_	_	
+4-5	207-208	.	_	_	
+
+#Text=HD stabiel.
+5-1	209-211	HD	_	_	
+5-2	212-219	stabiel	_	_	
+5-3	219-220	.	_	_	
+
+#Text=DIG: Def+, Stoma produceert voldoende dunne groene ontlasting.
+6-1	222-225	DIG	_	_	
+6-2	225-226	:	_	_	
+6-3	227-230	Def	_	_	
+6-4	230-231	+	_	_	
+6-5	231-232	,	_	_	
+6-6	233-238	Stoma	_	_	
+6-7	239-249	produceert	_	_	
+6-8	250-259	voldoende	_	_	
+6-9	260-265	dunne	_	_	
+6-10	266-272	groene	_	_	
+6-11	273-283	ontlasting	_	_	
+6-12	283-284	.	_	_	
+
+#Text=Mevrouw wilde vandaag de stomazorg niet doen,  zat nog goed aldus mevrouw.
+7-1	285-292	Mevrouw	_	_	
+7-2	293-298	wilde	_	_	
+7-3	299-306	vandaag	_	_	
+7-4	307-309	de	_	_	
+7-5	310-319	stomazorg	*->1-1	NegEvent[1]	
+7-6	320-324	niet	*->1-2	NegCue[1]	
+7-7	325-329	doen	_	_	
+7-8	329-330	,	_	_	
+7-9	332-335	zat	_	_	
+7-10	336-339	nog	_	_	
+7-11	340-344	goed	_	_	
+7-12	345-350	aldus	_	_	
+7-13	351-358	mevrouw	_	_	
+7-14	358-359	.	_	_	
+
+#Text=Eet kleine beetjes en deed mee met ontbijtbuffet.
+8-1	360-363	Eet	_	_	
+8-2	364-370	kleine	_	_	
+8-3	371-378	beetjes	_	_	
+8-4	379-381	en	_	_	
+8-5	382-386	deed	_	_	
+8-6	387-390	mee	_	_	
+8-7	391-394	met	_	_	
+8-8	395-408	ontbijtbuffet	_	_	
+8-9	408-409	.	_	_	
+
+#Text=URO: Up+, mevrouw plast zelfstandig op het toilet.
+9-1	411-414	URO	_	_	
+9-2	414-415	:	_	_	
+9-3	416-418	Up	_	_	
+9-4	418-419	+	_	_	
+9-5	419-420	,	_	_	
+9-6	421-428	mevrouw	_	_	
+9-7	429-434	plast	_	_	
+9-8	435-446	zelfstandig	_	_	
+9-9	447-449	op	_	_	
+9-10	450-453	het	_	_	
+9-11	454-460	toilet	_	_	
+9-12	460-461	.	_	_	
+
+#Text=CHIR: Wond plastisch verbonden: Wond zat vol met pus waar hij voorheen schoon was: uitgezogen en gespoeld.
+10-1	463-467	CHIR	_	_	
+10-2	467-468	:	_	_	
+10-3	469-473	Wond	_	_	
+10-4	474-483	plastisch	_	_	
+10-5	484-493	verbonden	_	_	
+10-6	493-494	:	_	_	
+10-7	495-499	Wond	_	_	
+10-8	500-503	zat	_	_	
+10-9	504-507	vol	_	_	
+10-10	508-511	met	_	_	
+10-11	512-515	pus	_	_	
+10-12	516-520	waar	_	_	
+10-13	521-524	hij	_	_	
+10-14	525-533	voorheen	_	_	
+10-15	534-540	schoon	_	_	
+10-16	541-544	was	_	_	
+10-17	544-545	:	_	_	
+10-18	546-556	uitgezogen	_	_	
+10-19	557-559	en	_	_	
+10-20	560-568	gespoeld	_	_	
+10-21	568-569	.	_	_	
+
+#Text=MOB: AMEXO-mobiliteitsscore: Is actief in bed    ";;
+11-1	571-574	MOB	_	_	
+11-2	574-575	:	_	_	
+11-3	576-598	AMEXO-mobiliteitsscore	_	_	
+11-4	598-599	:	_	_	
+11-5	600-602	Is	_	_	
+11-6	603-609	actief	_	_	
+11-7	610-612	in	_	_	
+11-8	613-616	bed	_	_	
+11-9	620-621	"	_	_	
+11-10	621-622	;	_	_	
+11-11	622-623	;	_	_	

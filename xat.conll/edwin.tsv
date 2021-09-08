@@ -1,0 +1,255 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1190039;403580240;409485554;Zorgplan/VPK rapportage;2020-03-25;"ALG: Slaapt veel, wakker moeten maken voor het eten.
+1-1	0-7	1190039	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	403580240	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	409485554	_	_	
+1-6	27-28	;	_	_	
+1-7	28-36	Zorgplan	_	_	
+1-8	36-37	/	_	_	
+1-9	37-40	VPK	_	_	
+1-10	41-51	rapportage	_	_	
+1-11	51-52	;	_	_	
+1-12	52-56	2020	_	_	
+1-13	56-57	-	_	_	
+1-14	57-59	03	_	_	
+1-15	59-60	-	_	_	
+1-16	60-62	25	_	_	
+1-17	62-63	;	_	_	
+1-18	63-64	"	_	_	
+1-19	64-67	ALG	_	_	
+1-20	67-68	:	_	_	
+1-21	69-75	Slaapt	_	_	
+1-22	76-80	veel	_	_	
+1-23	80-81	,	_	_	
+1-24	82-88	wakker	_	_	
+1-25	89-95	moeten	_	_	
+1-26	96-101	maken	_	_	
+1-27	102-106	voor	_	_	
+1-28	107-110	het	_	_	
+1-29	111-115	eten	_	_	
+1-30	115-116	.	_	_	
+
+#Text=CZS: Uit geen pijnklachten.
+2-1	118-121	CZS	_	_	
+2-2	121-122	:	_	_	
+2-3	123-126	Uit	_	_	
+2-4	127-131	geen	*->2-1	NegCue[2]	
+2-5	132-144	pijnklachten	*->2-2	NegEvent[2]	
+2-6	144-145	.	_	_	
+
+#Text=RESP: 94%   CIRC: 2L per 24 uur nacl  URO: CAD +, productief.
+3-1	147-151	RESP	_	_	
+3-2	151-152	:	_	_	
+3-3	153-156	94%	_	_	
+3-4	159-163	CIRC	_	_	
+3-5	163-164	:	_	_	
+3-6	165-167	2L	_	_	
+3-7	168-171	per	_	_	
+3-8	172-174	24	_	_	
+3-9	175-178	uur	_	_	
+3-10	179-183	nacl	_	_	
+3-11	185-188	URO	_	_	
+3-12	188-189	:	_	_	
+3-13	190-193	CAD	_	_	
+3-14	194-195	+	_	_	
+3-15	195-196	,	_	_	
+3-16	197-207	productief	_	_	
+3-17	207-208	.	_	_	
+
+#Text=Ziet erg vlokkerig.
+4-1	209-213	Ziet	_	_	
+4-2	214-217	erg	_	_	
+4-3	218-227	vlokkerig	_	_	
+4-4	227-228	.	_	_	
+
+#Text=Urinesediment afnemen?
+5-1	229-242	Urinesediment	_	_	
+5-2	243-250	afnemen	_	_	
+5-3	250-251	?	_	_	
+
+#Text=Vochtbalans bijgehouden.
+6-1	253-264	Vochtbalans	_	_	
+6-2	265-276	bijgehouden	_	_	
+6-3	276-277	.	_	_	
+
+#Text=DIG:   17.00 glucose 29.9 -> p/o arts 14 EH bijgespoten  18:30 glucose 26.8 -> p/o arts 10 EH bijgespoten  20:30 glucose 18.7 -> p/o arts 4 EH bijgespoten  Graag om 23:00 uur weer een controle en doorbellen
+7-1	279-282	DIG	_	_	
+7-2	282-283	:	_	_	
+7-3	286-291	17.00	_	_	
+7-4	292-299	glucose	_	_	
+7-5	300-304	29.9	_	_	
+7-6	305-306	-	_	_	
+7-7	306-307	>	_	_	
+7-8	308-309	p	_	_	
+7-9	309-310	/	_	_	
+7-10	310-311	o	_	_	
+7-11	312-316	arts	_	_	
+7-12	317-319	14	_	_	
+7-13	320-322	EH	_	_	
+7-14	323-334	bijgespoten	_	_	
+7-15	336-338	18	_	_	
+7-16	338-339	:	_	_	
+7-17	339-341	30	_	_	
+7-18	342-349	glucose	_	_	
+7-19	350-354	26.8	_	_	
+7-20	355-356	-	_	_	
+7-21	356-357	>	_	_	
+7-22	358-359	p	_	_	
+7-23	359-360	/	_	_	
+7-24	360-361	o	_	_	
+7-25	362-366	arts	_	_	
+7-26	367-369	10	_	_	
+7-27	370-372	EH	_	_	
+7-28	373-384	bijgespoten	_	_	
+7-29	386-388	20	_	_	
+7-30	388-389	:	_	_	
+7-31	389-391	30	_	_	
+7-32	392-399	glucose	_	_	
+7-33	400-404	18.7	_	_	
+7-34	405-406	-	_	_	
+7-35	406-407	>	_	_	
+7-36	408-409	p	_	_	
+7-37	409-410	/	_	_	
+7-38	410-411	o	_	_	
+7-39	412-416	arts	_	_	
+7-40	417-418	4	_	_	
+7-41	419-421	EH	_	_	
+7-42	422-433	bijgespoten	_	_	
+7-43	435-440	Graag	_	_	
+7-44	441-443	om	_	_	
+7-45	444-446	23	_	_	
+7-46	446-447	:	_	_	
+7-47	447-449	00	_	_	
+7-48	450-453	uur	_	_	
+7-49	454-458	weer	_	_	
+7-50	459-462	een	_	_	
+7-51	463-471	controle	_	_	
+7-52	472-474	en	_	_	
+7-53	475-485	doorbellen	_	_	
+
+#Text=.
+8-1	485-486	.	_	_	
+
+#Text=- beleid: elke 2 uur na maaltijd glucose meten  Def +/-, op de po-stoel.
+9-1	488-489	-	_	_	
+9-2	490-496	beleid	_	_	
+9-3	496-497	:	_	_	
+9-4	498-502	elke	_	_	
+9-5	503-504	2	_	_	
+9-6	505-508	uur	_	_	
+9-7	509-511	na	_	_	
+9-8	512-520	maaltijd	_	_	
+9-9	521-528	glucose	_	_	
+9-10	529-534	meten	_	_	
+9-11	536-539	Def	_	_	
+9-12	540-541	+	_	_	
+9-13	541-542	/	_	_	
+9-14	542-543	-	_	_	
+9-15	543-544	,	_	_	
+9-16	545-547	op	_	_	
+9-17	548-550	de	_	_	
+9-18	551-559	po-stoel	_	_	
+9-19	559-560	.	_	_	
+
+#Text=Feces kweek is afgenomen en weggebracht.
+10-1	561-566	Feces	_	_	
+10-2	567-572	kweek	_	_	
+10-3	573-575	is	_	_	
+10-4	576-585	afgenomen	_	_	
+10-5	586-588	en	_	_	
+10-6	589-600	weggebracht	_	_	
+10-7	600-601	.	_	_	
+
+#Text=Intake: Paar happen sla, had geen eetlust.
+11-1	603-609	Intake	_	_	
+11-2	609-610	:	_	_	
+11-3	611-615	Paar	_	_	
+11-4	616-622	happen	_	_	
+11-5	623-626	sla	_	_	
+11-6	626-627	,	_	_	
+11-7	628-631	had	_	_	
+11-8	632-636	geen	*->4-1	NegCue[4]	
+11-9	637-644	eetlust	*->4-2	NegEvent[4]	
+11-10	644-645	.	_	_	
+
+#Text=Geeft aan dorst te hebben.
+12-1	646-651	Geeft	_	_	
+12-2	652-655	aan	_	_	
+12-3	656-661	dorst	_	_	
+12-4	662-664	te	_	_	
+12-5	665-671	hebben	_	_	
+12-6	671-672	.	_	_	
+
+#Text=MOB: Stond moeizaam op één been, werkte weinig mee door vermoeidheid.
+13-1	674-677	MOB	_	_	
+13-2	677-678	:	_	_	
+13-3	679-684	Stond	_	_	
+13-4	685-693	moeizaam	_	_	
+13-5	694-696	op	_	_	
+13-6	697-700	één	_	_	
+13-7	701-705	been	_	_	
+13-8	705-706	,	_	_	
+13-9	707-713	werkte	_	_	
+13-10	714-720	weinig	_	_	
+13-11	721-724	mee	_	_	
+13-12	725-729	door	_	_	
+13-13	730-742	vermoeidheid	_	_	
+13-14	742-743	.	_	_	
+
+#Text=SOC:  - Vochtbalans bijhouden?
+14-1	745-748	SOC	_	_	
+14-2	748-749	:	_	_	
+14-3	751-752	-	_	_	
+14-4	753-764	Vochtbalans	_	_	
+14-5	765-774	bijhouden	_	_	
+14-6	774-775	?	_	_	
+
+#Text=- Bijspuitschema niet concreet (graag een standaard bijspuitschema orderen)  - Baxterrol klopt niet met MTR  - Er stond voor vanmiddag een sputum kweek gepland om 12.30, is deze gedaan?
+15-1	777-778	-	_	_	
+15-2	779-793	Bijspuitschema	*->5-1	NegEvent[5]	
+15-3	794-798	niet	*->5-2	NegCue[5]	
+15-4	799-807	concreet	_	_	
+15-5	808-809	(	_	_	
+15-6	809-814	graag	_	_	
+15-7	815-818	een	_	_	
+15-8	819-828	standaard	_	_	
+15-9	829-843	bijspuitschema	_	_	
+15-10	844-851	orderen	_	_	
+15-11	851-852	)	_	_	
+15-12	854-855	-	_	_	
+15-13	856-865	Baxterrol	*->3-1	NegEvent[3]	
+15-14	866-871	klopt	_	_	
+15-15	872-876	niet	*->3-2	NegCue[3]	
+15-16	877-880	met	_	_	
+15-17	881-884	MTR	_	_	
+15-18	886-887	-	_	_	
+15-19	888-890	Er	_	_	
+15-20	891-896	stond	_	_	
+15-21	897-901	voor	_	_	
+15-22	902-911	vanmiddag	_	_	
+15-23	912-915	een	_	_	
+15-24	916-922	sputum	_	_	
+15-25	923-928	kweek	_	_	
+15-26	929-936	gepland	_	_	
+15-27	937-939	om	_	_	
+15-28	940-945	12.30	_	_	
+15-29	945-946	,	_	_	
+15-30	947-949	is	_	_	
+15-31	950-954	deze	_	_	
+15-32	955-961	gedaan	_	_	
+15-33	961-962	?	_	_	
+
+#Text=Kan het nergens terug vinden  ";;
+16-1	963-966	Kan	_	_	
+16-2	967-970	het	_	_	
+16-3	971-978	nergens	*->1-1	NegCue[1]	
+16-4	979-984	terug	_	_	
+16-5	985-991	vinden	*->1-2	NegEvent[1]	
+16-6	993-994	"	_	_	
+16-7	994-995	;	_	_	
+16-8	995-996	;	_	_	

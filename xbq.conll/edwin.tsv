@@ -1,0 +1,121 @@
+#FORMAT=WebAnno TSV 3.3
+#T_CH=webanno.custom.NegationLink|referenceRelation|referenceType
+
+
+#Text=1191062;393032614;398614075;SEH-triagenotities;2020-02-15;"    SEH Triage notitie    A:   Ceftriaxon, Amoxicilline  M: Cotrimoxazol, Gabapentine etc (zie dossier)  P:  CLL, recidiverende urosepsis etc (zie dossier)  L:  Eten en drinken gaat goed.
+1-1	0-7	1191062	_	_	
+1-2	7-8	;	_	_	
+1-3	8-17	393032614	_	_	
+1-4	17-18	;	_	_	
+1-5	18-27	398614075	_	_	
+1-6	27-28	;	_	_	
+1-7	28-46	SEH-triagenotities	_	_	
+1-8	46-47	;	_	_	
+1-9	47-51	2020	_	_	
+1-10	51-52	-	_	_	
+1-11	52-54	02	_	_	
+1-12	54-55	-	_	_	
+1-13	55-57	15	_	_	
+1-14	57-58	;	_	_	
+1-15	58-59	"	_	_	
+1-16	63-66	SEH	_	_	
+1-17	67-73	Triage	_	_	
+1-18	74-81	notitie	_	_	
+1-19	85-86	A	_	_	
+1-20	86-87	:	_	_	
+1-21	90-100	Ceftriaxon	_	_	
+1-22	100-101	,	_	_	
+1-23	102-114	Amoxicilline	_	_	
+1-24	116-117	M	_	_	
+1-25	117-118	:	_	_	
+1-26	119-131	Cotrimoxazol	_	_	
+1-27	131-132	,	_	_	
+1-28	133-144	Gabapentine	_	_	
+1-29	145-148	etc	_	_	
+1-30	149-150	(	_	_	
+1-31	150-153	zie	_	_	
+1-32	154-161	dossier	_	_	
+1-33	161-162	)	_	_	
+1-34	164-165	P	_	_	
+1-35	165-166	:	_	_	
+1-36	168-171	CLL	_	_	
+1-37	171-172	,	_	_	
+1-38	173-186	recidiverende	_	_	
+1-39	187-196	urosepsis	_	_	
+1-40	197-200	etc	_	_	
+1-41	201-202	(	_	_	
+1-42	202-205	zie	_	_	
+1-43	206-213	dossier	_	_	
+1-44	213-214	)	_	_	
+1-45	216-217	L	_	_	
+1-46	217-218	:	_	_	
+1-47	220-224	Eten	_	_	
+1-48	225-227	en	_	_	
+1-49	228-235	drinken	_	_	
+1-50	236-240	gaat	_	_	
+1-51	241-245	goed	_	_	
+1-52	245-246	.	_	_	
+
+#Text=E:  Is op 04-02 ontslagen vanuit het AMC, is nu weer terug vanwege koorts bij CLL.
+2-1	248-249	E	_	_	
+2-2	249-250	:	_	_	
+2-3	252-254	Is	_	_	
+2-4	255-257	op	_	_	
+2-5	258-260	04	_	_	
+2-6	260-261	-	_	_	
+2-7	261-263	02	_	_	
+2-8	264-273	ontslagen	_	_	
+2-9	274-280	vanuit	_	_	
+2-10	281-284	het	_	_	
+2-11	285-288	AMC	_	_	
+2-12	288-289	,	_	_	
+2-13	290-292	is	_	_	
+2-14	293-295	nu	_	_	
+2-15	296-300	weer	_	_	
+2-16	301-306	terug	_	_	
+2-17	307-314	vanwege	_	_	
+2-18	315-321	koorts	_	_	
+2-19	322-325	bij	_	_	
+2-20	326-329	CLL	_	_	
+2-21	329-330	.	_	_	
+
+#Text=Is niet aan het hoesten, wel neusverkouden.
+3-1	331-333	Is	_	_	
+3-2	334-338	niet	*->1-1	NegCue[1]	
+3-3	339-342	aan	_	_	
+3-4	343-346	het	_	_	
+3-5	347-354	hoesten	*->1-2	NegEvent[1]	
+3-6	354-355	,	_	_	
+3-7	356-359	wel	_	_	
+3-8	360-373	neusverkouden	_	_	
+3-9	373-374	.	_	_	
+
+#Text=N-, V-, geen diarree.
+4-1	375-376	N	_	_	
+4-2	376-377	-	_	_	
+4-3	377-378	,	_	_	
+4-4	379-380	V	_	_	
+4-5	380-381	-	_	_	
+4-6	381-382	,	_	_	
+4-7	383-387	geen	*->2-1	NegCue[2]	
+4-8	388-395	diarree	*->2-2	NegEvent[2]	
+4-9	395-396	.	_	_	
+
+#Text=Last van algehele malaise.
+5-1	397-401	Last	_	_	
+5-2	402-405	van	_	_	
+5-3	406-414	algehele	_	_	
+5-4	415-422	malaise	_	_	
+5-5	422-423	.	_	_	
+
+#Text=Geeft pijn aan in het re-been.  ";;
+6-1	424-429	Geeft	_	_	
+6-2	430-434	pijn	_	_	
+6-3	435-438	aan	_	_	
+6-4	439-441	in	_	_	
+6-5	442-445	het	_	_	
+6-6	446-453	re-been	_	_	
+6-7	453-454	.	_	_	
+6-8	456-457	"	_	_	
+6-9	457-458	;	_	_	
+6-10	458-459	;	_	_	
