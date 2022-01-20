@@ -35,7 +35,6 @@ def process_ann():
                         
                         #get the word from txt file for every offset ints in negevents
                         for i in negevents:
-                            #print(negevents)
                             textfile = open(os.path.splitext(infile)[0] + '.txt', errors="ignore")
                             offsetword = textfile.read()
                             offsetword = offsetword.lower()
@@ -44,8 +43,6 @@ def process_ann():
                             offsetword = offsetword.split()
                             
                         #reduce events with multiple words to one word events, convert to string and list
-                            #if len(offsetword) > 1:
-                                #one_word = offsetword[0]
                             multiple_words = []
                             list_result = []
                             if len(offsetword) > 1:
@@ -55,10 +52,6 @@ def process_ann():
                             for string in offsetword:
                                 offsetword = string
                                 list_result.append(string)
-                            #print(list_result)
-                            
-                                #print(offsetword)
-                                #print(offsetword_multiple)
                                 
                             #open textfiles and read per line
                             text_lines = open(os.path.splitext(infile)[0] + '.txt', errors="ignore")
@@ -164,8 +157,8 @@ def process_ann():
                                     
                                     #list of negation cues minus the one-occurence ones
 
-                                    neg_cues = ['staken', 'stop', 'stoppen', 'verdwijnen', 'vervangen', 'verwijderen', 'weigeren',                            'geen', 'niet aanwezig', 'nooit', 'zonder', 'negatief', 'afzien', 'verdwenen', 'ontbrak', 'nee', 'niet',                            'staken', 'stoppen', 'uitsluiten', 'uitgesloten,' 'gestopt', 'gestaakt']
-                                    neg_cues_ambi = ['nee', 'niet', 'niets', 'staken', 'stoppen', 'uitsluiten', 'uitgesloten,'                            'gestopt', 'gestaakt']
+                                    neg_cues = ['staken', 'stop', 'stoppen', 'verdwijnen', 'vervangen', 'verwijderen', 'weigeren', 'geen', 'niet aanwezig', 'nooit', 'zonder', 'negatief', 'afzien', 'verdwenen', 'ontbrak', 'nee', 'niet', 'staken', 'stoppen', 'uitsluiten', 'uitgesloten,' 'gestopt', 'gestaakt']
+                                    neg_cues_ambi = ['nee', 'niet', 'niets', 'staken', 'stoppen', 'uitsluiten', 'uitgesloten,','gestopt', 'gestaakt']
                                     hedge_cues = ['aanwijzing', 'aanwijzingen', 'teken', 'tekenen']
 
                                         #create column: 1 for negated, 0 for not negated
