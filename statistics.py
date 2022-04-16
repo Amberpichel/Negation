@@ -6,6 +6,49 @@ import os
 import spacy
 import csv
 import sys
+import pandas 
+import numpys as np
+
+def error_analysis_stats():
+    """calculates number of false positives and false negatines with
+    implicitit negation and ambiguity"""
+    
+    #read in outputfile and create pandas dataframe
+    df = pd.read_csv('sys.argv[1]', usecols= ['Event', 'Previous token one', 'Previous token two', 'Previous token three', 
+                    'Next token one', 'Next token two', 'Next token three', 'POS previous token one',
+                   'POS previous token two', 'POS previous token three', 'POS next token one',
+                   'POS next token two', 'POS next token three', 'Negcue prev token one', 
+                    'Negcue prev token two', 'Negcue prev token three', 'Negcue next token one',
+                   'Negcue next token two', 'Negcue next token three', 'Negcue in sentence',
+                    'The negcue in sentence', 'Negcue ambiguous', 'Negation', 'Negated']) 
+    
+    #get the mismatch columns
+    df1 = df.loc[~(df['Negated'] == df['Negation'])]
+
+    #define false positive columns with implicit negation and ambitguity
+    false_positives = df1[(df1['Negation'] == 'Negated') & (df1['Negated'] == 'NotNegated')]
+    fp_ambi = false_positives[(false_positives['Negcue ambiguous'] == '1')]
+    fp_unambi = false_positives[(false_positives['Negcue ambiguous'] == 'None')]
+    fp_implicit = false_positives[(false_positives['Negcue in sentence'] == 'None')]
+
+    #get length of cases per category
+    print(len(false_positives.index))
+    print(len(fp_ambi.index))
+    print(len(fp_unambi.index))
+    print(len(fp_implicit.index))
+
+    #define false positive columns with ambitguity
+    false_negatives = df1[(df1['Negation'] == 'NotNegated') & (df1['Negated'] == 'Negated')]
+    fn_ambi = false_negatives[(false_negatives['Negcue ambiguous'] == '1')]
+    fn_unambi = false_negatives[(false_negatives['Negcue ambiguous'] == 'None')]
+    
+    #get length of cases per category   
+    print()                            
+    print(len(false_negatives.index))
+    print(len(fn_ambi.index))
+    print(len(fn_unambi.index))
+
+error_analysis_stats()
 
 def count_negcues():
     """count negation cues from VUmc corpus from given corpus"""
