@@ -157,11 +157,10 @@ def process_ann():
                                     
                                     #list of negation cues minus the one-occurence ones
 
-                                    neg_cues = ['staken', 'stop', 'stoppen', 'verdwijnen', 'vervangen', 'verwijderen', 'weigeren', 'geen', 'niet aanwezig', 'nooit', 'zonder', 'negatief', 'afzien', 'verdwenen', 'ontbrak', 'nee', 'niet', 'staken', 'stoppen', 'uitsluiten', 'uitgesloten,' 'gestopt', 'gestaakt']
-                                    neg_cues_ambi = ['nee', 'niet', 'niets', 'staken', 'stoppen', 'uitsluiten', 'uitgesloten,','gestopt', 'gestaakt']
-                                    hedge_cues = ['aanwijzing', 'aanwijzingen', 'teken', 'tekenen']
+                                    neg_cues = ['staken', 'stop', 'stoppen', 'verdwijnen', 'vervangen', 'verwijderen', 'weigeren', 'geen', 'niet aanwezig', 'nooit', 'zonder', 'negatief', 'afzien', 'verdwenen', 'ontbrak', 'nee', 'niet', 'staken', 'stoppen', 'uitsluiten', 'uitgesloten,' 'gestopt']
+                                    neg_cues_ambi = ['niet', 'stoppen', 'uitsluiten', 'uitgesloten,','gestopt']
 
-                                        #create column: 1 for negated, 0 for not negated
+                                      #create column: 1 for negated, 0 for not negated
                                     for neg in negevents:
                                          neg = neg[0]
 
@@ -169,13 +168,6 @@ def process_ann():
                                         neg_col.append('1')
                                     else:
                                         neg_col.append('0')
-                                    
-                                    #if there is a hedge cue in the sentence, show hedge cue
-                                    if any(hedge in line for hedge in hedge_cues):
-                                        intersect_list_hedge = list(set(hedge_cues) & set(line))
-                                        str_hedgecue = ','.join(intersect_list_hedge)
-                                    else:
-                                        str_hedgecue = 'None'
                                     
                                     #if there is 1 negcue in the sentence, insert '1', more than one '>1', otherwise '0
                                     if any(neg in line for neg in neg_cues):
@@ -264,8 +256,7 @@ def process_ann():
                                                             'Negcue in sentence': neg_list[0],
                                                             'The negcue in sentence': str_negcue,  
                                                             'Negcue ambiguous': neg_list_ambi[0],
-                                                            'Hedgcue in sentence': str_hedgecue,
-                                                            'Negation': neg}                                                        #'Negated': neg_col[0]}
+                                                            'Negation': neg}                                                       
 
                                     lines.append(data)
 
@@ -281,14 +272,4 @@ def process_ann():
 
                                         f.writerow(values_list)
 
-def main():
-    
-    corpus = 'ECM'
-    txt = glob.glob(os.path.join(corpus + '/DL/*.txt'))
-    inputfolder = glob.glob(os.path.join(corpus + '/DL/*.ann'))
-
-    txtfile = 'result.txt'
-    
-    negevents = process_ann()        
-    
-main()
+process_ann()
