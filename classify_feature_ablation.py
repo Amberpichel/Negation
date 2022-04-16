@@ -39,14 +39,10 @@ def extract_features_token_only_and_labels(conllfile):
 def create_vectorizer_and_classifier(features, labels):
     '''
     Function that takes feature-value pairs and gold labels as input and trains a logistic regression classifier
-    
     :param features: feature-value pairs
     :param labels: gold labels
     :type features: a list of dictionaries
     :type labels: a list of strings
-    
-    :return lr_classifier: a trained LogisticRegression classifier
-    :return vec: a DictVectorizer to which the feature values are fitted. 
     '''
     
     vec = DictVectorizer()
@@ -70,13 +66,14 @@ def get_predicted_and_gold_labels_token_only(testfile, vectorizer, classifier):
     :param classifier: the trained classifier
     :type testfile: string
     :type vectorizer: DictVectorizer
-    :type classifier: LogisticRegression()
+    :type classifier: SVM()
     :return predictions: list of output labels provided by the classifier on the test file
     :return goldlabels: list of gold labels as included in the test file
     '''
     
     #we use the same function as above (guarantees features have the same name and form)
     sparse_feature_reps, goldlabels = extract_features_token_only_and_labels(testfile)
+    
     #we need to use the same fitting as before, so now we only transform the current features according to this mapping (using only transform)
     test_features_vectorized = vectorizer.transform(sparse_feature_reps)
     predictions = classifier.predict(test_features_vectorized)
@@ -125,7 +122,7 @@ feature_to_index = {'Event': 0, 'Previous token one': 1, 'Previous token two': 2
                    'POS next token two': 11, 'POS next token three': 12, 'Negcue prev token one': 13, 
                     'Negcue prev token two': 14, 'Negcue prev token three': 15, 'Negcue next token one': 16,
                    'Negcue next token two': 17, 'Negcue next token three': 18, 'Negcue in sentence': 19,
-                    'The negcue in sentence': 20, 'Negcue ambiguous': 21, 'Hedgcue in sentence': 22}
+                    'The negcue in sentence': 20, 'Negcue ambiguous': 21}
 
 
 def extract_features_and_gold_labels(conllfile, selected_features):
@@ -194,7 +191,7 @@ all_features = ['Event', 'Previous token one', 'Previous token two', 'Previous t
                    'POS next token two', 'POS next token three', 'Negcue prev token one', 
                     'Negcue prev token two', 'Negcue prev token three', 'Negcue next token one',
                    'Negcue next token two', 'Negcue next token three', 'Negcue in sentence', 'The negcue in sentence', 
-                'Negcue ambiguous', 'Hedgcue in sentence']
+                'Negcue ambiguous', ]
 
 sparse_feature_reps, labels = extract_features_and_gold_labels(trainfile, all_features)
 lr_classifier, vectorizer = create_vectorizer_and_classifier(sparse_feature_reps, labels)
